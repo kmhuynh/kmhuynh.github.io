@@ -16,7 +16,9 @@ function showhide(id) {
 
 Stochastic optimization methods for machine learning, deep learning, and reinforcement learning.
 
-## Publications
+## Journal publications
+
+[J2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <span style="color:blue"><a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank">Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging.</a></span> *IEEE Transactions on Medical Imaging*, 2020. 
 
 - Q. Tran-Dinh, **N. H. Pham**, and L. M. Nguyen. <span style="color:blue">Stochastic Gauss-Newton Algorithms for Nonconvex Compositional Optimization.</span> *The 37th International Conference on Machine Learning*, 2020 <a href="https://arxiv.org/pdf/2002.07290" target="_blank">[Preprint]</a> <a href="https://github.com/unc-optimization/SGN" target="_blank">[Python Code]</a>
 
