@@ -12,12 +12,14 @@ main:
 
   - title: "Teaching"
     url: /teaching/ 
-    
 #   - title: "Portfolio"
 #     url: /portfolio/
     
   - title: "CV"
     url: /cv/
-	
+
+  - title: "Random notes"
+    url: /randomnotes/
+
 #   - title: "Guide"
 #     url: /markdown/
