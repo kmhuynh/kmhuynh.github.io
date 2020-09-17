@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nhan H. Pham"
-  avatar           : "NP_Profile.jpg"
-  bio              : "I started my PhD in Operations Research in Department of Statistics and Operations Research at University of North Carolina at Chapel Hill in 2017. I am currently working on stochastic methods for non-convex optimization with applications in machine learning, deep learning, and reinforcement learning under supervision by Dr. Quoc Tran-Dinh."
+  name             : "Khoi M. Huynh"
+  avatar           : "Khoi_Profile.jpg"
+  bio              : "Bio WIP"
   location         : "Chapel Hill, NC"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=nB_GbvYAAAAJ"
-  email            : "nhanph@live.unc.edu"
-  researchgate     : "https://www.researchgate.net/profile/Nhan_Pham8"# example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=khoi+minh+huynh"
+  googlescholar    : "https://scholar.google.com/citations?user=P8kuvUAAAAAJ&hl=en"
+  email            : "kmhuynh@med.unc.edu"
+  researchgate     : "https://www.researchgate.net/profile/Khoi_Huynh"# example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "nhanph"
+  github           : #"kmhuynh"
   google_plus      :
-  keybase          :
+  keybase          : "kmhuynh"
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-4490-8649"
+  orcid            : "https://orcid.org/0000-0001-9538-2408"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
