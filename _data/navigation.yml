@@ -7,8 +7,8 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/  
 
   - title: "Teaching"
     url: /teaching/ 
@@ -18,6 +18,9 @@ main:
     
   - title: "CV"
     url: /cv/
+	
+  - title: "Random notes"
+    url: /randomnotes/
     
 #   - title: "Guide"
 #     url: /markdown/
