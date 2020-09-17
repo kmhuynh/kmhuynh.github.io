@@ -5,18 +5,15 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Fall 2020
+# Undergraduate - International University, HCMC, Vietnam
 
-In Fall 2020, I am an instructional assistant for the STOR 455: Methods of Data Analysis.
 
-## Spring 2020
+## Fall 2015
+In Fall 2015, I was a teaching assistant for **BM009IU: BME Capstone Design Course**.
 
-In Spring 2020, I am an instructional assistant for the STOR 113: Introduction to Data Models and Inference.
+## Fall 2014
+In Fall 2014, I was a teaching assistant for **BM007IU: Introduction to Biomedical Engineering**.
 
-## Summer 2019
+## Spring 2014
+In Spring 2014, I was a teaching assistant for **EE051IU: Principles of Electrical Engineering 1** and **EE052IU: Principle of Electrical Engineering 1 Laboratory**.
 
-In Summer Session I 2019, I teach the STOR 113: Decision Models for Business and Economics with a class of 25 students.
-
-## Spring 2019
-
-In Spring 2019, I teach the third session of STOR 113: Decision Models for Business and Economics with a class of 25 students.
