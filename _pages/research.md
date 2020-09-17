@@ -20,6 +20,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Atlas, Diffusion Model
 
 - [J2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap.<a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank"> Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging.</a> *IEEE Transactions on Medical Imaging*, 2020. 
 
+- [J1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" target="_blank"> Multi-Site Harmonization of Diffusion MRI Data via Method of Moments}.</a> *IEEE Transactions on Medical Imaging*, 2019. 
+
 - Q. Tran-Dinh, **N. H. Pham**, and L. M. Nguyen. <span style="color:blue">Stochastic Gauss-Newton Algorithms for Nonconvex Compositional Optimization.</span> *The 37th International Conference on Machine Learning*, 2020 <a href="https://arxiv.org/pdf/2002.07290" target="_blank">[Preprint]</a> <a href="https://github.com/unc-optimization/SGN" target="_blank">[Python Code]</a>
 
 - **N. H. Pham**, L. M. Nguyen, D. T. Phan, and Q. Tran-Dinh. <span style="color:blue">ProxSARAH: An Efficient Algorithmic Framework for Stochastic Composite Nonconvex Optimization.</span> *Journal of Machine Learning Research*, 21:110, 1-48 , 2020. <a href="https://arxiv.org/pdf/1902.05679" target="_blank">[Preprint]</a> <a href="https://github.com/unc-optimization/StochasticProximalMethods" target="_blank">[Python Code]</a>
