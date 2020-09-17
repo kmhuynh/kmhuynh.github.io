@@ -1,25 +1,23 @@
 # main links links
 main:
-
-  - title: "News"
+	- title: "News"
     url: /news/ 
-    
-  - title: "Research"
+	- title: "Research"
     url: /research/
 
   # - title: "Talks"
   #   url: /talks/  
 
-  - title: "Teaching"
+	- title: "Teaching"
     url: /teaching/ 
     
 #   - title: "Portfolio"
 #     url: /portfolio/
     
-  - title: "CV"
+	- title: "CV"
     url: /cv/
 	
-  - title: "Random notes"
+	- title: "Random notes"
     url: /randomnotes/
     
 #   - title: "Guide"
