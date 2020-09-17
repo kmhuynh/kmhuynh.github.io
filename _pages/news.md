@@ -10,8 +10,12 @@ redirect_from:
 
 I was awarded the 2020 MICCAI Student Participation Award.
 
+## 2020-08-07
+
+I have passed the PhD Oral Preliminary Exam. I am now a PhD candidate.
+
 ## 2020-06-04
-Our works on Spherical Mean Spectrum Imaging for probing tissue microstructure using diffusion MRI data has been accepted for IEEE Transaction in Medical Imaging.
+Our works on Spherical Mean Spectrum Imaging for probing tissue microstructure using diffusion MRI data has been accepted for publication IEEE Transaction in Medical Imaging.
 - **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank"> Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging.</a> *IEEE Transactions on Medical Imaging*, 2020. 
 
 ## 2020-05-14
@@ -48,14 +52,60 @@ We have 2 abstracts accepted for ISMRM 2020.
 
 ## 2019-10-06
 
-I received the MICCAI 2019 Graduate Student Travel Award.
+I received the MICCAI Graduate Student Travel Award.
 
 ## 2019-09-24
 
 I received the BME Graduate Student Travel Award to present my works at MICCAI 2019.
+
+## 2019-07-19
+
+We have an abstract accepted for RSNA 2019.
+- **Khoi Minh Huynh**, Ye Wu, Geng Chen, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing" target="_blank"> Quantifying Tissue Microstructure Non-Gaussianity in the Presence of Fiber Dispersion</a>. *RSNA*, 2019. 
 
 ## 2019-06-29
 
 We have 2 papers accepted for MICCAI 2019.
 - **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Geng Chen, Kim-Han Thung, Haiyong Wu, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://doi.org/10.1007/978-3-030-32248-9_61" target="_blank"> Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments</a>. *MICCAI*, 2019. 
 - **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-32248-9_62" target="_blank">Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments</a>. *MICCAI*, 2019.
+
+## 2019-03-05
+
+I received the BME Graduate Student Travel Award to present my works at ISMRM 2019.
+
+## 2019-03-01
+
+We have an abstract accepted for OHBM 2019.
+- **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing" target="_blank"> Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life</a>. *OHBM*, 2019. 
+
+## 2019-02-25
+I was awarded the ISMRM Trainee Educational Stipend.
+
+## 2019-02-10
+
+I have completed the PhD Written Comprehensive Exam requirement toward PhD candidacy.
+
+## 2019-02-07
+We have an abstract accepted for ISMRM 2019.
+- **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing" target="_blank"> Biases of Microstructure Models in Baby Diffusion MRI</a>. *ISMRM*, 2019. 
+
+## 2019-01-10
+
+Our works on Multi-site harmonization of diffusion MRI data has been accepted for publication IEEE Transaction in Medical Imaging.
+- **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" target="_blank"> Multi-Site Harmonization of Diffusion MRI Data via Method of Moments.</a> *IEEE Transactions on Medical Imaging*, 2019.
+
+## 2018-02-28
+
+We have an abstract accepted for OHBM 2018.
+- **Khoi Minh Huynh**, Jaeil Kim, Geng Chen, Dinggang Shen, and Pew-Thian Yap. <a href="https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing" target="_blank"> Longitudinal Harmonization of Baby Diffusion MRI Data</a>. *OHBM*, 2018. 
+
+## 2018-02-15
+
+I was awarded the ISMRM Trainee Educational Stipend.
+
+## 2018-02-02
+
+We have an abstract accepted for ISMRM 2018.
+- **Khoi Minh Huynh**, Geng Chen, Wei-Tang Chang, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://drive.google.com/file/d/1TPnLtXWN1zAoGhn0uncwx9Q7c5TDyDXf/view?usp=sharing" target="_blank"> Spatially Varying Signal-Drift Correction in Diffusion MRI</a>. *ISMRM*, 2018.
+
+
