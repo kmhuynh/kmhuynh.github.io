@@ -14,7 +14,7 @@ function showhide(id) {
 
 ## Research Interest
 
-Microstructure, Tractography, Harmonization, Infant Brain Atlas, Diffusion Model, Connectivity
+Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion Model, Connectivity, Signal Representation, MR Reconstruction, Noise Mapping and Removal.
 
 ## Journals
 
@@ -38,3 +38,22 @@ Microstructure, Tractography, Harmonization, Infant Brain Atlas, Diffusion Model
 
 ## Abstract
 
+- [A10] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Zhengwang Wu, Weili Lin, Han Zhang, Li Wang, Gang Li, and Pew-Thian Yap.<a href="../files/CorticalMappingOHBMPoster.pdf" target="_blank"> Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain</a>. *OHBM*, 2020.
+		
+		\cvitem{}{[A9] \textit{Correlation of Myelin Content and Neurite Density in the Early Developing Human Cortex}, O*OHBM*, 2020. **Khoi Minh Huynh**, Sahar Ahmad, Ye Wu, Kim-Han Thung, Zhengwang Wu, Weili Lin, Han Zhang, Li Wang, Gang Li, and Pew-Thian Yap}
+		
+		\cvitem{}{[A8] \textit{Multivariate Quantification of Brain Development During the First Two Years of Life}, *OHBM*, 2020. **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Weili Lin, and Pew-Thian Yap}
+		
+		\cvitem{}{[A7] \textit{Tackling Degeneracy in Linear Tensor Encoding Diffusion MRI}, *ISMRM*, 2020. **Khoi Minh Huynh**, Ye Wu, Hoyt Patrick Taylor IV, Weili Lin, and Pew-Thian Yap}
+		
+		\cvitem{}{[A6] \textit{Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging}, *ISMRM*, 2020. **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Weili Lin, and Pew-Thian Yap}
+		
+		\cvitem{}{[A5] \textit{Quantifying Tissue Microstructure Non-Gaussianity in the Presence of Fiber Dispersion}, *RSNA*, 2019. **Khoi Minh Huynh**, Ye Wu, Geng Chen, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap}
+		
+		\cvitem{}{[A4] \textit{Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life}, OHBM 2019, Rome, Italy, June 9-13, 2019. **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium}
+		
+		\cvitem{}{[A3] \textit{Biases of Microstructure Models in Baby Diffusion MRI}, 27th ISMRM, Montreal, QC, Canada, May 11-16, 2019. **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium}
+		
+		\cvitem{}{[A2] \textit{Longitudinal Harmonization of Baby Diffusion MRI Data}, OHBM 2018, Singapore, 17-21 June, 2018. **Khoi Minh Huynh**, Jaeil Kim, Geng Chen, Dinggang Shen, and Pew-Thian Yap}
+		
+		\cvitem{}{[A1] \textit{Spatially Varying Signal-Drift Correction in Diffusion MRI}, Joint Annual Meeting ISMRM-ESMRMB, Paris, France, 16-21 June 2018. **Khoi Minh Huynh**, Geng Chen, Wei-Tang Chang, Weili Lin, Dinggang Shen, and Pew-Thian Yap}
