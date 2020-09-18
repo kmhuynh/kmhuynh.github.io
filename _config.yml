@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Khoi M. Huynh"
-  avatar           : "/assets/images/Khoi_Profile.jpg"
+  avatar           : "Khoi_Profile.jpg"
   bio              : "PhD candidate in Biomedical Engineering at UNC-CH. Research assistant at IDEA Lab. Mostly in x-space but sometimes in q- and k-spaces."
   location         : "Chapel Hill, NC"
   employer         :
@@ -318,8 +318,8 @@ compress_html:
     envs: development
 
 
-#theme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
 #theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+#remote_theme           : "mmistakes/minimal-mistakes"
 #remote_theme             : "mmistakes/minimal-mistakes@4.20.2"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
