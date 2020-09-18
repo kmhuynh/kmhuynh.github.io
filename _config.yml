@@ -79,7 +79,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-178391148-1
 
 
 # Site Author
@@ -100,7 +100,6 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  #github           : #"kmhuynh"
   google_plus      :
   keybase          : "kmhuynh"
   instagram        :
@@ -270,6 +269,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -278,6 +278,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
 # Archives
