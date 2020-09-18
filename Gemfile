@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 3.5"
+#gem "jekyll", "~> 3.5"
 #gem "minimal-mistakes-jekyll"
 
 # If you want to use Jekyll native, uncomment the line below.

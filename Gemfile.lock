@@ -279,7 +279,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
-  jekyll (~> 3.5)
   jekyll-algolia
   jekyll-feed
   jekyll-gist
