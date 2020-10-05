@@ -23,11 +23,11 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 - [J1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" target="_blank"> Multi-Site Harmonization of Diffusion MRI Data via Method of Moments.</a> *IEEE Transactions on Medical Imaging*, 2019. 
 
 ## Conferences
-- [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging. *MICCAI*, 2020.
+- [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" target="_blank"> Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging </a>. *MICCAI*, 2020.
 		
-- [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks. *MICCAI*, 2020.
+- [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_28" target="_blank"> Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks </a>. *MICCAI*, 2020.
 		
-- [C3] Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts. *MICCAI*, 2020. 
+- [C3] Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59713-9_4" target="_blank"> Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts </a>. *MICCAI*, 2020. 
 				
 - [C2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Geng Chen, Kim-Han Thung, Haiyong Wu, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://doi.org/10.1007/978-3-030-32248-9_61" target="_blank"> Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments</a>. *MICCAI*, 2019. 
 		
