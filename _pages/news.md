@@ -6,6 +6,10 @@ redirect_from:
   - /wordpress/news/
 ---
 
+## 2020-10-09
+
+I received the BME Graduate Student Travel Award to present my works at MICCAI 2020.
+
 ## 2020-08-23
 
 I was awarded the 2020 MICCAI Student Participation Award.
