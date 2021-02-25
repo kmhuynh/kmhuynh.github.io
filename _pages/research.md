@@ -29,7 +29,6 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 - [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_28" target="_blank">Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks</a>. *MICCAI*, 2020.
 		
 - [C3] Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59713-9_4" target="_blank">Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts</a>. *MICCAI*, 2020. 
->>>>>>> f36cb4efb4a48c65d485ee82c7286dcdaf54764f
 				
 - [C2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Geng Chen, Kim-Han Thung, Haiyong Wu, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://doi.org/10.1007/978-3-030-32248-9_61" target="_blank">Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments</a>. *MICCAI*, 2019. 
 		
