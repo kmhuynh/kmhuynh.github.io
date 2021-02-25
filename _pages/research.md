@@ -39,6 +39,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 
 ## Workshops
+- [W2] Hoyt Patrick Taylor IV, Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Zhen Zhou, Zhengwang Wu, Weili Lin, Li Wang, Gang Li, Han Zhang, and Pew-Thian Yap. <a href="https://www.researchgate.net/publication/348280034_Longitudinal_Parcellation_of_the_Infant_Cortex_Using_Multi-Modal_Connectome_Harmonics" target="_blank">Longitudinal Parcellation of the Infant Cortex Using Multi-Modal Connectome Harmonics</a>. *Computational Diffusion MRI (MICCAI Workshop)*, 2020.
+
 - [W1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-05831-9_15" target="_blank">Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</a>. *Computational Diffusion MRI (MICCAI Workshop)*, 2018.
 
 ## Abstracts
