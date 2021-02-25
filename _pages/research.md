@@ -23,20 +23,30 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 - [J1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" target="_blank"> Multi-Site Harmonization of Diffusion MRI Data via Method of Moments.</a> *IEEE Transactions on Medical Imaging*, 2019. 
 
 ## Conferences
-- [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging. *MICCAI*, 2020.
+- [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" target="_blank"> Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging. *MICCAI*, 2020.
 		
-- [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks. *MICCAI*, 2020.
+- [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_28" target="_blank"> Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks. *MICCAI*, 2020.
 		
-- [C3] Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts. *MICCAI*, 2020. 
+- [C3] Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59713-9_4" target="_blank"> Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts. *MICCAI*, 2020. 
 				
 - [C2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Geng Chen, Kim-Han Thung, Haiyong Wu, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://doi.org/10.1007/978-3-030-32248-9_61" target="_blank"> Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments</a>. *MICCAI*, 2019. 
 		
 - [C1] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-32248-9_62" target="_blank">Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments</a>. *MICCAI*, 2019.
 
+## Preprints
+- Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="https://arxiv.org/abs/2012.00664" target="_blank">Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</a> 2020.
+
+
 ## Workshops
 - [W1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-05831-9_15" target="_blank"> Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</a>. *Computational Diffusion MRI (MICCAI Workshop)*, 2018.
 
 ## Abstracts
+
+- [A13] **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Noise Removal from Multi-channel Complex-valued Diffusion-weighted Images via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
+
+- [A12] **Khoi Minh Huynh**, Ye Wu, and Pew-Thian Yap. <a href="" target="_blank"> Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting</a>. *ISMRM*, 2021. 
+
+- [A11] Ye Wu, Sahar Ahmad, **Khoi Minh Huynh**, Siyuan Liu, Kim-Han Thung, Weili Lin, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="" target="_blank"> An Automated Processing Pipeline for Diffusion MRI in the Baby Connectome Project</a>. *ISMRM*, 2021. 
 
 - [A10] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Zhengwang Wu, Weili Lin, Han Zhang, Li Wang, Gang Li, and Pew-Thian Yap. <a href="https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing" target="_blank"> Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain</a>. *OHBM*, 2020.
 		

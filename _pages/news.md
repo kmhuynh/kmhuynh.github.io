@@ -5,6 +5,16 @@ author_profile: true
 redirect_from:
   - /wordpress/news/
 ---
+## 2021-02-24
+
+Our works on noise mapping and removal, microstructure fingerprinting, and infant brain MRI processing pipeline have been accepted for ISMRM 2021.
+- **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Noise Removal from Multi-channel Complex-valued Diffusion-weighted Images via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
+- **Khoi Minh Huynh**, Ye Wu, and Pew-Thian Yap. <a href="" target="_blank"> Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting</a>. *ISMRM*, 2021. 
+- Ye Wu, Sahar Ahmad, **Khoi Minh Huynh**, Siyuan Liu, Kim-Han Thung, Weili Lin, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="" target="_blank"> An Automated Processing Pipeline for Diffusion MRI in the Baby Connectome Project</a>. *ISMRM*, 2021. 
+
+## 2020-12-31
+Our works on Navigator-Free Submillimeter Diffusion Imaging is available on arXiv.
+- Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="https://arxiv.org/abs/2012.00664" target="_blank">Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</a> 2020.
 
 ## 2020-08-23
 
@@ -15,15 +25,15 @@ I was awarded the 2020 MICCAI Student Participation Award.
 I have passed the PhD Oral Preliminary Exam. I am now a PhD candidate.
 
 ## 2020-06-04
-Our works on Spherical Mean Spectrum Imaging for probing tissue microstructure using diffusion MRI data has been accepted for publication IEEE Transaction in Medical Imaging.
+Our work on Spherical Mean Spectrum Imaging for probing tissue microstructure using diffusion MRI data has been accepted for publication IEEE Transaction in Medical Imaging.
 - **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank"> Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging.</a> *IEEE Transactions on Medical Imaging*, 2020. 
 
 ## 2020-05-14
 
 Our works on soma imaging, microstructure imaging in undersampled data with graph convolutional network, and fast eddy-current and susceptibility-induced distortion have been accepted for MICCAI 2020.
-- **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging. *MICCAI*, 2020.
-- Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks. *MICCAI*, 2020.
-- Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts. *MICCAI*, 2020. 
+- **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" target="_blank"> Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging. *MICCAI*, 2020.
+- Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_28" target="_blank"> Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks. *MICCAI*, 2020.
+- Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59713-9_4" target="_blank"> Fast Correction of Eddy-Current and Susceptibility-Induced Distortions Using Rotation-Invariant Contrasts. *MICCAI*, 2020. 
 
 ## 2020-04-09
 
