@@ -24,6 +24,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Conferences
 
+- [C6] **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021.
+
 - [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" target="_blank">Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging</a>. *MICCAI*, 2020.
 		
 - [C4] Geng Chen, Yoonmi Hong, Yongqin Zhang, Jaeil Kim, **Khoi Minh Huynh**, Jiquan Ma, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_28" target="_blank">Estimating Tissue Microstructure with Undersampled Diffusion Data via Graph Convolutional Neural Networks</a>. *MICCAI*, 2020.
@@ -44,6 +46,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 - [W1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-05831-9_15" target="_blank">Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</a>. *Computational Diffusion MRI (MICCAI Workshop)*, 2018.
 
 ## Abstracts
+
+- [A14] Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="" target="_blank"> Navigator-Free Submillimeter Diffusion MRI using Multishot-encoded Simultaneous Multi-slice (MUSIUM) Imaging</a>. *ISMRM*, 2021.
 
 - [A13] **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Noise Removal from Multi-channel Complex-valued Diffusion-weighted Images via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
 

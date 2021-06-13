@@ -5,12 +5,24 @@ author_profile: true
 redirect_from:
   - /wordpress/news/
 ---
+
+## 2021-06-13
+Our work on noise mapping and removal has been accepted for MICCAI 2021.
+- **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021. 
+
+## 2021-05-01
+I was awarded the ISMRM Trainee Educational Stipend.
+
+## 2021-04-02
+Our works on Baby Connectome Project processing pipeline have received the ISMRM Summa Cum Laude honor.
+
 ## 2021-02-24
 
-Our works on noise mapping and removal, microstructure fingerprinting, and infant brain MRI processing pipeline have been accepted for ISMRM 2021.
+Our works on noise mapping and removal, microstructure fingerprinting, simultaneous multi-slice imaging, and infant brain MRI processing pipeline have been accepted for ISMRM 2021.
 - **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Noise Removal from Multi-channel Complex-valued Diffusion-weighted Images via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
 - **Khoi Minh Huynh**, Ye Wu, and Pew-Thian Yap. <a href="" target="_blank"> Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting</a>. *ISMRM*, 2021. 
-- Ye Wu, Sahar Ahmad, **Khoi Minh Huynh**, Siyuan Liu, Kim-Han Thung, Weili Lin, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="" target="_blank"> An Automated Processing Pipeline for Diffusion MRI in the Baby Connectome Project</a>. *ISMRM*, 2021. 
+- Ye Wu, Sahar Ahmad, **Khoi Minh Huynh**, Siyuan Liu, Kim-Han Thung, Weili Lin, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="" target="_blank"> An Automated Processing Pipeline for Diffusion MRI in the Baby Connectome Project</a>. *ISMRM*, 2021.
+- Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="" target="_blank"> Navigator-Free Submillimeter Diffusion MRI using Multishot-encoded Simultaneous Multi-slice (MUSIUM) Imaging</a>. *ISMRM*, 2021. 
 
 ## 2020-12-31
 Our works on Navigator-Free Submillimeter Diffusion Imaging is available on arXiv.
