@@ -10,11 +10,11 @@ redirect_from:
 Our work on noise mapping and removal has been accepted for MICCAI 2021.
 - **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021. 
 
-## 2021-05-01
-I was awarded the ISMRM Trainee Educational Stipend.
-
 ## 2021-04-02
 Our works on Baby Connectome Project processing pipeline have received the ISMRM Summa Cum Laude honor.
+=======
+## 2021-03-09
+I was awarded the 2021 ISMRM Educational Stipend.
 
 ## 2021-02-24
 
@@ -105,7 +105,7 @@ We have an abstract accepted for OHBM 2019.
 - **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap, for the UNC/UMN Baby Connectome Project Consortium. <a href="https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing" target="_blank">Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life</a>. *OHBM*, 2019. 
 
 ## 2019-02-25
-I was awarded the ISMRM Trainee Educational Stipend.
+I was awarded the 2019 ISMRM Educational Stipend.
 
 ## 2019-02-10
 
@@ -127,7 +127,7 @@ We have an abstract accepted for OHBM 2018.
 
 ## 2018-02-15
 
-I was awarded the ISMRM Trainee Educational Stipend.
+I was awarded the 2018 ISMRM Educational Stipend.
 
 ## 2018-02-02
 
