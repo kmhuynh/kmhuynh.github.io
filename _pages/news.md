@@ -12,7 +12,7 @@ Our work on noise mapping and removal has been accepted for MICCAI 2021.
 
 ## 2021-04-02
 Our works on Baby Connectome Project processing pipeline have received the ISMRM Summa Cum Laude honor.
-=======
+
 ## 2021-03-09
 I was awarded the 2021 ISMRM Educational Stipend.
 
