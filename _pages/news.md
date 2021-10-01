@@ -8,7 +8,7 @@ redirect_from:
 
 ## 2021-06-13
 Our work on noise mapping and removal has been accepted for MICCAI 2021.
-- **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021. 
+- **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021. 
 
 ## 2021-04-02
 Our works on Baby Connectome Project processing pipeline have received the ISMRM Summa Cum Laude honor.
@@ -31,6 +31,13 @@ Our works on Navigator-Free Submillimeter Diffusion Imaging is available on arXi
 ## 2020-10-09
 
 I received the BME Graduate Student Travel Award to present my works at MICCAI 2020.
+
+
+## 2020-10-01
+Our works on longitudinal brain parcellation and image reconstruction from undersampled data have been accepted for CDMRI 2020.
+- Hoyt Patrick Taylor IV, Sahar Ahmad, Ye Wu, **Khoi Minh Huynh**, Zhen Zhou, Zhengwang Wu, Weili Lin, Li Wang, Gang Li, Han Zhang, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20" target="_blank"> Longitudinal Parcellation of the Infant Cortex Using Multi-modal Connectome Harmonics.</a> *CDMRI*, 2020. 
+- Tiantian Xu, Ye Wu, Yoonmi Hong, **Khoi Minh Huynh**, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_1" target="_blank"> Image Reconstruction from Accelerated Slice-Interleaved Diffusion Encoding Data.</a> *CDMRI*, 2020. 
+
 
 ## 2020-08-23
 
