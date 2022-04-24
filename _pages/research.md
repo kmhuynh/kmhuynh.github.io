@@ -48,9 +48,19 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Abstracts
 
+- [A19] **Khoi Minh Huynh**, Sahad Ahmad, Kim-Han Thung, Zheng- wang Wu, Weili Lin, Li Wang, Gang Li, and Pew-Thian Yap. <a href="" target="_blank"> Evolution of Cortical Microstructure Across the Human Lifespan</a>. *OHBM*, 2022.
+
+- [A18] Sang Hun Chung, **Khoi Minh Huynh**, Yong Chen, Pew-Thian Yap, Jennifer L. Goralski, Scott H. Donaldson, and Yueh Lee. <a href="" target="_blank"> Feasibility of VDP Calculation using 19F Free Breathing Spiral Ac- quisition with Post-Acquisition Denoising</a>. *ISMRM*, 2022.
+
+- [A17] Jelle Veraart, Daan Christiaens, Erpeng Dai, Luke J. Edwards, Vladimir Golkov, Siawoosh Mohammadi, Kurt G. Schilling, Mohammad Hadi Aarabi, Benjamin Ades-Aron, Nagesh Adluru, Sahar Ahmad, Santiago Aja-Fernandez, Andrew L. Alexander, Mariam Andersson, Elixabete Ansorena, Fakhereh Movahedian Attar, Arnaud Attye, Dogu Baran Aydogan, Steven H. Baete, Gianpaolo Antonio Basile, Giulia Berto, Ahmad Beyh, Alberto Cacciola, Maxime Chamberland, Fernando Calamante, Jenny Chen, Jian Chen, Shin Tai Chong, Santiago Coelho, Luis Concha, Ricardo Coronado-Leija, Michiel Cottaar, Daniel Cremers, Szabolcs David, Alberto De Luca, Flavio Dell’Acqua, Thijs Dhollander, Jason Druzgal, Tim B. Dyrby, Hernandez-Torres Enedino, Oscar Esteban, Els Fieremans, Leon Fonville, Bjorn Fricke, Martijn Froeling, Ian Galea, Gabriel Girard, Francesco Grussu, Chin-Chin Heather Hsu, Yung-Chin Hsu, **Khoi Huynh**, Matilde Inglese, Heide Johansen-berg, Derek K Jones, Kouhei Kamiya, Claire Kelly, Ahmad Raza Khan, Ali Khan, Yi-Chia Kung, Alberto Lazari, Alexander Leemans, Laura Mancini, Ivan I. Maximov, Harri Merisaari, Malwina Molendowska, Benjamin T. Newman, Michael D. Noseworthy, Dmitry S. Novikov, Raquel Perez-Lopez, Franco Pestili, Tomasz Pieciak, Marco Pizzolato, Alvaro Planchuelo-Gomez, Paul Polak, Erika P. Raven, Ricardo Rios-Carrillo, Viljami Sairanen, Simona Schiavi, Pohchoo Seow, Dmitri Shastin, Yao-Chia Shih, Lucas Soustelle, Yue Sun, Karsten Tabelow, Chantal MW Tax, Guillaume Theaud, Sjoerd B. Vos, Ryckie G. Wade, Li Wang, Limei Wang, Thomas Welton, Lars T. Westlye, Stefan Winzeck, Joseph Yuan-Mou Yang, Pew-Thian Yap, Yukai Zou, Jennifer A. McNab, Bennett A. Landman, Nikolaus Weiskopf, and Maxime Descoteaux. <a href="" target="_blank"> A data-driven variability assessment of brain diffusion MRI prepro- cessing pipelines</a>. *ISMRM*, 2022.
+
+- [A16] Wei-Tang Chang, Stephanie Lan- gella, **Khoi Minh Huynh**, Min Sung Seo, Pew-Thian Yap, Weili Lin, and Kelly S. Giovanello. <a href="" target="_blank"> Investigation of brainwide functional networks associated with hip- pocampal subfields during memory encoding and retrieval using fMRI with 1-mm isotropic resolution</a>. *ISMRM*, 2022.
+
+- [A15] Wei-Tang Chang, Stephanie Langella, **Khoi Minh Huynh**, Min Sung Seo, Pew-Thian Yap, Weili Lin, and Kelly S. Giovanello. <a href="" target="_blank"> Investigation of brainwide functional networks associated with hip- pocampal subfields during memory encoding and retrieval using fMRI with 1-mm isotropic resolution</a>. *ISMRM*, 2022.
+
 - [A14] Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="" target="_blank"> Navigator-Free Submillimeter Diffusion MRI using Multishot-encoded Simultaneous Multi-slice (MUSIUM) Imaging</a>. *ISMRM*, 2021.
 
-- [A13] **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Noise Removal from Multi-channel Complex-valued Diffusion-weighted Images via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
+- [A13] **Khoi Minh Huynh**, Wei-Tang Chang, and Pew-Thian Yap. <a href="" target="_blank"> Reducing Noise in Complex-Valued Multi-Channel Diffusion- Weighted Data via Optimal Shrinkage of Singular Values</a>. *ISMRM*, 2021. 
 
 - [A12] **Khoi Minh Huynh**, Ye Wu, and Pew-Thian Yap. <a href="" target="_blank"> Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting</a>. *ISMRM*, 2021. 
 
