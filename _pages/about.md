@@ -23,4 +23,4 @@ I received my Bachelor degree in Biomedical Engineering at International Univers
 - Journal reviewers: NeuroImage, PLoS ONE, IEEE-TMI, IEEE-TCDS.
 - Conference/workshop reviewers: MICCAI, ISMRM, OHBM, MLMI.
 
-[//]: # You can check out my CV <a href="../files/CV.pdf" target="_blank">here</a>.
+[//]: # You can check out my CV <a href="https://drive.google.com/file/d/1dWG2gJzJ6WlEjquJBxGYca7CyNOMMXK2/view?usp=sharing" target="_blank">here</a>.
