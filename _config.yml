@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Khoi M. Huynh"
 title_separator          : "-"
 name                     : &name "Khoi M. Huynh"
-description              : &description "PhD student in Biomedical Engineering"
+description              : &description "Postdoc in Radiology"
 url                      : https://kmhuynh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kmhuynh.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Khoi M. Huynh"
   avatar           : "Khoi_Profile.jpg"
-  bio              : "Postdoc in radiology at at Dr. Pew-Thian Yap's lab, UNC-CH. Mostly in x-space but sometimes in q- and k-spaces."
+  bio              : "Postdoc in radiology in Dr. Pew-Thian Yap's lab, UNC-CH. Mostly in x-space but sometimes in q- and k-spaces."
   location         : "Chapel Hill, NC"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=khoi+minh+huynh"
