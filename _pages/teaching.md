@@ -16,5 +16,6 @@ author_profile: true
 
 ## Spring 2014
 **EE051IU: Principles of Electrical Engineering 1** - Teaching Assistant
+
 **EE052IU: Principle of Electrical Engineering 1 Laboratory** - Teaching Assistant
 
