@@ -9,11 +9,12 @@ author_profile: true
 
 
 ## Fall 2015
-In Fall 2015, I was a teaching assistant for **BM009IU: BME Capstone Design Course**.
+**BM009IU: BME Capstone Design Course** - Teaching Assistant
 
 ## Fall 2014
-In Fall 2014, I was a teaching assistant for **BM007IU: Introduction to Biomedical Engineering**.
+**BM007IU: Introduction to Biomedical Engineering** - Teaching Assistant
 
 ## Spring 2014
-In Spring 2014, I was a teaching assistant for **EE051IU: Principles of Electrical Engineering 1** and **EE052IU: Principle of Electrical Engineering 1 Laboratory**.
+**EE051IU: Principles of Electrical Engineering 1** - Teaching Assistant
+**EE052IU: Principle of Electrical Engineering 1 Laboratory** - Teaching Assistant
 
