@@ -18,6 +18,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Journals
 
+- [J3] Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, **Khoi Minh Huynh**, Zhixing Wang, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" target="_blank">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encodingg</a>. *Medical Image Analysis*, 2022. 
+
 - [J2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank">Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging</a>. *IEEE Transactions on Medical Imaging*, 2020. 
 
 - [J1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" target="_blank">Multi-Site Harmonization of Diffusion MRI Data via Method of Moments</a>. *IEEE Transactions on Medical Imaging*, 2019. 
@@ -37,6 +39,8 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 - [C1] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-32248-9_62" target="_blank">Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments</a>. *MICCAI*, 2019.
 
 ## Preprints
+- Wei-Tang Chang, Stephanie Langella, Min Sung Seo, **Khoi Huynh**, Pew-Thian Yap, Weili Lin, Kelly Giovanello. <a href="https://assets.researchsquare.com/files/rs-1789565/v1/fa900a91-2791-4a8d-beda-f30be8cd30e4.pdf?c=1656535943" target="_blank">Cross-layer Balance of Visuo-hippocampal Functional Connectivity Is Associated With Episodic Memory Recognition Accuracy</a> 2020.
+
 - Wei-Tang Chang, **Khoi Minh Huynh**, Pew-Thian Yap, and Weili Lin. <a href="https://arxiv.org/abs/2012.00664" target="_blank">Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</a> 2020.
 
 

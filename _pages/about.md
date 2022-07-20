@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Biomedical Engineering at UNC Chapel Hill. I started my PhD program and joined the <a href="https://www.med.unc.edu/bric/ideagroup/" target="_blank">IDEA Lab</a> working with <a href="https://scholar.google.com/citations?user=QGdnthwAAAAJ&hl=en" target="_blank">Dr. Pew-Thian Yap</a> in 2017. Currently, I am working on MR reconstruction, signal representation, noise removal, and microstructure imaging for diffusion MRI data with the application in early age neurodevelopment. I am also collaborating with <a href="https://scholar.google.com/citations?user=soMcNA8AAAAJ&hl=en" target="_blank">Dr. Ye Wu</a> developing the <a href="https://www.comedi.io/home" target="_blank">Computational Medical Imaging Toolkit</a>.
+I am a post-doc in Radiology Department at UNC Chapel Hill. Since 2017, I've been working with <a href="https://scholar.google.com/citations?user=QGdnthwAAAAJ&hl=en" target="_blank">Dr. Pew-Thian Yap</a> on MR reconstruction, signal representation, noise removal, and microstructure imaging using diffusion MRI data with the application in lifespan neurodevelopment. I am also collaborating with <a href="https://scholar.google.com/citations?user=soMcNA8AAAAJ&hl=en" target="_blank">Dr. Ye Wu</a> developing the <a href="https://www.comedi.io/home" target="_blank">Computational Medical Imaging Toolkit</a> and <a href="https://scholar.google.com/citations?user=fE26FkMAAAAJ&hl=en&oi=ao" target="_blank">Dr. Yueh Lee</a> on accelerated F19 lung MRI.
 
-I received my Bachelor degree in Biomedical Engineering at International University, Ho Chi Minh city, Vietnam. During my undergrad time, I worked with Dr. Loan Vo in designing MR compatible hardwares, designing experiments and acquiring data from studies' participants, and analyzing resting-state and task-based functional MRI.
+I received my PhD degree in Biomedical Engineering from UNC in 2022 and bachelor degree in Biomedical Engineering from International University, Ho Chi Minh city, Vietnam. During my undergrad time, I worked with Dr. Loan Vo in designing MR compatible hardwares, designing experiments and acquiring data from studies' participants, and analyzing resting-state and task-based functional MRI.
 
 **Fields of interest:**
 - MR Physics and MR signal reconstruction/representation
@@ -23,4 +23,3 @@ I received my Bachelor degree in Biomedical Engineering at International Univers
 - Journal reviewers: NeuroImage, PLoS ONE, IEEE-TMI, IEEE-TCDS.
 - Conference/workshop reviewers: MICCAI, ISMRM, OHBM, MLMI.
 
-[//]: # You can check out my CV <a href="https://drive.google.com/file/d/1dWG2gJzJ6WlEjquJBxGYca7CyNOMMXK2/view?usp=sharing" target="_blank">here</a>.
