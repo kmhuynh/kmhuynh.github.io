@@ -28,7 +28,12 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Journals
 
-- [J3] Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, **Khoi Minh Huynh**, Zhixing Wang, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" target="_blank">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encodingg</a>. *Medical Image Analysis*, 2022. 
+- [J5] Sang Hun Chung, **Khoi Minh Huynh**, Jennifer L Goralski, Yong Chen, Pew-Thian Yap, Agathe S Ceppe, Margret Z Powell,
+Scott H Donaldson, and Yueh Z Lee. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630" target="_blank">Feasibility of free-breathing 19F MRI image acquisition to characterize ventilation defects in CF and healthy volunteers at wash-in</a>. *Magnetic Resonance in Medicine*, 2023. 
+
+- [J4] Geng Chen, Yoonmi Hong, **Khoi Minh Huynh**, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000038" target="_blank">Deep learning prediction of diffusion MRI data with microstructure-sensitive loss functions</a>. *Medical Image Analysis*, 2023. 
+
+- [J3] Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, **Khoi Minh Huynh**, Zhixing Wang, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" target="_blank">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</a>. *Medical Image Analysis*, 2022. 
 
 - [J2] **Khoi Minh Huynh**, Tiantian Xu, Ye Wu, Xifeng Wang, Geng Chen, Haiyong Wu, Kim-Han Thung, Weili Lin, Dinggang Shen, and Pew-Thian Yap. <a href="https://www.doi.org/10.1109/TMI.2020.3001175" target="_blank">Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging</a>. *IEEE Transactions on Medical Imaging*, 2020. 
 
@@ -62,7 +67,17 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Abstracts
 
-- [A19] **Khoi Minh Huynh**, Sahad Ahmad, Kim-Han Thung, Zheng- wang Wu, Weili Lin, Li Wang, Gang Li, and Pew-Thian Yap. <a href="" target="_blank"> Evolution of Cortical Microstructure Across the Human Lifespan</a>. *OHBM*, 2022.
+- [A24] Wenjiao Lyu, Ye Wu, **Khoi Minh Huynh**, Sahad Ahmad, and Pew-Thian Yap. <a href="" target="_blank"> A Multimodal Atlas of the Human Cerebellum at 760 micron Resolution</a>. *OHBM*, 2023.
+
+- [A23] **Khoi Minh Huynh**, Sahad Ahmad, Kim-Han Thung, Weili Lin, and Pew-Thian Yap. <a href="" target="_blank"> Longitudinal atlases of cortical and subcortical tissue microstructure in the early developing brain</a>. *OHBM*, 2023.
+
+- [A22] Sang Hun Chung, **Khoi Minh Huynh**, Yong Chen, Pew-Thian Yap, Jennifer Goralski, Scott Donaldson, and Yueh Z Lee. <a href="" target="_blank"> Lung Multi-Breath Wash in/out MRI with 19F with Sub 0.5 Second Scan Time</a>. *ISMRM*, 2023.
+
+- [A21] **Khoi Minh Huynh**, Sang Hun Chung, Yueh Lee, and Pew-Thian Yap. <a href="" target="_blank"> Multidimensional optimal denoising with block matching is robust to misalignment and contrast changes</a>. *ISMRM*, 2023.
+
+- [A20] Sang Hun Chung, **Khoi Minh Huynh**, Yong Chen, Pew-Thian Yap, Jennifer L Goralski, Scott H Donaldson, and Yueh Z Lee. <a href="" target="_blank"> Ventilation defect percentage comparison between spiral with post-acquisition denoising and cartesian acquisition for 19F lung magnetic resonance imaging,</a>. *Journal of Cystic Fibrosis*, 2022.
+
+- [A19] **Khoi Minh Huynh**, Sahad Ahmad, Kim-Han Thung, Zhengwang Wu, Weili Lin, Li Wang, Gang Li, and Pew-Thian Yap. <a href="" target="_blank"> Evolution of Cortical Microstructure Across the Human Lifespan</a>. *OHBM*, 2022.
 
 - [A18] Sang Hun Chung, **Khoi Minh Huynh**, Yong Chen, Pew-Thian Yap, Jennifer L. Goralski, Scott H. Donaldson, and Yueh Lee. <a href="" target="_blank"> Feasibility of VDP Calculation using 19F Free Breathing Spiral Ac- quisition with Post-Acquisition Denoising</a>. *ISMRM*, 2022.
 

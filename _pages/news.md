@@ -14,7 +14,23 @@ redirect_from:
 
   gtag('config', 'G-7VZQ52ZQDT');
 </script>
+  
+  
+## 2023-02-15
+Our work on accelerated 19F denoising has been accepted for Magnetic Resonance in Medicine
+- Sang Hun Chung, **Khoi Minh Huynh**, Jennifer L Goralski, Yong Chen, Pew-Thian Yap, Agathe S Ceppe, Margret Z Powell,
+Scott H Donaldson, and Yueh Z Lee. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630" target="_blank">Feasibility of free-breathing 19F MRI image acquisition to characterize ventilation defects in CF and healthy volunteers at wash-in</a>. *Magnetic Resonance in Medicine*, 2023. 
 
+## 2023-01-05
+Our work on deep learning prediction of diffusion MRI has been accepted for Medical Image Analysis
+- Geng Chen, Yoonmi Hong, **Khoi Minh Huynh**, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000038" target="_blank">Deep learning prediction of diffusion MRI data with microstructure-sensitive loss functions</a>. *Medical Image Analysis*, 2023. 
+
+## 2022-07-12
+Our work on SIDE reconstruction scheme for dMRI has been accepted for Medical Image Analysis
+- Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, **Khoi Minh Huynh**, Zhixing Wang, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" target="_blank">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</a>. *Medical Image Analysis*, 2022. 
+
+## 2022-05-08
+Finally got my PhD degree and can put "Dr" in conference registration :). To all the love, support, guidance, and help during this journey, thank you, I am forever grateful.  
 
 ## 2021-06-13
 Our work on noise mapping and removal has been accepted for MICCAI 2021.
