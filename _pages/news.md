@@ -5,6 +5,16 @@ author_profile: true
 redirect_from:
   - /wordpress/news/
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7VZQ52ZQDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7VZQ52ZQDT');
+</script>
+
 
 ## 2021-06-13
 Our work on noise mapping and removal has been accepted for MICCAI 2021.

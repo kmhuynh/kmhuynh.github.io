@@ -12,6 +12,16 @@ function showhide(id) {
 }  
 </script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7VZQ52ZQDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7VZQ52ZQDT');
+</script>
+
 ## Research Interests
 
 Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion Model, Connectivity, Signal Representation, MR Reconstruction, Noise Mapping and Removal.
