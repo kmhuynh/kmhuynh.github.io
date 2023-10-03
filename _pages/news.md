@@ -14,7 +14,11 @@ redirect_from:
 
   gtag('config', 'G-7VZQ52ZQDT');
 </script>
-  
+
+## 2023-06-23
+Our works on microstructure fingerprinting and relaxation-diffusion imaging have been accepted for MICCAI 2023.
+- **Khoi Minh Huynh**, Ye Wu, Sahar Ahmad, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13" target="_blank"> Microstructure Fingerprinting for Heterogeneously Oriented Tissue Microenvironments</a>. *MICCAI*, 2023.
+- Ye Wu, Xiaoming Liu, Xinyuan Zhang, **Khoi Minh Huynh**, Sahar Ahmad, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_15" target="_blank"> Relaxation-Diffusion Spectrum Imaging for Probing Tissue Microarchitecture</a>. *MICCAI*, 2023.  
   
 ## 2023-02-15
 Our work on accelerated 19F denoising has been accepted for Magnetic Resonance in Medicine
@@ -30,7 +34,7 @@ Our work on SIDE reconstruction scheme for dMRI has been accepted for Medical Im
 - Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, **Khoi Minh Huynh**, Zhixing Wang, Weili Lin, Wei-Tang Chang, and Pew-Thian Yap. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" target="_blank">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</a>. *Medical Image Analysis*, 2022. 
 
 ## 2022-05-08
-Finally got my PhD degree and can put "Dr" in conference registration :). To all the love, support, guidance, and help during this journey, thank you, I am forever grateful.  
+Finally got my PhD degree and can put "Dr." in conference registration form :). To all the love, support, guidance, and help during this journey, thank you, I am forever grateful.  
 
 ## 2021-06-13
 Our work on noise mapping and removal has been accepted for MICCAI 2021.

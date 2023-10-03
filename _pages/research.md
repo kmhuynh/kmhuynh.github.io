@@ -41,6 +41,10 @@ Scott H Donaldson, and Yueh Z Lee. <a href="https://onlinelibrary.wiley.com/doi/
 
 ## Conferences
 
+- [C8] **Khoi Minh Huynh**, Ye Wu, Sahar Ahmad, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13" target="_blank"> Microstructure Fingerprinting for Heterogeneously Oriented Tissue Microenvironments</a>. *MICCAI*, 2023.
+
+- [C7] Ye Wu, Xiaoming Liu, Xinyuan Zhang, **Khoi Minh Huynh**, Sahar Ahmad, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_15" target="_blank"> Relaxation-Diffusion Spectrum Imaging for Probing Tissue Microarchitecture</a>. *MICCAI*, 2023.
+
 - [C6] **Khoi Minh Huynh**, Wei-Tang Chang, Sang Hun Chung, Yong Chen, Yueh Lee, and Pew-Thian Yap. <a href="https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19" target="_blank"> Noise Mapping and Removal in Complex-Valued Multi-Channel MRI via Optimal Shrinkage of Singular Values</a>. *MICCAI*, 2021.
 
 - [C5] **Khoi Minh Huynh**, Ye Wu, Kim-Han Thung, Sahar Ahmad, Hoyt Patrick Taylor IV, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" target="_blank">Characterizing Intra-Soma Diffusion with Spherical Mean Spectrum Imaging</a>. *MICCAI*, 2020.
