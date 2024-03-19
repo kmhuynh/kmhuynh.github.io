@@ -14,6 +14,22 @@ redirect_from:
 
   gtag('config', 'G-7VZQ52ZQDT');
 </script>
+  
+  
+  
+## 2024-02-21  
+Our works on dMRI denoising is published on Patterns.
+- **Khoi Minh Huynh**, Wei-Tang Chang, Ye Wu, and Pew-Thian Yap <a href="https://doi.org/10.1016/j.patter.2024.100954" target="_blank">Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI</a>, *Patterns*, 2024.
+
+## 2024-02-15  
+Our works on hi-res cerebellum atlas is published on Scientific Reports.
+- Wenjiao Lyu, Ye Wu, **Khoi Minh Huynh**, Sahar Ahmad, and Pew-Thian Yap. <a href="https://www.nature.com/articles/s41598-024-55412-y" target="_blank">A multimodal submillimeter MRI atlas of the human cerebellum</a>, *Scientific Reports*, 2024. 
+
+## 2024-01-20
+Our works on rapid 19F lung MRI, and infant brain microstructure fingerprinting have been accepted for ISMRM 2024.
+- **Khoi Minh Huynh**, Sahar Ahmad, Kim-Han Thung, and Pew-Thian Yap. <a href="" target="_blank">Cell radius and membrane permeability in the developing brain</a>. *ISMRM*, 2024. 
+- Truc Nguyen, **Khoi Minh Huynh**, Sang Hun Chung, Pew-Thian Yap, and Yueh Z Lee. <a href="" target="_blank">Temporal profile block-matching denoising enables free-breathing dynamic 19F lung MRI with sub 0.5 second acquisition time</a>. *ISMRM*, 2024.
+
 
 ## 2023-06-23
 Our works on microstructure fingerprinting and relaxation-diffusion imaging have been accepted for MICCAI 2023.

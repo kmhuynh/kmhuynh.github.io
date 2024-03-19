@@ -28,6 +28,10 @@ Microstructure, Tractography, Harmonization, Infant Brain Development, Diffusion
 
 ## Journals
 
+- [J7] **Khoi Minh Huynh**, Wei-Tang Chang, Ye Wu, and Pew-Thian Yap <a href="https://doi.org/10.1016/j.patter.2024.100954" target="_blank">Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI</a>, *Patterns*, 2024 
+
+- [J6] Wenjiao Lyu, Ye Wu, **Khoi Minh Huynh**, Sahar Ahmad, and Pew-Thian Yap. <a href="https://www.nature.com/articles/s41598-024-55412-y" target="_blank">A multimodal submillimeter MRI atlas of the human cerebellum</a>, *Scientific Reports*, 2024. 
+
 - [J5] Sang Hun Chung, **Khoi Minh Huynh**, Jennifer L Goralski, Yong Chen, Pew-Thian Yap, Agathe S Ceppe, Margret Z Powell,
 Scott H Donaldson, and Yueh Z Lee. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630" target="_blank">Feasibility of free-breathing 19F MRI image acquisition to characterize ventilation defects in CF and healthy volunteers at wash-in</a>. *Magnetic Resonance in Medicine*, 2023. 
 
@@ -70,6 +74,10 @@ Scott H Donaldson, and Yueh Z Lee. <a href="https://onlinelibrary.wiley.com/doi/
 - [W1] **Khoi Minh Huynh**, Geng Chen, Ye Wu, Dinggang Shen, and Pew-Thian Yap. <a href="https://doi.org/10.1007/978-3-030-05831-9_15" target="_blank">Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</a>. *CDMRI*, 2018.
 
 ## Abstracts
+
+- [A26] **Khoi Minh Huynh**, Sahar Ahmad, Kim-Han Thung, and Pew-Thian Yap. <a href="" target="_blank">Cell radius and membrane permeability in the developing brain</a>. *ISMRM*, 2024. 
+
+- [A25] Truc Nguyen, **Khoi Minh Huynh**, Sang Hun Chung, Pew-Thian Yap, and Yueh Z Lee. <a href="" target="_blank">Temporal profile block-matching denoising enables free-breathing dynamic 19F lung MRI with sub 0.5 second acquisition time</a>. *ISMRM*, 2024.
 
 - [A24] Wenjiao Lyu, Ye Wu, **Khoi Minh Huynh**, Sahad Ahmad, and Pew-Thian Yap. <a href="" target="_blank"> A Multimodal Atlas of the Human Cerebellum at 760 micron Resolution</a>. *OHBM*, 2023.
 
