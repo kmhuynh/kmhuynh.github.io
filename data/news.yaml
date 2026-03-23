@@ -106,28 +106,29 @@
   text: Received BME Graduate Student Travel Award to present at MICCAI 2019.
 - date: 2019-07-19
   tag: accepted
-  text: Abstract accepted for RSNA 2019.
+  text: Microscopic kurtosis model abstract accepted for RSNA 2019.
   url: https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing
-- date: 2019-06-29
+- date: Jun 2019
   tag: accepted
-  text: Two papers accepted for MICCAI 2019.
+  text: Two abstracts accepted for MICCAI 2019 [SMSI](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61) and [Microscopic kurtosis](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62).
+  #url: https://doi.org/10.1007/978-3-030-32248-9_61
   url: https://doi.org/10.1007/978-3-030-32248-9_61
-- date: 2019-03-05
+- date: Mar 2019
   tag: award
-  text: Received BME Graduate Student Travel Award to present at ISMRM 2019.
-- date: 2019-03-01
+  text: BME Graduate Student Travel Award
+- date: Mar 2019
   tag: accepted
-  text: Abstract accepted for OHBM 2019.
+  text: Baby brain microstructure mapping abstract accepted for OHBM 2019.
   url: https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing
-- date: 2019-02-25
+- date: Feb 2019
   tag: award
-  text: Awarded the 2019 ISMRM Educational Stipend.
-- date: 2019-02-10
-  tag: newrole
-  text: Completed PhD written comprehensive exam requirement toward candidacy.
-- date: 2019-02-07
+  text: ISMRM Educational Stipend
+#- date: Feb 2019
+#  tag: newrole
+#  text: Completed PhD written comprehensive exam requirement toward candidacy.
+- date: Feb 2019
   tag: accepted
-  text: Abstract accepted for ISMRM 2019.
+  text: Spherical mean spectrum imaging (SMSI) abstract accepted for ISMRM 2019.
   url: https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing
 - date: Jan 2019
   tag: accepted
