@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career | Khoi Huynh</title>
+    <link>https://kmhuynh.github.io/tags/career/</link>
+      <atom:link href="https://kmhuynh.github.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <description>Career</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url>
+      <title>Career</title>
+      <link>https://kmhuynh.github.io/tags/career/</link>
+    </image>
+    
+    <item>
+      <title>Started Postdoc at UNC Chapel Hill</title>
+      <link>https://kmhuynh.github.io/news/postdoc-start/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/news/postdoc-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Successfully Defended PhD Dissertation</title>
+      <link>https://kmhuynh.github.io/news/dissertation-defense/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/news/dissertation-defense/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

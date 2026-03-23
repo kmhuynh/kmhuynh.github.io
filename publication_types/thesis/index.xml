@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis | Khoi Huynh</title>
+    <link>https://kmhuynh.github.io/publication_types/thesis/</link>
+      <atom:link href="https://kmhuynh.github.io/publication_types/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url>
+      <title>Thesis</title>
+      <link>https://kmhuynh.github.io/publication_types/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging</title>
+      <link>https://kmhuynh.github.io/publication/huynh-2022-computational/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/publication/huynh-2022-computational/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

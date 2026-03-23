@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outdoors | Khoi Huynh</title>
+    <link>https://kmhuynh.github.io/tags/outdoors/</link>
+      <atom:link href="https://kmhuynh.github.io/tags/outdoors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Outdoors</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url>
+      <title>Outdoors</title>
+      <link>https://kmhuynh.github.io/tags/outdoors/</link>
+    </image>
+    
+    <item>
+      <title>Hiking</title>
+      <link>https://kmhuynh.github.io/life/hiking/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/life/hiking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camping</title>
+      <link>https://kmhuynh.github.io/life/camping/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/life/camping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kayaking</title>
+      <link>https://kmhuynh.github.io/life/kayaking/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/life/kayaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Parks</title>
+      <link>https://kmhuynh.github.io/life/national-parks/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/life/national-parks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

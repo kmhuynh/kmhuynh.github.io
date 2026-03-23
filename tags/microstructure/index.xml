@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microstructure | Khoi Huynh</title>
+    <link>https://kmhuynh.github.io/tags/microstructure/</link>
+      <atom:link href="https://kmhuynh.github.io/tags/microstructure/index.xml" rel="self" type="application/rss+xml" />
+    <description>Microstructure</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url>
+      <title>Microstructure</title>
+      <link>https://kmhuynh.github.io/tags/microstructure/</link>
+    </image>
+    
+    <item>
+      <title>Microstructural Atlases of the Developing Brain</title>
+      <link>https://kmhuynh.github.io/event/unc-radiology-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/event/unc-radiology-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments</title>
+      <link>https://kmhuynh.github.io/event/miccai-2019/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://kmhuynh.github.io/event/miccai-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
