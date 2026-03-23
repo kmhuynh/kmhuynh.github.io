@@ -150,10 +150,10 @@ button { font-family: inherit; cursor: pointer; }
 .pub-card:hover { box-shadow: 0 4px 12px rgba(29, 46, 40, 0.12); }
 .pub-content { flex: 1; min-width: 0; }
 .pub-thumb {
-  width: 140px;
-  height: 100px;
+  width: 180px;
+  height: 120px;
   border-radius: 6px;
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
   border: 1px solid var(--color-border-light);
   order: 2;
@@ -353,7 +353,7 @@ a.life-card-link { color: inherit; text-decoration: none; }
   .news-date { width: auto; }
   .life-grid { grid-template-columns: repeat(2, 1fr); }
   .pub-card { flex-direction: column; }
-  .pub-thumb { width: 100%; height: 160px; order: -1; }
+  .pub-thumb { width: 100%; height: 200px; order: -1; }
   .talk-card { flex-direction: column; }
   .talk-thumb { width: 100%; height: 120px; }
   .pres-card { flex-direction: column; }
