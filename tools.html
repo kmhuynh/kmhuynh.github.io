@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools & Resources — Khoi Huynh</title>
+  <meta name="description" content="Open-source code, datasets, and computational tools for neuroimaging research by Khoi Huynh.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="canonical" href="https://kmhuynh.github.io/tools.html">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container">
+    <a href="index.html" class="site-name">Khoi Huynh</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#news">News</a>
+      <a href="publications.html">Papers</a>
+      <a href="tools.html">Tools</a>
+      <a href="static/resume.pdf">CV</a>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">☀️</button>
+  </div>
+</nav>
+
+<div class="container">
+  <section class="section">
+    <h2 class="section-title">Tools & Resources</h2>
+    <p style="margin-bottom: 32px; color: var(--color-muted);">
+      Open-source contributions to advance neuroimaging research.
+      <a href="mailto:kmhuynh@med.unc.edu">Contact me</a> to discuss collaborative development.
+    </p>
+
+    <div class="tool-card">
+      <span class="status status-active">Active</span>
+      <h3>Optimal Shrinkage Denoising</h3>
+      <p>Breakthrough noise reduction for high-resolution diffusion MRI. 11x noise floor reduction, multi-channel complex-valued data processing, optimal shrinkage of singular values.</p>
+      <p><strong>Language:</strong> MATLAB</p>
+      <a href="https://osf.io/f384h/" class="pub-link">OSF Repository</a>
+      <a href="https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9" class="pub-link">Paper</a>
+    </div>
+
+    <div class="tool-card">
+      <span class="status status-coming">Coming Soon</span>
+      <h3>Diffusion MRI Processing Pipeline</h3>
+      <p>Comprehensive toolkit for diffusion MRI analysis. Microstructure modeling, tractography, and developmental analysis. Works with existing neuroimaging software.</p>
+    </div>
+
+    <div class="tool-card">
+      <span class="status status-dev">In Development</span>
+      <h3>Brain Development Atlases</h3>
+      <p>Normative brain charts for pediatric applications. Height/weight chart equivalent for brain development. Applications in early detection of developmental issues.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Datasets</h2>
+
+    <div class="tool-card">
+      <h3>High-Resolution Diffusion MRI Dataset</h3>
+      <p>Denoised diffusion MRI data demonstrating optimal shrinkage. Before/after denoising comparisons. Available through OSF for method validation and algorithm development.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-bottom: 0;">
+    <p style="color: var(--color-muted); font-size: 0.9rem;">
+      If you use these tools in your research, please cite:<br>
+      <em>Huynh, K. M., Chang, W. T., Wu, Y., & Yap, P. T. (2024). Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI. Patterns, 5(3), 100954.</em>
+    </p>
+  </section>
+</div>
+
+<footer class="footer">
+  <div class="container"><p>© 2026 Khoi Huynh</p></div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
