@@ -78,7 +78,7 @@
     {%- for pub in research %}
     <div class="pub-card">
       <h3>{{ pub.title }}</h3>
-      <p class="authors">{{ pub.authors }}</p>
+      <p class="authors">{{ pub.authors | bold }}</p>
       <p class="venue">{{ pub.venue }}</p>
       {%- for link in pub.links %}
       <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
@@ -106,7 +106,7 @@
       <div class="pres-info">
         <div class="pres-title">{{ pres.title }} <span class="pres-links">
           {%- for link in pres.links %}<a href="{{ link.url }}"{% if link.disabled %} class="disabled"{% endif %}>{{ link.text }}</a>{% endfor %}</span></div>
-        <div class="pres-authors">{{ pres.authors | replace('**', '<strong>', 1) | replace('**', '</strong>', 1) }}</div>
+        <div class="pres-authors">{{ pres.authors | bold }}</div>
         <div class="pres-venues">
           {%- for venue in pres.venues %}
           <div class="pres-venue-row"><span class="pres-type type-{{ venue.type }}">{{ venue.type | capitalize }}</span> {{ venue.text }}</div>
@@ -143,13 +143,13 @@
       <a href="{{ hobby.link }}" class="life-card life-card-link" target="_blank" rel="noopener">
         <div class="emoji">{{ hobby.emoji }}</div>
         <h3>{{ hobby.name }}</h3>
-        <p>{{ hobby.description }}</p>
+        {% if hobby.description %}<p>{{ hobby.description }}</p>{% endif %}
       </a>
       {%- else -%}
       <div class="life-card">
         <div class="emoji">{{ hobby.emoji }}</div>
         <h3>{{ hobby.name }}</h3>
-        <p>{{ hobby.description }}</p>
+        {% if hobby.description %}<p>{{ hobby.description }}</p>{% endif %}
       </div>
       {%- endif %}
       {%- endfor %}

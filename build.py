@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
 """Build script: generates index.html, tools.html, and publications.html
 from YAML data files, BibTeX, and Jinja2 templates."""
+import re
 from pathlib import Path
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
+from markupsafe import Markup
+
+
+def bold_filter(text):
+    """Convert **text** to <strong>text</strong>."""
+    result = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', str(text))
+    return Markup(result)
 
 try:
     from pybtex.database import parse_file
@@ -115,6 +123,7 @@ def main():
         loader=FileSystemLoader(str(TEMPLATE_DIR)),
         keep_trailing_newline=True,
     )
+    env.filters['bold'] = bold_filter
 
     shared = {"hero": hero, "nav": nav}
 
