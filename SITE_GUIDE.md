@@ -178,6 +178,8 @@ Example:
 
 ```yaml
 - title: Your Paper Title
+  image: img/research/your-paper-thumb.jpg
+  image_alt: Short accessible description of the thumbnail
   authors: "**K. Huynh**, Co-Author 1, Co-Author 2"
   venue: Journal Name, 2026
   links:
@@ -186,6 +188,17 @@ Example:
     - text: Code
       url: https://github.com/example/repo
 ```
+
+Thumbnail fields are optional. If `image` is omitted, the card renders as text-only.
+
+Recommended image workflow:
+
+1. Put the image file in `img/research/`
+2. Set `image` to that relative path in `data/research.yaml`
+3. Set `image_alt` to a short, meaningful description
+4. Run `python3 build.py`
+
+Attribution note: the right-side thumbnail card idea for highlights/presentations was adapted from [trucnnth.github.io](https://github.com/trucnnth/trucnnth.github.io).
 
 ### Presentations And Talks
 

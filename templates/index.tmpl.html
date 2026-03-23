@@ -78,12 +78,17 @@
     <h2 class="section-title">Research Highlights</h2>
     {%- for pub in research %}
     <div class="pub-card">
-      <h3>{{ pub.title }}</h3>
-      <p class="authors">{{ pub.authors | md }}</p>
-      <p class="venue">{{ pub.venue }}</p>
-      {%- for link in pub.links %}
-      <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
-      {%- endfor %}
+      {%- if pub.image %}
+      <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
+      {%- endif %}
+      <div class="pub-content">
+        <h3>{{ pub.title }}</h3>
+        <p class="authors">{{ pub.authors | md }}</p>
+        <p class="venue">{{ pub.venue }}</p>
+        {%- for link in pub.links %}
+        <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
+        {%- endfor %}
+      </div>
     </div>
     {%- endfor %}
     <div class="page-indicator">

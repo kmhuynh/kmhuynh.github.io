@@ -1,4 +1,7 @@
 - title: Functional hierarchy of the human neocortex across the lifespan
+  # Optional thumbnail fields:
+  # image: img/research/neocortex-lifespan.jpg
+  # image_alt: Functional hierarchy map of the human neocortex across the lifespan
   authors: "H.P. Taylor IV, **K. Huynh**, K.-H. Thung, G. Lin, W. Lyu, W. Lin, S. Ahmad, P.-T. Yap"
   venue: Nature, 2026
   links:
@@ -41,6 +44,8 @@
 - title: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI
   authors: "**K. Huynh**, W.-T. Chang, Y. Wu, P.-T. Yap"
   venue: Patterns, 2024
+  image: img/research/ossvd.jpg
+  image_alt: ossvd
   links:
     #- text: Paper
     #  url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9
