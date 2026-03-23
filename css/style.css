@@ -168,6 +168,7 @@ button { font-family: inherit; cursor: pointer; }
 .life-card .emoji { font-size: 32px; margin-bottom: 8px; }
 .life-card h3 { font-family: 'Source Sans 3', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 4px; }
 .life-card p { font-size: 12px; color: var(--color-muted); }
+a.life-card-link { color: inherit; text-decoration: none; }
 .talk-card {
   display: flex; gap: 18px; align-items: flex-start; background: var(--color-card-bg);
   border: 1px solid var(--color-border); border-radius: 8px; padding: 18px 20px;
