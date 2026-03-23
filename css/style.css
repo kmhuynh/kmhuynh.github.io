@@ -23,6 +23,14 @@
   --color-tag-talk-text: #1D2E28;
   --color-tag-newrole-bg: rgba(146, 64, 14, 0.15);
   --color-tag-newrole-text: #92400e;
+  --color-tag-journal-bg: rgba(37, 99, 235, 0.15);
+  --color-tag-journal-text: #1d4ed8;
+  --color-tag-conference-bg: rgba(13, 148, 136, 0.15);
+  --color-tag-conference-text: #0f766e;
+  --color-tag-preprint-bg: rgba(124, 58, 237, 0.15);
+  --color-tag-preprint-text: #6d28d9;
+  --color-tag-abstract-bg: rgba(107, 114, 128, 0.15);
+  --color-tag-abstract-text: #4b5563;
 }
 [data-theme="dark"] {
   --color-nav: #0F1A15;
@@ -46,6 +54,14 @@
   --color-tag-talk-text: #CBD5C0;
   --color-tag-newrole-bg: rgba(217, 158, 87, 0.15);
   --color-tag-newrole-text: #d99e57;
+  --color-tag-journal-bg: rgba(96, 165, 250, 0.15);
+  --color-tag-journal-text: #60a5fa;
+  --color-tag-conference-bg: rgba(45, 212, 191, 0.15);
+  --color-tag-conference-text: #2dd4bf;
+  --color-tag-preprint-bg: rgba(167, 139, 250, 0.15);
+  --color-tag-preprint-text: #a78bfa;
+  --color-tag-abstract-bg: rgba(156, 163, 175, 0.12);
+  --color-tag-abstract-text: #9ca3af;
 }
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -136,7 +152,10 @@ button { font-family: inherit; cursor: pointer; }
   letter-spacing: 0.06em; padding: 2px 7px; border-radius: 3px; margin-right: 6px;
   vertical-align: middle; position: relative; top: -1px;
 }
-.tag-accepted { background: var(--color-tag-accepted-bg); color: var(--color-tag-accepted-text); }
+.tag-journal { background: var(--color-tag-journal-bg); color: var(--color-tag-journal-text); }
+.tag-conference { background: var(--color-tag-conference-bg); color: var(--color-tag-conference-text); }
+.tag-preprint { background: var(--color-tag-preprint-bg); color: var(--color-tag-preprint-text); }
+.tag-abstract { background: var(--color-tag-abstract-bg); color: var(--color-tag-abstract-text); }
 .tag-award { background: var(--color-tag-award-bg); color: var(--color-tag-award-text); }
 .tag-talk { background: var(--color-tag-talk-bg); color: var(--color-tag-talk-text); }
 .tag-newrole { background: var(--color-tag-newrole-bg); color: var(--color-tag-newrole-text); }

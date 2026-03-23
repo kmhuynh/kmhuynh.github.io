@@ -8,33 +8,33 @@
   tag: talk
   text: "Oral presentation: Precision Cortex Tractography at ISMRM 2025, Honolulu, Hawaii, USA"
 - date: Mar 2024
-  tag: accepted
+  tag: journal
   text: Optimal shrinkage denoising paper published in Patterns
   url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9
 - date: Feb 2024
-  tag: accepted
+  tag: journal
   text: High-resolution cerebellum atlas work published in Scientific Reports.
   url: https://www.nature.com/articles/s41598-024-55412-y
 - date: Jan 2024
-  tag: accepted
+  tag: abstract
   text: Two works accepted for ISMRM 2024 on rapid 19F lung MRI and infant brain microstructure fingerprinting.
 - date: Oct 2023
   tag: award
   text: Best Oral Presentation at UNC Radiology Research Symposium 2023
 - date: Jun 2023
-  tag: accepted
+  tag: conference
   text: Microstructure fingerprinting and relaxation-diffusion imaging works accepted for MICCAI 2023.
   url: https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13
 - date: Feb 2023
-  tag: accepted
+  tag: journal
   text: Accelerated 19F denoising work accepted for Magnetic Resonance in Medicine.
   url: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630
 - date: Jan 2023
-  tag: accepted
+  tag: journal
   text: Deep learning prediction of diffusion MRI accepted for Medical Image Analysis.
   url: https://www.sciencedirect.com/science/article/pii/S1361841523000038
 - date: Jul 2022
-  tag: accepted
+  tag: journal
   text: SIDE reconstruction scheme for diffusion MRI accepted for Medical Image Analysis.
   url: https://www.sciencedirect.com/science/article/pii/S1361841522001955
 - date: May 2022
@@ -44,7 +44,7 @@
   tag: newrole
   text: Completed PhD and graduated from UNC Chapel Hill.
 - date: Jun 2021
-  tag: accepted
+  tag: conference
   text: Noise mapping and removal work accepted for MICCAI 2021.
   url: https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19
 - date: Apr 2021
@@ -54,17 +54,17 @@
   tag: award
   text: Awarded the 2021 ISMRM Educational Stipend.
 - date: Feb 2021
-  tag: accepted
+  tag: abstract
   text: Four works accepted for ISMRM 2021 on denoising, microstructure fingerprinting, SMS imaging, and infant diffusion MRI processing.
 - date: Dec 2020
-  tag: accepted
+  tag: preprint
   text: Navigator-Free Submillimeter Diffusion Imaging work released on arXiv.
   url: https://arxiv.org/abs/2012.00664
 - date: Oct 2020
   tag: award
   text: BME Graduate Student Travel Award
 - date: Oct 2020
-  tag: accepted
+  tag: conference
   text: Two works accepted for CDMRI 2020 on longitudinal parcellation and accelerated reconstruction.
   url: https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20
 - date: Aug 2020
@@ -74,11 +74,11 @@
   tag: newrole
   text: Passed PhD oral preliminary exam and advanced to PhD candidacy.
 - date: Jun 2020
-  tag: accepted
+  tag: journal
   text: Spherical Mean Spectrum Imaging work accepted for IEEE Transactions on Medical Imaging.
   url: https://www.doi.org/10.1109/TMI.2020.3001175
 - date: May 2020
-  tag: accepted
+  tag: conference
   text: Three works accepted for MICCAI 2020 on soma imaging, undersampled microstructure imaging, and distortion correction.
   url: https://doi.org/10.1007/978-3-030-59728-3_35
 - date: Apr 2020
@@ -88,14 +88,14 @@
   tag: award
   text: UNC Graduate Student Transportation Award
 - date: Feb 2020
-  tag: accepted
+  tag: abstract
   text: "Three abstracts accepted for OHBM 2020: Multivariate quantification of baby brain, Dense temporal cortical microstruture mapping, and Relationship between cortical myelination and neurite density"
   #url: https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing
 - date: Feb 2020
   tag: award
   text: BME Graduate Student Travel Award
 - date: Jan 2020
-  tag: accepted
+  tag: abstract
   text: "Two abstracts accepted for ISMRM 2020: Intra-soma diffusion model and Degeneracy in linear tensor encoding dMRI"
   #url: https://drive.google.com/file/d/1Mn_qJMgHUCAm53qKNxsvui4mcoDJRDrc/view?usp=sharing
 - date: Oct 2019
@@ -105,18 +105,18 @@
   tag: award
   text: BME Graduate Student Travel Award
 - date: Jul 2019
-  tag: accepted
+  tag: abstract
   text: "[Microscopic kurtosis model](https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing) abstract accepted for RSNA 2019"
-  #url: 
+  #url:
 - date: Jun 2019
-  tag: accepted
+  tag: conference
   text: "Two papers accepted for MICCAI 2019: [SMSI](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61) and [Microscopic kurtosis](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62)"
   #url: https://doi.org/10.1007/978-3-030-32248-9_61
 - date: Mar 2019
   tag: award
   text: BME Graduate Student Travel Award
 - date: Mar 2019
-  tag: accepted
+  tag: abstract
   text: "[Baby brain microstructure mapping](https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing) abstract accepted for OHBM 2019"
   #url: https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing
 - date: Feb 2019
@@ -126,24 +126,24 @@
 #  tag: newrole
 #  text: Completed PhD written comprehensive exam requirement toward candidacy.
 - date: Feb 2019
-  tag: accepted
+  tag: abstract
   text: "[Spherical mean spectrum imaging (SMSI)](https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing) abstract accepted for ISMRM 2019"
   #url: https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing
 - date: Jan 2019
-  tag: accepted
+  tag: journal
   text: "[Multi-site dMRI harmonization](https://www.doi.org/10.1109/TMI.2019.2895020) paper accepted for IEEE Transactions on Medical Imaging"
   #url: https://www.doi.org/10.1109/TMI.2019.2895020
 - date: Feb 2018
-  tag: accepted
+  tag: abstract
   text: "[Diffusion MRI longitudinal harmonization](https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing) abstract accepted for OHBM 2018"
   #url: https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing
 - date: Feb 2018
   tag: award
   text: ISMRM Educational Stipend
 - date: Feb 2018
-  tag: accepted
+  tag: abstract
   text: "[Diffusion MRI signal drift](https://drive.google.com/file/d/1TPnLtXWN1zAoGhn0uncwx9Q7c5TDyDXf/view?usp=sharing) abstract accepted for ISMRM 2018."
-#  url: 
+#  url:
 - date: Aug 2017
   tag: newrole
   text: Joined [Dr. Pew-Thian Yap's Lab](https://www.med.unc.edu/radiology/people/pew-thian-yap/) as Graduate Research Assistant, Dept. of BME, UNC-Chapel Hill
