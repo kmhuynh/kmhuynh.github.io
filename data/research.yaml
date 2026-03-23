@@ -8,7 +8,6 @@
       url: https://doi.org/10.1038/s41586-026-10219-x
     #- text: Code
     #  url: https://osf.io/f384h/
-	
 - title: Anatomy-to-tract mapping infers white matter pathways without diffusion streamline propagation
   authors: "Y.-F. Tan, **K. Huynh**, S. Liu, R. Phan, C.-M. Ting, P.-T. Yap"
   venue: Nature Communications, 2025
@@ -19,8 +18,6 @@
       url: https://www.nature.com/articles/s41467-025-66615-w
     - text: Code
       url: https://zenodo.org/records/15792527
-
-
 - title: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI
   authors: "**K. Huynh**, W.-T. Chang, Y. Wu, P.-T. Yap"
   venue: Patterns, 2024
