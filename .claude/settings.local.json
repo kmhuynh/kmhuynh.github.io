@@ -7,7 +7,9 @@
       "Bash(python3:*)",
       "Bash(pip install:*)",
       "Bash(/opt/homebrew/bin/pip3 install:*)",
-      "Bash(/Users/mkhoi/miniconda3-arm64/bin/python3 build.py)"
+      "Bash(/Users/mkhoi/miniconda3-arm64/bin/python3 build.py)",
+      "Bash(curl -s 'https://trucnnth.github.io/' -o /tmp/trucnnth_page.html)",
+      "Read(//tmp/**)"
     ]
   }
 }

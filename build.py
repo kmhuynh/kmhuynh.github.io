@@ -9,9 +9,11 @@ from jinja2 import Environment, FileSystemLoader
 from markupsafe import Markup
 
 
-def bold_filter(text):
-    """Convert **text** to <strong>text</strong>."""
-    result = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', str(text))
+def md_filter(text):
+    """Convert **bold** and [link](url) to HTML."""
+    result = str(text)
+    result = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', result)
+    result = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', result)
     return Markup(result)
 
 try:
@@ -123,7 +125,7 @@ def main():
         loader=FileSystemLoader(str(TEMPLATE_DIR)),
         keep_trailing_newline=True,
     )
-    env.filters['bold'] = bold_filter
+    env.filters['md'] = md_filter
 
     shared = {"hero": hero, "nav": nav}
 

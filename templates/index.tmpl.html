@@ -41,7 +41,7 @@
     <p class="subtitle">{{ hero.title }}</p>
     {%- for paragraph in hero.bio %}
     <p class="bio">
-      {{ paragraph }}
+      {{ paragraph | md }}
     </p>
     {%- endfor %}
     <div class="hero-links">
@@ -64,7 +64,7 @@
     </div>
     <ul class="news-list">
       {%- for item in news %}
-      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {{ item.text }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
+      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {{ item.text | md }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
       {%- endfor %}
     </ul>
     <button class="show-all-btn">Show all ↓</button>
@@ -78,7 +78,7 @@
     {%- for pub in research %}
     <div class="pub-card">
       <h3>{{ pub.title }}</h3>
-      <p class="authors">{{ pub.authors | bold }}</p>
+      <p class="authors">{{ pub.authors | md }}</p>
       <p class="venue">{{ pub.venue }}</p>
       {%- for link in pub.links %}
       <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
@@ -106,7 +106,7 @@
       <div class="pres-info">
         <div class="pres-title">{{ pres.title }} <span class="pres-links">
           {%- for link in pres.links %}<a href="{{ link.url }}"{% if link.disabled %} class="disabled"{% endif %}>{{ link.text }}</a>{% endfor %}</span></div>
-        <div class="pres-authors">{{ pres.authors | bold }}</div>
+        <div class="pres-authors">{{ pres.authors | md }}</div>
         <div class="pres-venues">
           {%- for venue in pres.venues %}
           <div class="pres-venue-row"><span class="pres-type type-{{ venue.type }}">{{ venue.type | capitalize }}</span> {{ venue.text }}</div>
