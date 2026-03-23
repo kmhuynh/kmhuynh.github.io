@@ -110,16 +110,16 @@
   url: https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing
 - date: Jun 2019
   tag: accepted
-  text: Two abstracts accepted for MICCAI 2019 [SMSI](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61) and [Microscopic kurtosis](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62).
+  text: "Two papers accepted for MICCAI 2019: [SMSI](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61) and [Microscopic kurtosis](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62)"
   #url: https://doi.org/10.1007/978-3-030-32248-9_61
-  url: https://doi.org/10.1007/978-3-030-32248-9_61
+  #url: https://doi.org/10.1007/978-3-030-32248-9_61
 - date: Mar 2019
   tag: award
   text: BME Graduate Student Travel Award
 - date: Mar 2019
   tag: accepted
-  text: Baby brain microstructure mapping abstract accepted for OHBM 2019.
-  url: https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing
+  text: "[Baby brain microstructure mapping](https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing) abstract accepted for OHBM 2019"
+  #url: https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing
 - date: Feb 2019
   tag: award
   text: ISMRM Educational Stipend
@@ -132,11 +132,11 @@
   #url: https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing
 - date: Jan 2019
   tag: accepted
-  text: Multi-site dMRI harmonization paper accepted for IEEE Transactions on Medical Imaging.
-  url: https://www.doi.org/10.1109/TMI.2019.2895020
+  text: "[Multi-site dMRI harmonization](https://www.doi.org/10.1109/TMI.2019.2895020) paper accepted for IEEE Transactions on Medical Imaging"
+  #url: https://www.doi.org/10.1109/TMI.2019.2895020
 - date: Feb 2018
   tag: accepted
-  text: "DMRI longitudinal harmonization](https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing) abstract accepted for OHBM 2018"
+  text: "[Diffusion MRI longitudinal harmonization](https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing) abstract accepted for OHBM 2018"
   #url: https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing
 - date: Feb 2018
   tag: award
