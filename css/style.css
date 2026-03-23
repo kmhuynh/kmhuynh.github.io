@@ -21,6 +21,8 @@
   --color-tag-award-text: #2E7D5B;
   --color-tag-talk-bg: rgba(29, 46, 40, 0.15);
   --color-tag-talk-text: #1D2E28;
+  --color-tag-newrole-bg: rgba(146, 64, 14, 0.15);
+  --color-tag-newrole-text: #92400e;
 }
 [data-theme="dark"] {
   --color-nav: #0F1A15;
@@ -42,6 +44,8 @@
   --color-tag-award-text: #34d399;
   --color-tag-talk-bg: rgba(203, 213, 192, 0.1);
   --color-tag-talk-text: #CBD5C0;
+  --color-tag-newrole-bg: rgba(217, 158, 87, 0.15);
+  --color-tag-newrole-text: #d99e57;
 }
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -119,6 +123,7 @@ button { font-family: inherit; cursor: pointer; }
   border-bottom: 1px solid var(--color-border-light); font-size: 0.92rem;
 }
 .news-list li:last-child { border-bottom: none; }
+.news-list a:not(.pub-link) { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
 .news-date { flex-shrink: 0; width: 90px; color: var(--color-muted); font-weight: 600; font-size: 0.83rem; padding-top: 1px; }
 .news-tag {
   display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
@@ -128,6 +133,7 @@ button { font-family: inherit; cursor: pointer; }
 .tag-accepted { background: var(--color-tag-accepted-bg); color: var(--color-tag-accepted-text); }
 .tag-award { background: var(--color-tag-award-bg); color: var(--color-tag-award-text); }
 .tag-talk { background: var(--color-tag-talk-bg); color: var(--color-tag-talk-text); }
+.tag-newrole { background: var(--color-tag-newrole-bg); color: var(--color-tag-newrole-text); }
 .show-all-btn {
   display: block; margin: 16px auto 0; padding: 8px 20px;
   font-family: 'Source Sans 3', sans-serif; font-size: 0.82rem; font-weight: 600;
