@@ -38,6 +38,8 @@
 - title: The effective connectome over a century of human life
   authors: "G. Li, **K. Huynh**, K.-H. Thung, H.P. Taylor IV, G. Lin, W. Lin, S. Ahmad, P.-T. Yap"
   venue: Communications Biology, 2025
+  image: img/research/EC.png
+  image_alt: ec
   links:
     #- text: Paper
     #  url: https://doi.org/10.1038/s41586-026-10219-x
