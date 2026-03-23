@@ -77,9 +77,23 @@
   <div class="container">
     <h2 class="section-title">Research Highlights</h2>
     {%- for pub in research %}
+    {%- set ns = namespace(pdf_url='') %}
+    {%- for link in pub.links %}
+    {%- if link.text | lower | trim == 'pdf' and not ns.pdf_url %}
+    {%- set ns.pdf_url = link.url %}
+    {%- endif %}
+    {%- endfor %}
     <div class="pub-card">
       {%- if pub.image %}
-      <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
+      {%- if ns.pdf_url %}
+      <a href="{{ ns.pdf_url }}" class="pub-thumb-link" aria-label="Open PDF: {{ pub.title }}">
+        <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
+      </a>
+      {%- else %}
+      <div class="pub-thumb-link">
+        <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
+      </div>
+      {%- endif %}
       {%- endif %}
       <div class="pub-content">
         <h3>{{ pub.title }}</h3>

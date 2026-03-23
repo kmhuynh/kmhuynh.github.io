@@ -191,6 +191,8 @@ Example:
 
 Thumbnail fields are optional. If `image` is omitted, the card renders as text-only.
 
+If a card has both `image` and a `PDF` link in `links`, clicking the image opens that PDF.
+
 Recommended image workflow:
 
 1. Put the image file in `img/research/`
