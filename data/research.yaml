@@ -1,5 +1,5 @@
 - title: Functional hierarchy of the human neocortex across the lifespan
-  authors: H.P. Taylot IV, K. Huynh, K.-H. Thung, G. Lin, W. Lyu, W. Lin, S. Ahmad, P.-T. Yap
+  authors: H.P. Taylot IV, **K. Huynh**, K.-H. Thung, G. Lin, W. Lyu, W. Lin, S. Ahmad, P.-T. Yap
   venue: Nature, 2026
   links:
     - text: Paper
@@ -11,8 +11,8 @@
 
 
 - title: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI
-  authors: K. Huynh, W.-T. Chang, Y. Wu, P.-T. Yap
-  venue: Patterns (Cell Press), 2024
+  authors: **K. Huynh**, W.-T. Chang, Y. Wu, P.-T. Yap
+  venue: Patterns, 2024
   links:
     - text: Paper
       url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9

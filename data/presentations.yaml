@@ -8,15 +8,15 @@
     - type: oral
       text: "ISMRM 2025 Annual Meeting · Hawaii, USA · May 2025"
 
-- title: "Pan-Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics"
-  authors: "R. Adams, W. Zhao, S. Hu, W. Lyu, **K. Huynh**, S. Ahmad, D. Ma, P.-T. Yap"
-  tags: [oral]
-  links:
-    - text: PDF
-      url: https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17
-  venues:
-    - type: oral
-      text: "ISMRM 2025 Annual Meeting · Hawaii, USA · May 2025"
+# - title: "Pan-Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics"
+#   authors: "R. Adams, W. Zhao, S. Hu, W. Lyu, **K. Huynh**, S. Ahmad, D. Ma, P.-T. Yap"
+#   tags: [oral]
+#   links:
+#     - text: PDF
+#       url: https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17
+#   venues:
+#     - type: oral
+#       text: "ISMRM 2025 Annual Meeting · Hawaii, USA · May 2025"
 
 - title: Microstructural Atlases of the Developing Brain
   authors: "**K. Huynh**, S. Ahmad, K.-H. Thung, W. Lin, P.-T. Yap"
