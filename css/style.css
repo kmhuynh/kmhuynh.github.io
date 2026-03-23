@@ -88,15 +88,21 @@ button { font-family: inherit; cursor: pointer; }
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
 .nav-toggle span { display: block; width: 20px; height: 2px; background: var(--color-white); margin: 4px 0; border-radius: 2px; }
 
-.hero { padding: 64px 0 48px; text-align: center; }
+.hero { padding: 64px 0 48px; }
+.hero-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
 .hero-photo {
   width: 175px; height: 175px; border-radius: 50%; object-fit: cover;
-  margin: 0 auto 24px; display: block; border: 3px solid var(--color-accent);
+  margin: 0; display: block; border: 3px solid var(--color-accent); flex-shrink: 0;
 }
+.hero-info { flex: 1; min-width: 0; }
 .hero h1 { font-size: 2rem; margin-bottom: 8px; }
 .hero .subtitle { color: var(--color-muted); font-size: 1.05rem; margin-bottom: 16px; }
-.hero .bio { max-width: 620px; margin: 0 auto 24px; font-size: 1rem; text-align: left; }
-.hero-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.hero .bio { margin: 0 0 24px; font-size: 1rem; text-align: left; }
+.hero-links { display: flex; gap: 12px; justify-content: flex-start; flex-wrap: wrap; }
 .hero-links a {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 8px 20px; border: 2px solid var(--color-text); border-radius: 6px;
@@ -356,8 +362,12 @@ a.life-card-link { color: inherit; text-decoration: none; }
   .topnav .container { gap: 8px; }
   .topnav .site-name { flex: 1; }
   .hero { padding: 40px 0 32px; }
+  .hero-layout { flex-direction: column; align-items: center; text-align: center; }
   .hero-photo { width: 120px; height: 120px; }
   .hero h1 { font-size: 1.6rem; }
+  .hero .subtitle { margin-bottom: 14px; }
+  .hero .bio { max-width: 620px; margin: 0 auto 20px; text-align: left; }
+  .hero-links { justify-content: center; }
   .news-list li { flex-direction: column; gap: 4px; }
   .news-date { width: auto; }
   .life-grid { grid-template-columns: repeat(2, 1fr); }

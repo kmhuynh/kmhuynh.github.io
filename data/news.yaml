@@ -3,7 +3,7 @@
   text: Two ISMRM Summa Cum Laude Awards at ISMRM 2025
 - date: May 2025
   tag: award
-  text: ISMRM Education Stipend for ISMRM 2025
+  text: ISMRM Education Stipend
 - date: May 2025
   tag: talk
   text: "Oral presentation: Precision Cortex Tractography at ISMRM 2025, Honolulu, Hawaii, USA"
@@ -62,14 +62,14 @@
   url: https://arxiv.org/abs/2012.00664
 - date: Oct 2020
   tag: award
-  text: Received BME Graduate Student Travel Award to present at MICCAI 2020.
+  text: BME Graduate Student Travel Award
 - date: Oct 2020
   tag: accepted
   text: Two works accepted for CDMRI 2020 on longitudinal parcellation and accelerated reconstruction.
   url: https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20
 - date: Aug 2020
   tag: award
-  text: Awarded the 2020 MICCAI Student Participation Award.
+  text: MICCAI Graduate Student Award.
 - date: Aug 2020
   tag: newrole
   text: Passed PhD oral preliminary exam and advanced to PhD candidacy.

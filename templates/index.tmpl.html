@@ -35,19 +35,21 @@
 
 <!-- Hero -->
 <section id="about" class="hero">
-  <div class="container">
+  <div class="container hero-layout">
     <img src="{{ hero.photo }}" alt="{{ hero.name }}" class="hero-photo">
-    <h1>{{ hero.name }}</h1>
-    <p class="subtitle">{{ hero.title }}</p>
-    {%- for paragraph in hero.bio %}
-    <p class="bio">
-      {{ paragraph | md }}
-    </p>
-    {%- endfor %}
-    <div class="hero-links">
-      {%- for link in hero.links %}
-      <a href="{{ link.url }}"{% if link.class %} class="{{ link.class }}"{% endif %}>{{ link.text }}</a>
+    <div class="hero-info">
+      <h1>{{ hero.name }}</h1>
+      <p class="subtitle">{{ hero.title }}</p>
+      {%- for paragraph in hero.bio %}
+      <p class="bio">
+        {{ paragraph | md }}
+      </p>
       {%- endfor %}
+      <div class="hero-links">
+        {%- for link in hero.links %}
+        <a href="{{ link.url }}"{% if link.class %} class="{{ link.class }}"{% endif %}>{{ link.text }}</a>
+        {%- endfor %}
+      </div>
     </div>
   </div>
 </section>
