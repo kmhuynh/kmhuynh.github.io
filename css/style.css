@@ -123,7 +123,7 @@ button { font-family: inherit; cursor: pointer; }
   border-bottom: 1px solid var(--color-border-light); font-size: 0.92rem;
 }
 .news-list li:last-child { border-bottom: none; }
-.news-list a:not(.pub-link) { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
+.news-list a:not(.pub-link), .bio a, .edu-detail a, .award-detail a, .pres-authors a { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
 .news-date { flex-shrink: 0; width: 90px; color: var(--color-muted); font-weight: 600; font-size: 0.83rem; padding-top: 1px; }
 .news-tag {
   display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
