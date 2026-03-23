@@ -1,0 +1,10 @@
+- title: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI
+  authors: K. Huynh, W.-T. Chang, Y. Wu, P.-T. Yap
+  venue: Patterns (Cell Press), 2024
+  links:
+    - text: Paper
+      url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9
+    - text: PDF
+      url: https://www.cell.com/cms/10.1016/j.patter.2024.100954/attachment/1e23d03e-3702-430e-9413-26f8e20e1417/mmc2.pdf
+    - text: Code
+      url: https://osf.io/f384h/

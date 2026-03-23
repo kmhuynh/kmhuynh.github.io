@@ -3,7 +3,11 @@
     "allow": [
       "WebFetch(domain:github.com)",
       "WebFetch(domain:trucnnth.github.io)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(/opt/homebrew/bin/pip3 install:*)",
+      "Bash(/Users/mkhoi/miniconda3-arm64/bin/python3 build.py)"
     ]
   }
 }

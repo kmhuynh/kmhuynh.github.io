@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""Build script: parses publications.bib and generates publications.html."""
-import html
+"""Build script: generates index.html, tools.html, and publications.html
+from YAML data files, BibTeX, and Jinja2 templates."""
 from pathlib import Path
+
+import yaml
+from jinja2 import Environment, FileSystemLoader
 
 try:
     from pybtex.database import parse_file
@@ -9,10 +12,18 @@ except ImportError:
     print("ERROR: pybtex not installed. Run: pip install pybtex")
     raise SystemExit(1)
 
-BIB_PATH = Path("data/publications.bib")
-TEMPLATE_PATH = Path("templates/publications.tmpl.html")
-OUTPUT_PATH = Path("publications.html")
+DATA_DIR = Path("data")
+TEMPLATE_DIR = Path("templates")
+BIB_PATH = DATA_DIR / "publications.bib"
 
+
+def load_yaml(name):
+    path = DATA_DIR / f"{name}.yaml"
+    with open(path) as f:
+        return yaml.safe_load(f)
+
+
+# --- BibTeX helpers (kept from original) ---
 
 def get_field(entry, name, default=""):
     if name in entry.fields:
@@ -55,80 +66,83 @@ def get_venue(entry):
     return ""
 
 
-def build_entry_html(key, entry):
-    title = html.escape(get_field(entry, "title"))
-    authors = html.escape(format_authors(entry.persons))
-    venue = html.escape(get_venue(entry))
-    year = html.escape(get_field(entry, "year"))
-    pub_type = get_pub_type(entry)
-
-    links_html = ""
-    url = get_field(entry, "url")
-    pdf = get_field(entry, "pdf")
-    code = get_field(entry, "code")
-    dataset = get_field(entry, "dataset")
-    doi = get_field(entry, "doi")
-
-    if url:
-        links_html += f'<a href="{html.escape(url)}" class="pub-link">Paper</a>'
-    if pdf:
-        links_html += f'<a href="{html.escape(pdf)}" class="pub-link">PDF</a>'
-    if code:
-        links_html += f'<a href="{html.escape(code)}" class="pub-link">Code</a>'
-    if dataset:
-        links_html += f'<a href="{html.escape(dataset)}" class="pub-link">Data</a>'
-    if doi:
-        links_html += f'<a href="https://doi.org/{html.escape(doi)}" class="pub-link">DOI</a>'
-
-    return f"""    <div class="pub-item" data-tags="{pub_type}">
-      <div class="title">{title}</div>
-      <div class="authors">{authors}</div>
-      <div class="venue">{venue}, {year}</div>
-      {links_html}
-    </div>"""
-
-
-def main():
+def parse_publications():
     if not BIB_PATH.exists():
-        print(f"ERROR: {BIB_PATH} not found")
-        raise SystemExit(1)
+        print(f"WARNING: {BIB_PATH} not found, skipping publications")
+        return []
 
     bib = parse_file(str(BIB_PATH))
-
     entries = sorted(
         bib.entries.items(),
         key=lambda x: get_field(x[1], "year", "0000"),
         reverse=True,
     )
 
-    counts = {"journal": 0, "conference": 0, "workshop": 0, "abstract": 0, "other": 0}
-    html_parts = []
+    pubs = []
     for key, entry in entries:
-        pub_type = get_pub_type(entry)
-        counts[pub_type] = counts.get(pub_type, 0) + 1
-        html_parts.append(build_entry_html(key, entry))
+        pubs.append({
+            "title": get_field(entry, "title"),
+            "authors": format_authors(entry.persons),
+            "venue": get_venue(entry),
+            "year": get_field(entry, "year"),
+            "pub_type": get_pub_type(entry),
+            "url": get_field(entry, "url"),
+            "pdf": get_field(entry, "pdf"),
+            "code": get_field(entry, "code"),
+            "dataset": get_field(entry, "dataset"),
+            "doi": get_field(entry, "doi"),
+        })
+    return pubs
 
-    total = sum(counts.values())
-    publications_html = "\n".join(html_parts)
 
-    filter_parts = [f'<button class="filter-btn active" data-filter="all">All ({total})</button>']
-    for label, key in [("Journals", "journal"), ("Conferences", "conference"),
-                       ("Workshops", "workshop"), ("Abstracts", "abstract")]:
-        if counts.get(key, 0) > 0:
-            filter_parts.append(
-                f'<button class="filter-btn" data-filter="{key}">{label} ({counts[key]})</button>'
-            )
-    filter_html = "\n      ".join(filter_parts)
+def main():
+    # Load YAML data
+    hero = load_yaml("hero")
+    nav = load_yaml("nav")
+    news = load_yaml("news")
+    research = load_yaml("research")
+    presentations = load_yaml("presentations")
+    education = load_yaml("education")
+    awards = load_yaml("awards")
+    hobbies = load_yaml("hobbies")
+    tools_data = load_yaml("tools")
 
-    template = TEMPLATE_PATH.read_text()
-    output = template.replace("{{PUBLICATIONS}}", publications_html)
-    output = output.replace("{{FILTER_COUNTS}}", filter_html)
+    # Parse publications from BibTeX
+    publications = parse_publications()
 
-    OUTPUT_PATH.write_text(output)
-    print(f"Generated {OUTPUT_PATH} with {total} publications")
-    for k, v in counts.items():
-        if v > 0:
-            print(f"  {k}: {v}")
+    # Set up Jinja2
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATE_DIR)),
+        keep_trailing_newline=True,
+    )
+
+    shared = {"hero": hero, "nav": nav}
+
+    # Render index.html
+    tmpl = env.get_template("index.tmpl.html")
+    output = tmpl.render(
+        **shared,
+        news=news,
+        research=research,
+        presentations=presentations,
+        education=education,
+        awards=awards,
+        hobbies=hobbies,
+    )
+    Path("index.html").write_text(output)
+    print("Generated index.html")
+
+    # Render tools.html
+    tmpl = env.get_template("tools.tmpl.html")
+    output = tmpl.render(**shared, tools_data=tools_data)
+    Path("tools.html").write_text(output)
+    print("Generated tools.html")
+
+    # Render publications.html
+    tmpl = env.get_template("publications.tmpl.html")
+    output = tmpl.render(**shared, publications=publications)
+    Path("publications.html").write_text(output)
+    print(f"Generated publications.html with {len(publications)} publications")
 
 
 if __name__ == "__main__":

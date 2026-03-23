@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools & Resources — {{ hero.name }}</title>
+  <meta name="description" content="Open-source code, datasets, and computational tools for neuroimaging research by {{ hero.name }}.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="canonical" href="https://kmhuynh.github.io/tools.html">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container">
+    <a href="index.html" class="site-name">{{ hero.name }}</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      {%- for item in nav %}
+      <a href="{% if item.hash %}index.html{{ item.hash }}{% else %}{{ item.url }}{% endif %}">{{ item.text }}</a>
+      {%- endfor %}
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">☀️</button>
+  </div>
+</nav>
+
+<div class="container">
+  <section class="section">
+    <h2 class="section-title">Tools & Resources</h2>
+    <p style="margin-bottom: 32px; color: var(--color-muted);">
+      {{ tools_data.intro }}
+      <a href="mailto:{{ tools_data.contact_email }}">Contact me</a> to discuss collaborative development.
+    </p>
+    {%- for tool in tools_data.tools %}
+
+    <div class="tool-card">
+      <span class="status status-{{ tool.status }}">{% if tool.status == 'active' %}Active{% elif tool.status == 'coming' %}Coming Soon{% elif tool.status == 'dev' %}In Development{% endif %}</span>
+      <h3>{{ tool.name }}</h3>
+      <p>{{ tool.description | trim }}</p>
+      {%- if tool.language %}
+      <p><strong>Language:</strong> {{ tool.language }}</p>
+      {%- endif %}
+      {%- for link in tool.links | default([]) %}
+      <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Datasets</h2>
+    {%- for ds in tools_data.datasets %}
+
+    <div class="tool-card">
+      <h3>{{ ds.name }}</h3>
+      <p>{{ ds.description | trim }}</p>
+      {%- for link in ds.links | default([]) %}
+      <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </section>
+
+  <section class="section" style="padding-bottom: 0;">
+    <p style="color: var(--color-muted); font-size: 0.9rem;">
+      If you use these tools in your research, please cite:<br>
+      <em>{{ tools_data.citation | trim }}</em>
+    </p>
+  </section>
+</div>
+
+<footer class="footer">
+  <div class="container"><p>© 2026 {{ hero.name }}</p></div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+- text: About
+  hash: "#about"
+- text: News
+  hash: "#news"
+- text: Papers
+  url: publications.html
+- text: Tools
+  url: tools.html
+- text: CV
+  url: static/resume.pdf

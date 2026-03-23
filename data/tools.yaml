@@ -1,0 +1,38 @@
+intro: "Open-source contributions to advance neuroimaging research."
+contact_email: kmhuynh@med.unc.edu
+
+tools:
+  - name: Optimal Shrinkage Denoising
+    status: active
+    description: >
+      Breakthrough noise reduction for high-resolution diffusion MRI. 11x noise floor
+      reduction, multi-channel complex-valued data processing, optimal shrinkage of
+      singular values.
+    language: MATLAB
+    links:
+      - text: OSF Repository
+        url: https://osf.io/f384h/
+      - text: Paper
+        url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9
+
+  - name: Diffusion MRI Processing Pipeline
+    status: coming
+    description: >
+      Comprehensive toolkit for diffusion MRI analysis. Microstructure modeling,
+      tractography, and developmental analysis. Works with existing neuroimaging software.
+
+  - name: Brain Development Atlases
+    status: dev
+    description: >
+      Normative brain charts for pediatric applications. Height/weight chart equivalent
+      for brain development. Applications in early detection of developmental issues.
+
+datasets:
+  - name: High-Resolution Diffusion MRI Dataset
+    description: >
+      Denoised diffusion MRI data demonstrating optimal shrinkage. Before/after denoising
+      comparisons. Available through OSF for method validation and algorithm development.
+
+citation: >
+  Huynh, K. M., Chang, W. T., Wu, Y., & Yap, P. T. (2024). Optimal shrinkage denoising
+  breaks the noise floor in high-resolution diffusion MRI. Patterns, 5(3), 100954.
