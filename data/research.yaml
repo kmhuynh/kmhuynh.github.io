@@ -28,6 +28,16 @@
       url: https://www.nature.com/articles/s41467-025-61465-y
     #- text: Code
     #  url: https://zenodo.org/records/15792527
+- title: The effective connectome over a century of human life
+  authors: "G. Li, **K. Huynh**, K.-H. Thung, H.P. Taylor IV, G. Lin, W. Lin, S. Ahmad, P.-T. Yap"
+  venue: Communications Biology, 2025
+  links:
+    #- text: Paper
+    #  url: https://doi.org/10.1038/s41586-026-10219-x
+    - text: PDF
+      url: https://www.nature.com/articles/s42003-025-08970-4
+    #- text: Code
+    #  url: https://zenodo.org/records/15792527
 - title: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI
   authors: "**K. Huynh**, W.-T. Chang, Y. Wu, P.-T. Yap"
   venue: Patterns, 2024
