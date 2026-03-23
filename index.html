@@ -1,3 +1,285 @@
-templates/index.tmpl.html:68:      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {{ item.text | md }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
-css/style.css:127:.news-date { flex-shrink: 0; width: 90px; color: var(--color-muted); font-weight: 600; font-size: 0.83rem; padding-top: 1px; }
-css/style.css:362:  .news-date { width: auto; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khoi Huynh — Postdoctoral Researcher</title>
+  <meta name="description" content="Khoi Huynh is a postdoctoral researcher of the Department of Radiology, UNC Chapel Hill, studying brain development using advanced MRI techniques.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="canonical" href="https://kmhuynh.github.io/">
+  <meta property="og:title" content="Khoi Huynh — Postdoctoral Researcher">
+  <meta property="og:description" content="Studying brain development using advanced MRI techniques at UNC Chapel Hill.">
+  <meta property="og:url" content="https://kmhuynh.github.io/">
+  <meta property="og:image" content="https://kmhuynh.github.io/img/headshot.jpg">
+  <meta property="og:type" content="website">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="topnav">
+  <div class="container">
+    <a href="#top" class="site-name">Khoi Huynh</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="publications.html">Papers</a>
+      <a href="tools.html">Tools</a>
+      <a href="static/resume.pdf">CV</a>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">☀️</button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="about" class="hero">
+  <div class="container">
+    <img src="img/headshot.jpg" alt="Khoi Huynh" class="hero-photo">
+    <h1>Khoi Huynh</h1>
+    <p class="subtitle">Postdoctoral Researcher in Radiology · UNC Chapel Hill</p>
+    <p class="bio">
+      I am a postdoc at UNC Chapel Hill. Since 2017, I've been working with <a href="https://www.med.unc.edu/radiology/people/pew-thian-yap/">Dr. Pew-Thian Yap</a> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
+
+    </p>
+    <p class="bio">
+      I'm especially focused on creating normative brain charts (like the height and weight charts used in pediatric care) to help spot when something's not quite right. At the heart of it, I'm driven by a simple goal: to turn brain scans into practical tools that make healthcare better.
+
+    </p>
+    <div class="hero-links">
+      <a href="https://scholar.google.com/citations?user=P8kuvUAAAAAJ&hl=en" class="primary">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/khoi-minh-huynh/">LinkedIn</a>
+      <a href="https://orcid.org/0000-0001-9538-2408">ORCID</a>
+      <a href="static/resume.pdf">CV (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- News -->
+<section id="news" class="section">
+  <div class="container">
+    <h2 class="section-title">News</h2>
+    <div class="news-filters filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="accepted">Accepted</button>
+      <button class="filter-btn" data-filter="award">Award</button>
+      <button class="filter-btn" data-filter="talk">Talk</button>
+      <button class="filter-btn" data-filter="newrole">New Role</button>
+    </div>
+    <ul class="news-list">
+      <li data-tag="award"><span class="news-date">May 2025</span><span><span class="news-tag tag-award">Award</span> Two ISMRM Summa Cum Laude Awards at ISMRM 2025</span></li>
+      <li data-tag="award"><span class="news-date">May 2025</span><span><span class="news-tag tag-award">Award</span> ISMRM Education Stipend for ISMRM 2025</span></li>
+      <li data-tag="talk"><span class="news-date">May 2025</span><span><span class="news-tag tag-talk">Talk</span> Oral presentation: Precision Cortex Tractography at ISMRM 2025, Honolulu, Hawaii, USA</span></li>
+      <li data-tag="accepted"><span class="news-date">Mar 2024</span><span><span class="news-tag tag-accepted">Accepted</span> Optimal shrinkage denoising paper published in Patterns <a href="https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2024</span><span><span class="news-tag tag-accepted">Accepted</span> High-resolution cerebellum atlas work published in Scientific Reports. <a href="https://www.nature.com/articles/s41598-024-55412-y" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Jan 2024</span><span><span class="news-tag tag-accepted">Accepted</span> Two works accepted for ISMRM 2024 on rapid 19F lung MRI and infant brain microstructure fingerprinting.</span></li>
+      <li data-tag="award"><span class="news-date">Oct 2023</span><span><span class="news-tag tag-award">Award</span> Best Oral Presentation at UNC Radiology Research Symposium 2023</span></li>
+      <li data-tag="accepted"><span class="news-date">Jun 2023</span><span><span class="news-tag tag-accepted">Accepted</span> Microstructure fingerprinting and relaxation-diffusion imaging works accepted for MICCAI 2023. <a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2023</span><span><span class="news-tag tag-accepted">Accepted</span> Accelerated 19F denoising work accepted for Magnetic Resonance in Medicine. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Jan 2023</span><span><span class="news-tag tag-accepted">Accepted</span> Deep learning prediction of diffusion MRI accepted for Medical Image Analysis. <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000038" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Jul 2022</span><span><span class="news-tag tag-accepted">Accepted</span> SIDE reconstruction scheme for diffusion MRI accepted for Medical Image Analysis. <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" class="pub-link">PDF</a></span></li>
+      <li data-tag="newrole"><span class="news-date">May 2022</span><span><span class="news-tag tag-newrole">Newrole</span> Postdoc, <a href="https://www.med.unc.edu/radiology/people/pew-thian-yap/">Dr. Pew-Thian Yap's Lab</a>, Dept. of Radiology, UNC-Chapel Hill</span></li>
+      <li data-tag="newrole"><span class="news-date">May 2022</span><span><span class="news-tag tag-newrole">Newrole</span> Completed PhD and graduated from UNC Chapel Hill.</span></li>
+      <li data-tag="accepted"><span class="news-date">Jun 2021</span><span><span class="news-tag tag-accepted">Accepted</span> Noise mapping and removal work accepted for MICCAI 2021. <a href="https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Apr 2021</span><span><span class="news-tag tag-award">Award</span> Baby Connectome Project processing pipeline work received ISMRM Summa Cum Laude honor.</span></li>
+      <li data-tag="award"><span class="news-date">Mar 2021</span><span><span class="news-tag tag-award">Award</span> Awarded the 2021 ISMRM Educational Stipend.</span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2021</span><span><span class="news-tag tag-accepted">Accepted</span> Four works accepted for ISMRM 2021 on denoising, microstructure fingerprinting, SMS imaging, and infant diffusion MRI processing.</span></li>
+      <li data-tag="accepted"><span class="news-date">Dec 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Navigator-Free Submillimeter Diffusion Imaging work released on arXiv. <a href="https://arxiv.org/abs/2012.00664" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Oct 2020</span><span><span class="news-tag tag-award">Award</span> Received BME Graduate Student Travel Award to present at MICCAI 2020.</span></li>
+      <li data-tag="accepted"><span class="news-date">Oct 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Two works accepted for CDMRI 2020 on longitudinal parcellation and accelerated reconstruction. <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Aug 2020</span><span><span class="news-tag tag-award">Award</span> Awarded the 2020 MICCAI Student Participation Award.</span></li>
+      <li data-tag="newrole"><span class="news-date">Aug 2020</span><span><span class="news-tag tag-newrole">Newrole</span> Passed PhD oral preliminary exam and advanced to PhD candidacy.</span></li>
+      <li data-tag="accepted"><span class="news-date">Jun 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Spherical Mean Spectrum Imaging work accepted for IEEE Transactions on Medical Imaging. <a href="https://www.doi.org/10.1109/TMI.2020.3001175" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">May 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Three works accepted for MICCAI 2020 on soma imaging, undersampled microstructure imaging, and distortion correction. <a href="https://doi.org/10.1007/978-3-030-59728-3_35" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Apr 2020</span><span><span class="news-tag tag-award">Award</span> Recognized at the UNC 22nd Annual Graduate Student Recognition Celebration.</span></li>
+      <li data-tag="award"><span class="news-date">Feb 2020</span><span><span class="news-tag tag-award">Award</span> Awarded UNC Graduate Student Transportation Award to present at OHBM 2020.</span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Three abstracts accepted for OHBM 2020. <a href="https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Feb 2020</span><span><span class="news-tag tag-award">Award</span> Received BME Graduate Student Travel Award to present at ISMRM 2020.</span></li>
+      <li data-tag="accepted"><span class="news-date">Jan 2020</span><span><span class="news-tag tag-accepted">Accepted</span> Two abstracts accepted for ISMRM 2020. <a href="https://drive.google.com/file/d/1Mn_qJMgHUCAm53qKNxsvui4mcoDJRDrc/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Oct 2019</span><span><span class="news-tag tag-award">Award</span> Received MICCAI Graduate Student Travel Award.</span></li>
+      <li data-tag="award"><span class="news-date">Sep 2019</span><span><span class="news-tag tag-award">Award</span> Received BME Graduate Student Travel Award to present at MICCAI 2019.</span></li>
+      <li data-tag="accepted"><span class="news-date">Jul 2019</span><span><span class="news-tag tag-accepted">Accepted</span> Microscopic kurtosis model abstract accepted for RSNA 2019. <a href="https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Jun 2019</span><span><span class="news-tag tag-accepted">Accepted</span> Two abstracts accepted for MICCAI 2019 <a href="https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61">SMSI</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62">Microscopic kurtosis</a>. <a href="https://doi.org/10.1007/978-3-030-32248-9_61" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Mar 2019</span><span><span class="news-tag tag-award">Award</span> BME Graduate Student Travel Award</span></li>
+      <li data-tag="accepted"><span class="news-date">Mar 2019</span><span><span class="news-tag tag-accepted">Accepted</span> Baby brain microstructure mapping abstract accepted for OHBM 2019. <a href="https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Feb 2019</span><span><span class="news-tag tag-award">Award</span> ISMRM Educational Stipend</span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2019</span><span><span class="news-tag tag-accepted">Accepted</span> Spherical mean spectrum imaging (SMSI) abstract accepted for ISMRM 2019. <a href="https://drive.google.com/file/d/1FbKNQ8D5_D9leoIYpWLEew8hj9-JcWIb/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Jan 2019</span><span><span class="news-tag tag-accepted">Accepted</span> Multi-site dMRI harmonization paper accepted for IEEE Transactions on Medical Imaging. <a href="https://www.doi.org/10.1109/TMI.2019.2895020" class="pub-link">PDF</a></span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2018</span><span><span class="news-tag tag-accepted">Accepted</span> DMRI longitudinal harmonization abstract accepted for OHBM 2018. <a href="https://drive.google.com/file/d/1U1iUynWhxWmaHgQX1k_Zc_RRLjoOrjJy/view?usp=sharing" class="pub-link">PDF</a></span></li>
+      <li data-tag="award"><span class="news-date">Feb 2018</span><span><span class="news-tag tag-award">Award</span> ISMRM Educational Stipend</span></li>
+      <li data-tag="accepted"><span class="news-date">Feb 2018</span><span><span class="news-tag tag-accepted">Accepted</span> <a href="https://drive.google.com/file/d/1TPnLtXWN1zAoGhn0uncwx9Q7c5TDyDXf/view?usp=sharing">Diffusion MRI signal drift</a> abstract accepted for ISMRM 2018.</span></li>
+      <li data-tag="newrole"><span class="news-date">Aug 2017</span><span><span class="news-tag tag-newrole">Newrole</span> Joined <a href="https://www.med.unc.edu/radiology/people/pew-thian-yap/">Dr. Pew-Thian Yap's Lab</a> as Graduate Research Assistant, Dept. of BME, UNC-Chapel Hill</span></li>
+    </ul>
+    <button class="show-all-btn">Show all ↓</button>
+  </div>
+</section>
+
+<!-- Research Highlights -->
+<section id="highlights" class="section">
+  <div class="container">
+    <h2 class="section-title">Research Highlights</h2>
+    <div class="pub-card">
+      <div class="pub-content">
+        <h3>Functional hierarchy of the human neocortex across the lifespan</h3>
+        <p class="authors">H.P. Taylor IV, <strong>K. Huynh</strong>, K.-H. Thung, G. Lin, W. Lyu, W. Lin, S. Ahmad, P.-T. Yap</p>
+        <p class="venue">Nature, 2026</p>
+        <a href="https://doi.org/10.1038/s41586-026-10219-x" class="pub-link">PDF</a>
+      </div>
+    </div>
+    <div class="pub-card">
+      <a href="https://www.nature.com/articles/s41467-025-66615-w" class="pub-thumb-link" aria-label="Open PDF: Anatomy-to-tract mapping infers white matter pathways without diffusion streamline propagation">
+        <img src="img/research/atm.png" alt="atm" class="pub-thumb">
+      </a>
+      <div class="pub-content">
+        <h3>Anatomy-to-tract mapping infers white matter pathways without diffusion streamline propagation</h3>
+        <p class="authors">Y.-F. Tan, <strong>K. Huynh</strong>, S. Liu, R. Phan, C.-M. Ting, P.-T. Yap</p>
+        <p class="venue">Nature Communications, 2025</p>
+        <a href="https://www.nature.com/articles/s41467-025-66615-w" class="pub-link">PDF</a>
+        <a href="https://zenodo.org/records/15792527" class="pub-link">Code</a>
+      </div>
+    </div>
+    <div class="pub-card">
+      <a href="https://www.nature.com/articles/s41467-025-61465-y" class="pub-thumb-link" aria-label="Open PDF: Functional development of the human cerebellum from birth to age five">
+        <img src="img/research/cere_atlas.png" alt="cere_atlas" class="pub-thumb">
+      </a>
+      <div class="pub-content">
+        <h3>Functional development of the human cerebellum from birth to age five</h3>
+        <p class="authors">W. Lyu, K.-H. Thung, <strong>K. Huynh</strong>, L. Wang, W. Lin, S. Ahmad, P.-T. Yap</p>
+        <p class="venue">Nature Communications, 2025</p>
+        <a href="https://www.nature.com/articles/s41467-025-61465-y" class="pub-link">PDF</a>
+      </div>
+    </div>
+    <div class="pub-card">
+      <div class="pub-content">
+        <h3>The effective connectome over a century of human life</h3>
+        <p class="authors">G. Li, <strong>K. Huynh</strong>, K.-H. Thung, H.P. Taylor IV, G. Lin, W. Lin, S. Ahmad, P.-T. Yap</p>
+        <p class="venue">Communications Biology, 2025</p>
+        <a href="https://www.nature.com/articles/s42003-025-08970-4" class="pub-link">PDF</a>
+      </div>
+    </div>
+    <div class="pub-card">
+      <a href="https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9" class="pub-thumb-link" aria-label="Open PDF: Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI">
+        <img src="img/research/ossvd.jpg" alt="ossvd" class="pub-thumb">
+      </a>
+      <div class="pub-content">
+        <h3>Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI</h3>
+        <p class="authors"><strong>K. Huynh</strong>, W.-T. Chang, Y. Wu, P.-T. Yap</p>
+        <p class="venue">Patterns, 2024</p>
+        <a href="https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9" class="pub-link">PDF</a>
+        <a href="https://osf.io/f384h/" class="pub-link">Code</a>
+      </div>
+    </div>
+    <div class="page-indicator">
+      Showing featured papers · <a href="publications.html">View all publications →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Presentations & Talks -->
+<section id="talks" class="section">
+  <div class="container">
+    <h2 class="section-title">Presentations & Talks</h2>
+    <div class="card-filters filter-bar" data-target=".pres-card">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="oral">Oral</button>
+      <button class="filter-btn" data-filter="poster">Poster</button>
+    </div>
+
+    <div class="pres-card" data-tags="oral">
+      <div class="pres-info">
+        <div class="pres-title">Precision Cortex Tractography for the Developing Brain <span class="pres-links"><a href="https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42">PDF</a></span></div>
+        <div class="pres-authors"><strong>K. Huynh</strong>, S. Ahmad, G. Lin, P.-T. Yap</div>
+        <div class="pres-venues">
+          <div class="pres-venue-row"><span class="pres-type type-oral">Oral</span> ISMRM 2025 Annual Meeting · Hawaii, USA · May 2025</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pres-card" data-tags="oral">
+      <div class="pres-info">
+        <div class="pres-title">Microstructural Atlases of the Developing Brain <span class="pres-links"><a href="#" class="disabled">PDF</a></span></div>
+        <div class="pres-authors"><strong>K. Huynh</strong>, S. Ahmad, K.-H. Thung, W. Lin, P.-T. Yap</div>
+        <div class="pres-venues">
+          <div class="pres-venue-row"><span class="pres-type type-oral">Oral</span> UNC Radiology Research Symposium · Chapel Hill, NC · Oct 2023</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pres-card" data-tags="poster">
+      <div class="pres-info">
+        <div class="pres-title">Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments <span class="pres-links"><a href="https://pubmed.ncbi.nlm.nih.gov/34447975/">Paper</a></span></div>
+        <div class="pres-authors"><strong>K. Huynh</strong>, T. Xu, Y. Wu, G. Chen, K.-H. Thung, H. Wu, W. Lin, D. Shen, P.-T. Yap</div>
+        <div class="pres-venues">
+          <div class="pres-venue-row"><span class="pres-type type-poster">Poster</span> MICCAI 2019 · Shenzhen, China · Oct 2019</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education & Awards -->
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-item"><span class="edu-year">2022</span><div class="edu-detail"><strong>PhD Biomedical Engineering</strong> — UNC Chapel Hill</div></div>
+    <div class="edu-item"><span class="edu-year">2016</span><div class="edu-detail"><strong>BE Biomedical Engineering</strong> — International University, Vietnam</div></div>
+
+    <h2 class="section-title" style="margin-top: 40px;">Awards</h2>
+    <div class="award-item"><span class="award-year">2025</span><div class="award-detail"><strong>Introduction to Academic Radiology for Scientists (ITARSc)</strong> — RSNA</div></div>
+    <div class="award-item"><span class="award-year">2025</span><div class="award-detail"><strong>ISMRM Summa Cum Laude Awards</strong> — Two awards, ISMRM 2025</div></div>
+    <div class="award-item"><span class="award-year">2025</span><div class="award-detail"><strong>ISMRM Education Stipend</strong> — ISMRM 2025</div></div>
+    <div class="award-item"><span class="award-year">2023</span><div class="award-detail"><strong>Best Oral Presentation</strong> — UNC Radiology Symposium</div></div>
+    <div class="award-item"><span class="award-year">2021</span><div class="award-detail"><strong>ISMRM Education Stipend</strong> — ISMRM 2021</div></div>
+    <div class="award-item"><span class="award-year">2020</span><div class="award-detail"><strong>UNC Graduate Student Transportation Grant</strong></div></div>
+    <div class="award-item"><span class="award-year">2020</span><div class="award-detail"><strong>UNC-BME Travel Award</strong></div></div>
+    <div class="award-item"><span class="award-year">2019</span><div class="award-detail"><strong>MICCAI Graduate Student Award</strong> — Two papers</div></div>
+    <div class="award-item"><span class="award-year">2019</span><div class="award-detail"><strong>UNC-BME Travel Award</strong></div></div>
+    <div class="award-item"><span class="award-year">2018</span><div class="award-detail"><strong>ISMRM Education Stipend</strong> — ISMRM 2018</div></div>
+  </div>
+</section>
+
+<!-- Beyond the Lab -->
+<section id="life" class="section">
+  <div class="container">
+    <h2 class="section-title">Beyond the Lab</h2>
+    <div class="life-grid">
+      <div class="life-card">
+        <div class="emoji">🥾</div>
+        <h3>Hiking</h3>
+        
+      </div>
+      <div class="life-card">
+        <div class="emoji">🏕️</div>
+        <h3>Camping</h3>
+        
+      </div>
+      <div class="life-card">
+        <div class="emoji">🛶</div>
+        <h3>Kayaking</h3>
+        
+      </div>
+      <a href="https://trucnnth.github.io/parks.html" class="life-card life-card-link" target="_blank" rel="noopener">
+        <div class="emoji">🏔️</div>
+        <h3>National Parks</h3>
+        <p>9 / 63 with Truc Nguyen →</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Khoi Huynh</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
