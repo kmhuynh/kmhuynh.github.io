@@ -64,7 +64,7 @@
     </div>
     <ul class="news-list">
       {%- for item in news %}
-      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {% if item.url %}<a href="{{ item.url }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</span></li>
+      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {{ item.text }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
       {%- endfor %}
     </ul>
     <button class="show-all-btn">Show all ↓</button>
