@@ -23,14 +23,14 @@
   --color-tag-talk-text: #1D2E28;
   --color-tag-newrole-bg: rgba(146, 64, 14, 0.15);
   --color-tag-newrole-text: #92400e;
-  --color-tag-journal-bg: rgba(37, 99, 235, 0.15);
-  --color-tag-journal-text: #1d4ed8;
-  --color-tag-conference-bg: rgba(13, 148, 136, 0.15);
+  --color-tag-journal-bg: rgba(37, 99, 235, 0.2);
+  --color-tag-journal-text: #1e40af;
+  --color-tag-conference-bg: rgba(13, 148, 136, 0.2);
   --color-tag-conference-text: #0f766e;
-  --color-tag-preprint-bg: rgba(124, 58, 237, 0.15);
-  --color-tag-preprint-text: #6d28d9;
-  --color-tag-abstract-bg: rgba(107, 114, 128, 0.15);
-  --color-tag-abstract-text: #4b5563;
+  --color-tag-preprint-bg: rgba(124, 58, 237, 0.2);
+  --color-tag-preprint-text: #5b21b6;
+  --color-tag-abstract-bg: rgba(75, 85, 99, 0.2);
+  --color-tag-abstract-text: #374151;
 }
 [data-theme="dark"] {
   --color-nav: #0F1A15;
@@ -54,14 +54,14 @@
   --color-tag-talk-text: #CBD5C0;
   --color-tag-newrole-bg: rgba(217, 158, 87, 0.15);
   --color-tag-newrole-text: #d99e57;
-  --color-tag-journal-bg: rgba(96, 165, 250, 0.15);
-  --color-tag-journal-text: #60a5fa;
-  --color-tag-conference-bg: rgba(45, 212, 191, 0.15);
-  --color-tag-conference-text: #2dd4bf;
-  --color-tag-preprint-bg: rgba(167, 139, 250, 0.15);
-  --color-tag-preprint-text: #a78bfa;
-  --color-tag-abstract-bg: rgba(156, 163, 175, 0.12);
-  --color-tag-abstract-text: #9ca3af;
+  --color-tag-journal-bg: rgba(96, 165, 250, 0.2);
+  --color-tag-journal-text: #93bbfd;
+  --color-tag-conference-bg: rgba(45, 212, 191, 0.2);
+  --color-tag-conference-text: #5eead4;
+  --color-tag-preprint-bg: rgba(167, 139, 250, 0.2);
+  --color-tag-preprint-text: #c4b5fd;
+  --color-tag-abstract-bg: rgba(156, 163, 175, 0.18);
+  --color-tag-abstract-text: #d1d5db;
 }
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
