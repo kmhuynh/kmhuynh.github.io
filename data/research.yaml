@@ -14,7 +14,7 @@
 - title: Anatomy-to-tract mapping infers white matter pathways without diffusion streamline propagation
   authors: "Y.-F. Tan, **K. Huynh**, S. Liu, R. Phan, C.-M. Ting, P.-T. Yap"
   venue: Nature Communications, 2025
-  image: img/research/atm.jpg
+  image: img/research/atm.png
   image_alt: atm
   links:
     #- text: Paper
@@ -26,7 +26,7 @@
 - title: Functional development of the human cerebellum from birth to age five
   authors: "W. Lyu, K.-H. Thung, **K. Huynh**, L. Wang, W. Lin, S. Ahmad, P.-T. Yap"
   venue: Nature Communications, 2025
-  image: img/research/cere_atlas.jpg
+  image: img/research/cere_atlas.png
   image_alt: cere_atlas
   links:
     #- text: Paper
