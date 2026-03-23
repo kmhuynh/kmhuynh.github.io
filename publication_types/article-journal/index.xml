@@ -1,246 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Article-Journal | Khoi Huynh</title>
-    <link>https://kmhuynh.github.io/publication_types/article-journal/</link>
-      <atom:link href="https://kmhuynh.github.io/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
-    <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url>
-      <title>Article-Journal</title>
-      <link>https://kmhuynh.github.io/publication_types/article-journal/</link>
-    </image>
-    
-    <item>
-      <title>Functional development of the human cerebellum from birth to age five</title>
-      <link>https://kmhuynh.github.io/publication/lyu-2025-functional/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/lyu-2025-functional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional Hierarchy of the Human Neocortex from Cradle to Grave</title>
-      <link>https://kmhuynh.github.io/publication/taylor-2025-functional/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/taylor-2025-functional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI</title>
-      <link>https://kmhuynh.github.io/publication/huynh-2024-optimal/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/huynh-2024-optimal/</guid>
-      <description>
-
-
-
-
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;strong&gt;🚀 Key Breakthrough&lt;/strong&gt;: We achieved an &lt;strong&gt;11x reduction&lt;/strong&gt; in noise floor - enabling unprecedented brain imaging detail without expensive hardware upgrades.&lt;/span&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;-the-big-picture-breaking-through-the-noise-barrier&#34;&gt;🧠 The Big Picture: Breaking Through the Noise Barrier&lt;/h2&gt;
-&lt;p&gt;Imagine trying to capture the intricate highway system of the brain with unprecedented detail, but noise keeps blurring the fine structures you need to see. This is the fundamental challenge in high-resolution diffusion MRI - the very noise that limits our ability to peer into the brain&amp;rsquo;s white matter architecture at the microscopic level.&lt;/p&gt;
-&lt;p&gt;Our research tackles this head-on with a breakthrough approach: &lt;strong&gt;optimal shrinkage denoising&lt;/strong&gt;. Instead of accepting noise as an inevitable limitation, we developed a method that reduces the noise floor by &lt;strong&gt;11 times&lt;/strong&gt; - a dramatic improvement that opens new possibilities for brain imaging.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-the-innovation&#34;&gt;💡 The Innovation&lt;/h2&gt;
-&lt;p&gt;The key insight lies in leveraging the redundant information inherent in multi-channel MRI data. Modern MRI scanners use multiple receiver coils, creating natural redundancy that we can exploit. By applying optimal shrinkage to singular values in the complex-valued k-space data, we can distinguish true signal from noise with remarkable precision.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;🎵 &lt;strong&gt;Think of it like this&lt;/strong&gt;: Having multiple microphones recording the same concert - while each individual recording might be noisy, combining them intelligently can reveal the true music underneath.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-
-
-
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;strong&gt;Traditional Approach&lt;/strong&gt;: Accept noise as an inevitable limitation&lt;br&gt;
-&lt;strong&gt;Our Approach&lt;/strong&gt;: Actively break through the noise barrier using optimal shrinkage&lt;/span&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-why-this-matters&#34;&gt;🎯 Why This Matters&lt;/h2&gt;
-&lt;p&gt;This breakthrough has profound implications for the entire neuroimaging field:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Impact Area&lt;/th&gt;
-&lt;th&gt;Benefit&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;🏥 &lt;strong&gt;Clinical Translation&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Brings advanced diffusion MRI closer to routine clinical use&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;🔬 &lt;strong&gt;Research Acceleration&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Reduces need for time-consuming repeated scans&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;💰 &lt;strong&gt;Cost Effectiveness&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Achieves superior quality without expensive hardware upgrades&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;🔍 &lt;strong&gt;New Discoveries&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Reveals microstructural details previously hidden by noise&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;🔬 Technical Abstract (Click to expand)&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-intensive acquisition repetitions, outperforming other related denoising methods.&lt;/p&gt;
-&lt;/details&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-impact-and-applications&#34;&gt;📊 Impact and Applications&lt;/h2&gt;
-&lt;p&gt;Our framework enables precise characterization of:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🛤️ &lt;strong&gt;White matter pathways&lt;/strong&gt; with unprecedented detail&lt;/li&gt;
-&lt;li&gt;🔬 &lt;strong&gt;Tissue microstructure&lt;/strong&gt; previously obscured by noise&lt;/li&gt;
-&lt;li&gt;📈 &lt;strong&gt;Developmental changes&lt;/strong&gt; in brain connectivity&lt;/li&gt;
-&lt;li&gt;🏥 &lt;strong&gt;Pathological alterations&lt;/strong&gt; in neurological conditions&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;strong&gt;🌍 Open Science Commitment&lt;/strong&gt;: All &lt;a href=&#34;https://osf.io/f384h/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and data&lt;/a&gt; are freely available to accelerate reproducible research in the neuroimaging community.&lt;/span&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-the-bottom-line&#34;&gt;🏆 The Bottom Line&lt;/h2&gt;
-&lt;p&gt;This work represents a &lt;strong&gt;paradigm shift&lt;/strong&gt; in medical imaging - from accepting noise as a limitation to actively breaking through it. We&amp;rsquo;re democratizing high-resolution brain imaging capabilities and making advanced diffusion MRI accessible to researchers worldwide.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A multimodal submillimeter MRI atlas of the human cerebellum</title>
-      <link>https://kmhuynh.github.io/publication/lyu-2024-multimodal/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/lyu-2024-multimodal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anatomy-to-Tract Mapping: Inferring White Matter Pathways Without Diffusion Streamline Propagation</title>
-      <link>https://kmhuynh.github.io/publication/tan-2024-anatomy/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/tan-2024-anatomy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ultimatesynth: MRI physics for pan-contrast ai</title>
-      <link>https://kmhuynh.github.io/publication/adams-2024-ultimatesynth/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/adams-2024-ultimatesynth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep learning prediction of diffusion MRI data with microstructure-sensitive loss functions</title>
-      <link>https://kmhuynh.github.io/publication/chen-2023-deep/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/chen-2023-deep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feasibility of free-breathing 19F MRI image acquisition to characterize ventilation defects in CF and healthy volunteers at wash-in</title>
-      <link>https://kmhuynh.github.io/publication/chung-2023-feasibility/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/chung-2023-feasibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>453 Ventilation defect percentage comparison between spiral with post-acquisition denoising and cartesian acquisition for 19F lung magnetic resonance imaging</title>
-      <link>https://kmhuynh.github.io/publication/chung-2022453/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/chung-2022453/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cross-layer Balance of Visuo-hippocampal Functional Connectivity Is Associated With Episodic Memory Recognition Accuracy</title>
-      <link>https://kmhuynh.github.io/publication/chang-2022-cross/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/chang-2022-cross/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</title>
-      <link>https://kmhuynh.github.io/publication/xu-2022-rapid/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/xu-2022-rapid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</title>
-      <link>https://kmhuynh.github.io/publication/chang-2020-navigator/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/chang-2020-navigator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging</title>
-      <link>https://kmhuynh.github.io/publication/huynh-2020-probing/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/huynh-2020-probing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</title>
-      <link>https://kmhuynh.github.io/publication/huynh-2019-longitudinal/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/huynh-2019-longitudinal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-site harmonization of diffusion mri data via method of moments</title>
-      <link>https://kmhuynh.github.io/publication/huynh-2019-multi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/huynh-2019-multi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>https://kmhuynh.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://kmhuynh.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Article-Journal | Khoi Huynh</title><link>https://kmhuynh.github.io/publication_types/article-journal/</link><atom:link href="https://kmhuynh.github.io/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml"/><description>Article-Journal</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://kmhuynh.github.io/media/icon_hud8f5ffb4a60439fb522c44081d59b3c9_489177_512x512_fill_lanczos_center_3.png</url><title>Article-Journal</title><link>https://kmhuynh.github.io/publication_types/article-journal/</link></image><item><title>Functional development of the human cerebellum from birth to age five</title><link>https://kmhuynh.github.io/publication/lyu-2025-functional/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/lyu-2025-functional/</guid><description/></item><item><title>Functional Hierarchy of the Human Neocortex from Cradle to Grave</title><link>https://kmhuynh.github.io/publication/taylor-2025-functional/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/taylor-2025-functional/</guid><description/></item><item><title>Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI</title><link>https://kmhuynh.github.io/publication/huynh-2024-optimal/</link><pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/huynh-2024-optimal/</guid><description>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">&lt;strong>🚀 Key Breakthrough&lt;/strong>: We achieved an &lt;strong>11x reduction&lt;/strong> in noise floor - enabling unprecedented brain imaging detail without expensive hardware upgrades.&lt;/span>
+&lt;/div>
+&lt;h2 id="-the-big-picture-breaking-through-the-noise-barrier">🧠 The Big Picture: Breaking Through the Noise Barrier&lt;/h2>
+&lt;p>Imagine trying to capture the intricate highway system of the brain with unprecedented detail, but noise keeps blurring the fine structures you need to see. This is the fundamental challenge in high-resolution diffusion MRI - the very noise that limits our ability to peer into the brain&amp;rsquo;s white matter architecture at the microscopic level.&lt;/p>
+&lt;p>Our research tackles this head-on with a breakthrough approach: &lt;strong>optimal shrinkage denoising&lt;/strong>. Instead of accepting noise as an inevitable limitation, we developed a method that reduces the noise floor by &lt;strong>11 times&lt;/strong> - a dramatic improvement that opens new possibilities for brain imaging.&lt;/p>
+&lt;hr>
+&lt;h2 id="-the-innovation">💡 The Innovation&lt;/h2>
+&lt;p>The key insight lies in leveraging the redundant information inherent in multi-channel MRI data. Modern MRI scanners use multiple receiver coils, creating natural redundancy that we can exploit. By applying optimal shrinkage to singular values in the complex-valued k-space data, we can distinguish true signal from noise with remarkable precision.&lt;/p>
+&lt;blockquote>
+&lt;p>🎵 &lt;strong>Think of it like this&lt;/strong>: Having multiple microphones recording the same concert - while each individual recording might be noisy, combining them intelligently can reveal the true music underneath.&lt;/p>
+&lt;/blockquote>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">&lt;strong>Traditional Approach&lt;/strong>: Accept noise as an inevitable limitation&lt;br>
+&lt;strong>Our Approach&lt;/strong>: Actively break through the noise barrier using optimal shrinkage&lt;/span>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="-why-this-matters">🎯 Why This Matters&lt;/h2>
+&lt;p>This breakthrough has profound implications for the entire neuroimaging field:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Impact Area&lt;/th>
+&lt;th>Benefit&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>🏥 &lt;strong>Clinical Translation&lt;/strong>&lt;/td>
+&lt;td>Brings advanced diffusion MRI closer to routine clinical use&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>🔬 &lt;strong>Research Acceleration&lt;/strong>&lt;/td>
+&lt;td>Reduces need for time-consuming repeated scans&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>💰 &lt;strong>Cost Effectiveness&lt;/strong>&lt;/td>
+&lt;td>Achieves superior quality without expensive hardware upgrades&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>🔍 &lt;strong>New Discoveries&lt;/strong>&lt;/td>
+&lt;td>Reveals microstructural details previously hidden by noise&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;details>
+&lt;summary>&lt;strong>🔬 Technical Abstract (Click to expand)&lt;/strong>&lt;/summary>
+&lt;p>The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-intensive acquisition repetitions, outperforming other related denoising methods.&lt;/p>
+&lt;/details>
+&lt;hr>
+&lt;h2 id="-impact-and-applications">📊 Impact and Applications&lt;/h2>
+&lt;p>Our framework enables precise characterization of:&lt;/p>
+&lt;ul>
+&lt;li>🛤️ &lt;strong>White matter pathways&lt;/strong> with unprecedented detail&lt;/li>
+&lt;li>🔬 &lt;strong>Tissue microstructure&lt;/strong> previously obscured by noise&lt;/li>
+&lt;li>📈 &lt;strong>Developmental changes&lt;/strong> in brain connectivity&lt;/li>
+&lt;li>🏥 &lt;strong>Pathological alterations&lt;/strong> in neurological conditions&lt;/li>
+&lt;/ul>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">&lt;strong>🌍 Open Science Commitment&lt;/strong>: All &lt;a href="https://osf.io/f384h/" target="_blank" rel="noopener">code and data&lt;/a> are freely available to accelerate reproducible research in the neuroimaging community.&lt;/span>
+&lt;/div>
+&lt;hr>
+&lt;h2 id="-the-bottom-line">🏆 The Bottom Line&lt;/h2>
+&lt;p>This work represents a &lt;strong>paradigm shift&lt;/strong> in medical imaging - from accepting noise as a limitation to actively breaking through it. We&amp;rsquo;re democratizing high-resolution brain imaging capabilities and making advanced diffusion MRI accessible to researchers worldwide.&lt;/p></description></item><item><title>A multimodal submillimeter MRI atlas of the human cerebellum</title><link>https://kmhuynh.github.io/publication/lyu-2024-multimodal/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/lyu-2024-multimodal/</guid><description/></item><item><title>Anatomy-to-Tract Mapping: Inferring White Matter Pathways Without Diffusion Streamline Propagation</title><link>https://kmhuynh.github.io/publication/tan-2024-anatomy/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/tan-2024-anatomy/</guid><description/></item><item><title>Ultimatesynth: MRI physics for pan-contrast ai</title><link>https://kmhuynh.github.io/publication/adams-2024-ultimatesynth/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/adams-2024-ultimatesynth/</guid><description/></item><item><title>Deep learning prediction of diffusion MRI data with microstructure-sensitive loss functions</title><link>https://kmhuynh.github.io/publication/chen-2023-deep/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/chen-2023-deep/</guid><description/></item><item><title>Feasibility of free-breathing 19F MRI image acquisition to characterize ventilation defects in CF and healthy volunteers at wash-in</title><link>https://kmhuynh.github.io/publication/chung-2023-feasibility/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/chung-2023-feasibility/</guid><description/></item><item><title>453 Ventilation defect percentage comparison between spiral with post-acquisition denoising and cartesian acquisition for 19F lung magnetic resonance imaging</title><link>https://kmhuynh.github.io/publication/chung-2022453/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/chung-2022453/</guid><description/></item><item><title>Cross-layer Balance of Visuo-hippocampal Functional Connectivity Is Associated With Episodic Memory Recognition Accuracy</title><link>https://kmhuynh.github.io/publication/chang-2022-cross/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/chang-2022-cross/</guid><description/></item><item><title>Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</title><link>https://kmhuynh.github.io/publication/xu-2022-rapid/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/xu-2022-rapid/</guid><description/></item><item><title>Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</title><link>https://kmhuynh.github.io/publication/chang-2020-navigator/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/chang-2020-navigator/</guid><description/></item><item><title>Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging</title><link>https://kmhuynh.github.io/publication/huynh-2020-probing/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/huynh-2020-probing/</guid><description/></item><item><title>Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</title><link>https://kmhuynh.github.io/publication/huynh-2019-longitudinal/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/huynh-2019-longitudinal/</guid><description/></item><item><title>Multi-site harmonization of diffusion mri data via method of moments</title><link>https://kmhuynh.github.io/publication/huynh-2019-multi/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/huynh-2019-multi/</guid><description/></item><item><title>An example journal article</title><link>https://kmhuynh.github.io/publication/journal-article/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://kmhuynh.github.io/publication/journal-article/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div>
+&lt;p>Add the publication&amp;rsquo;s &lt;strong>full text&lt;/strong> or &lt;strong>supplementary notes&lt;/strong> here. You can use rich formatting such as including &lt;a href="https://docs.hugoblox.com/content/writing-markdown-latex/">code, math, and images&lt;/a>.&lt;/p></description></item></channel></rss>
