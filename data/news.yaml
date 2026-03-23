@@ -83,35 +83,34 @@
   url: https://doi.org/10.1007/978-3-030-59728-3_35
 - date: Apr 2020
   tag: award
-  text: Recognized at the UNC 22nd Annual Graduate Student Recognition Celebration.
-- date: Feb 2020
+  text: Honored at the UNC 22nd Annual Graduate Student Recognition Celebration.
+- date: Mar 2020
   tag: award
-  text: Awarded UNC Graduate Student Transportation Award to present at OHBM 2020.
+  text: UNC Graduate Student Transportation Award
 - date: Feb 2020
   tag: accepted
-  text: Three abstracts accepted for OHBM 2020.
-  url: https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing
+  text: "Three abstracts accepted for OHBM 2020:Multivariate quantification of baby brain, Dense temporal cortical microstruture mapping, and Relationship between cortical myelination and neurite density"
+  #url: https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing
 - date: Feb 2020
   tag: award
-  text: Received BME Graduate Student Travel Award to present at ISMRM 2020.
+  text: BME Graduate Student Travel Award
 - date: Jan 2020
   tag: accepted
-  text: Two abstracts accepted for ISMRM 2020.
-  url: https://drive.google.com/file/d/1Mn_qJMgHUCAm53qKNxsvui4mcoDJRDrc/view?usp=sharing
+  text: "Two abstracts accepted for ISMRM 2020: Intra-soma diffusion model and Degeneracy in linear tensor encoding dMRI"
+  #url: https://drive.google.com/file/d/1Mn_qJMgHUCAm53qKNxsvui4mcoDJRDrc/view?usp=sharing
 - date: Oct 2019
   tag: award
-  text: Received MICCAI Graduate Student Travel Award.
+  text: MICCAI Graduate Student Award
 - date: Sep 2019
   tag: award
-  text: Received BME Graduate Student Travel Award to present at MICCAI 2019.
+  text: BME Graduate Student Travel Award
 - date: Jul 2019
   tag: accepted
-  text: Microscopic kurtosis model abstract accepted for RSNA 2019.
-  url: https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing
+  text: "[Microscopic kurtosis model](https://drive.google.com/file/d/1RLSdqRaKST8lnQpx2gEBje6ryUUOUaig/view?usp=sharing) abstract accepted for RSNA 2019"
+  #url: 
 - date: Jun 2019
   tag: accepted
   text: "Two papers accepted for MICCAI 2019: [SMSI](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_61) and [Microscopic kurtosis](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_62)"
-  #url: https://doi.org/10.1007/978-3-030-32248-9_61
   #url: https://doi.org/10.1007/978-3-030-32248-9_61
 - date: Mar 2019
   tag: award
