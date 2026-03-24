@@ -2,18 +2,18 @@
    UNC ACADEMIC THEME — style.css
    ============================================ */
 :root {
-  --color-nav: #13294B;
+  --color-nav: #4B9CD3;
   --color-body-bg: #F8F8F8;
-  --color-accent: #4B9CD3;
-  --color-text: #13294B;
+  --color-accent: #13294B;
+  --color-text: #151515;
   --color-card-bg: #FFFFFF;
   --color-muted: #4F758B;
   --color-border: rgba(19, 41, 75, 0.1);
   --color-border-light: rgba(19, 41, 75, 0.06);
   --color-link: #007FAE;
-  --color-link-on-dark: #4B9CD3;
+  --color-link-on-dark: #FFFFFF;
   --color-white: #FFFFFF;
-  --color-nav-text: rgba(255, 255, 255, 0.65);
+  --color-nav-text: rgba(255, 255, 255, 0.8);
   --color-nav-text-hover: #FFFFFF;
   --color-tag-accepted-bg: rgba(75, 156, 211, 0.2);
   --color-tag-accepted-text: #2A7AB5;
@@ -33,7 +33,7 @@
   --color-tag-abstract-text: #4F758B;
 }
 [data-theme="dark"] {
-  --color-nav: #0A1628;
+  --color-nav: #2A7AB5;
   --color-body-bg: #13294B;
   --color-accent: #4B9CD3;
   --color-text: #E2EAF2;
@@ -88,7 +88,7 @@ button { font-family: inherit; cursor: pointer; }
 .topnav .container { display: flex; justify-content: space-between; align-items: center; height: 56px; }
 .topnav .site-name {
   font-family: 'Libre Baskerville', serif; font-size: 1.05rem; font-weight: 700;
-  color: var(--color-accent); letter-spacing: -0.01em;
+  color: var(--color-nav-text-hover); letter-spacing: -0.01em;
 }
 .topnav .nav-links { display: flex; gap: 6px; flex: 1; justify-content: flex-end; margin-right: 10px; }
 .topnav .nav-links a {
