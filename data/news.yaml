@@ -45,8 +45,8 @@
   tag: newrole
   text: Completed PhD and graduated from UNC Chapel Hill.
 - date: Feb 2022
-    tag: abstract
-    text: "Four abstracts accepted for ISMRM 2022: 1mm-isotropic fMRI, 19F Free-breathing VDP quantification, COMEDI Toolkit, and dMRI preproc pipeline variations"
+  tag: abstract
+  text: "Four abstracts accepted for ISMRM 2022: 1mm-isotropic fMRI, 19F Free-breathing VDP quantification, COMEDI Toolkit, and dMRI preproc pipeline variations"
 
 # === 2021 ===
 - date: Jun 2021
