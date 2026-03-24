@@ -1,13 +1,28 @@
+# === 2026 ===
+- date: Feb 2026
+  tag: abstract
+  text: "Three abstracts accepted for OHBM 2026: HBCD tract profiling, functiona gradients versus E-I balance in developing brain, and Aperiodic EEG and E-I balance in neonate"
+- date: Feb 2026
+  tag: abstract
+  text: "Six abstracts accepted for ISMRM 2026: Baby white matter tract atlas, Pan-contrast
+ super-resolution brain MRI, UltimateSynth deep brain segmentation, Quantitative defect mapping for 19F spiral UTE,
+ Anatomy-to-corticocortical connectome mapping, and Dynamic 19F gas MRI using PETALUTE"
+
+
 # === 2025 ===
 - date: May 2025
   tag: award
-  text: Two ISMRM Summa Cum Laude Awards at ISMRM 2025
+  text: "Two ISMRM Summa Cum Laude Awards at ISMRM 2025: Precision cortex tractography and Pan-contrast MRI segmentation"
 - date: May 2025
   tag: award
   text: ISMRM Education Stipend
 - date: May 2025
   tag: talk
   text: "Oral presentation: Precision Cortex Tractography at ISMRM 2025, Honolulu, Hawaii, USA"
+- date: Feb 2025
+  tag: abstract
+  text: "Nine abstracts accepted for ISMRM 2025: Precision cortex tractography, Pan-contrast MRI segmentation, Thalamocortical connectivity, White matter controllability, Structural connectome gradients, Anatomy-to-tract repeatability, Lifespan cerebellum mapping, Functional gradients via denoising, and Holistic functional parcellation"
+
 
 # === 2024 ===
 - date: Mar 2024
@@ -18,7 +33,7 @@
   text: "[Submillimeter cerebellum atlas](https://www.nature.com/articles/s41598-024-55412-y) paper published in Scientific Reports"
 - date: Jan 2024
   tag: abstract
-  text: "Two abstracts accepted for ISMRM 2024: Cell radius and permeability in the developing brain, and Free-breathing 19F lung MRI denoising"
+  text: "Two abstracts accepted for ISMRM 2024: [Cell radius and permeability in the developing brain](https://drive.google.com/file/d/17DBaaXobVR6u8PKH42zv6NX7y3VhtLgU/view?usp=sharing), and Free-breathing 19F lung MRI denoising"
 
 # === 2023 ===
 - date: Oct 2023
@@ -26,7 +41,7 @@
   text: Best Oral Presentation at UNC Radiology Research Symposium 2023
 - date: Jun 2023
   tag: conference
-  text: "Two papers accepted for MICCAI 2023: [Microstructure fingerprinting](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13) and Relaxation-diffusion spectrum imaging"
+  text: "Two papers accepted for MICCAI 2023: [Microstructure fingerprinting](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_13) and [Relaxation-diffusion spectrum imaging](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_15)"
 - date: Feb 2023
   tag: journal
   text: "[Free-breathing 19F MRI denoising](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630) paper published in Magnetic Resonance in Medicine"
@@ -46,7 +61,7 @@
   text: Postdoc, [Dr. Pew-Thian Yap's Lab](https://www.med.unc.edu/radiology/people/pew-thian-yap/), Dept. of Radiology, UNC-Chapel Hill
 - date: May 2022
   tag: newrole
-  text: "Completed PhD and graduated from UNC Chapel Hill. [Dissertation](https://cdr.lib.unc.edu/concern/dissertations/6d570652h)."
+  text: "Completed PhD and graduated from UNC Chapel Hill. [Dissertation](https://cdr.lib.unc.edu/concern/dissertations/6d570652h)"
 - date: Feb 2022
   tag: abstract
   text: "Four abstracts accepted for ISMRM 2022: 1mm-isotropic fMRI, 19F Free-breathing VDP quantification, COMEDI Toolkit, and dMRI preproc pipeline variations"
