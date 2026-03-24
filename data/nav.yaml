@@ -6,5 +6,5 @@
   url: publications.html
 - text: Tools
   url: tools.html
-- text: CV
-  url: static/resume.pdf
+#- text: CV
+#  url: static/resume.pdf
