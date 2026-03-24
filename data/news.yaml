@@ -33,6 +33,10 @@
 - date: Jan 2023
   tag: journal
   text: "[Deep learning prediction of diffusion MRI](https://www.sciencedirect.com/science/article/pii/S1361841523000038) paper published in Medical Image Analysis"
+- date: Jan 2023
+  tag: abstract
+  text: "Three abstracts accepted for ISMRM: sub 0.5 second 19F lung MRI, multi-model cerebellum atlas at 0.76micron, and multi-dimensional denoising"
+
 
 # === 2022 ===
 - date: Jul 2022
@@ -43,7 +47,7 @@
   text: Postdoc, [Dr. Pew-Thian Yap's Lab](https://www.med.unc.edu/radiology/people/pew-thian-yap/), Dept. of Radiology, UNC-Chapel Hill
 - date: May 2022
   tag: newrole
-  text: Completed PhD and graduated from UNC Chapel Hill.
+  text: "Completed PhD and graduated from UNC Chapel Hill. [Dissertation](https://cdr.lib.unc.edu/concern/dissertations/6d570652h)".
 - date: Feb 2022
   tag: abstract
   text: "Four abstracts accepted for ISMRM 2022: 1mm-isotropic fMRI, 19F Free-breathing VDP quantification, COMEDI Toolkit, and dMRI preproc pipeline variations"
