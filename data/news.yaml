@@ -80,7 +80,7 @@
   text: "[Spherical mean spectrum imaging](https://doi.org/10.1109/TMI.2020.3001175) paper published in IEEE Transactions on Medical Imaging"
 - date: May 2020
   tag: conference
-  text: "Three papers accepted for MICCAI 2020: Intra-soma diffusion, Undersampled microstructure estimation, and Eddy-current distortion correction"
+  text: "Three papers accepted for MICCAI 2020: [Intra-soma diffusion model](https://link.springer.com/chapter/10.1007/978-3-030-59728-3_35), [Undersampled microstructure estimation](https://link.springer.com/chapter/10.1007/978-3-030-59728-3_28), and [Fast eddy-current distortion correction](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_4)"
 - date: Apr 2020
   tag: award
   text: UNC 22nd Annual Graduate Student Recognition
@@ -91,13 +91,13 @@
 # === 2019 and earlier (already in preferred style) ===
 - date: Feb 2020
   tag: abstract
-  text: "Three abstracts accepted for OHBM 2020: Multivariate quantification of baby brain, Dense temporal cortical microstruture mapping, and Relationship between cortical myelination and neurite density"
+  text: "Three abstracts accepted for OHBM 2020: [Multivariate quantification of baby brain](https://drive.google.com/file/d/1sNIFaUjRSypKF58MJ7odj7wI-kyAeu4l/view?usp=sharing), [Dense temporal cortical microstruture mapping](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing), and [Relationship between cortical myelination and neurite density](https://drive.google.com/file/d/118kLg9GpJHbBQLpfb7hhPmFnKre6dpEe/view?usp=sharing)"
 - date: Feb 2020
   tag: award
   text: BME Graduate Student Travel Award
 - date: Jan 2020
   tag: abstract
-  text: "Two abstracts accepted for ISMRM 2020: Intra-soma diffusion model and Degeneracy in linear tensor encoding dMRI"
+  text: "Two abstracts accepted for ISMRM 2020: [Intra-soma diffusion model](https://drive.google.com/file/d/1Iv1ir8nT9IDy9St5bKxSvSAE1c0_om34/view?usp=sharing) and [Degeneracy in linear tensor encoding dMRI](https://drive.google.com/file/d/1Mn_qJMgHUCAm53qKNxsvui4mcoDJRDrc/view?usp=sharing)"
 - date: Oct 2019
   tag: award
   text: MICCAI Graduate Student Award
