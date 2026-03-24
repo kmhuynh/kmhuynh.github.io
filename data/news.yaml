@@ -51,13 +51,13 @@
   text: "[Noise mapping and removal via optimal shrinkage](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19) paper accepted for MICCAI 2021"
 - date: Apr 2021
   tag: award
-  text: Baby Connectome Project processing pipeline work received ISMRM Summa Cum Laude honor.
+  text: "[BCP processing pipeline]((https://cds.ismrm.org/protected/21MProceedings/PDFfiles/1697.html)) work received ISMRM Summa Cum Laude honor"
 - date: Mar 2021
   tag: award
-  text: Awarded the 2021 ISMRM Educational Stipend.
+  text: ISMRM Educational Stipend
 - date: Feb 2021
   tag: abstract
-  text: "Four abstracts accepted for ISMRM 2021: Optimal shrinkage denoising, Microstructure fingerprinting, Navigator-free submillimeter dMRI, and BCP processing pipeline"
+  text: "Four abstracts accepted for ISMRM 2021: [Optimal shrinkage denoising](https://drive.google.com/file/d/1vtkdDMUEOqE_O_6SHFyk7S8nBX-zod_u/view?usp=sharing), [Microstructure fingerprinting](https://drive.google.com/file/d/157NOq-HfOjddj9nvWSt4DgKL1SuJh-jp/view?usp=sharing), Navigator-free submillimeter dMRI, and [BCP processing pipeline](https://cds.ismrm.org/protected/21MProceedings/PDFfiles/1697.html)"
 
 # === 2020 ===
 - date: Dec 2020
