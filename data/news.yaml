@@ -8,8 +8,10 @@
  super-resolution brain MRI, UltimateSynth deep brain segmentation, Quantitative defect mapping for 19F spiral UTE,
  Anatomy-to-corticocortical connectome mapping, and Dynamic 19F gas MRI using PETALUTE"
 
-
 # === 2025 ===
+- date: Aug 2025
+  tag: award
+  text: Introduction to Academic Radiology for Scientists (ITARSc), RSNA
 - date: May 2025
   tag: award
   text: "Two ISMRM Summa Cum Laude Awards at ISMRM 2025: Precision cortex tractography and Pan-contrast MRI segmentation"
@@ -22,7 +24,6 @@
 - date: Feb 2025
   tag: abstract
   text: "Nine abstracts accepted for ISMRM 2025: Precision cortex tractography, Pan-contrast MRI segmentation, Thalamocortical connectivity, White matter controllability, Structural connectome gradients, Anatomy-to-tract repeatability, Lifespan cerebellum mapping, Functional gradients via denoising, and Holistic functional parcellation"
-
 
 # === 2024 ===
 - date: Mar 2024
