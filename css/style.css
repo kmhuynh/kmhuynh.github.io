@@ -2,7 +2,7 @@
    UNC ACADEMIC THEME — style.css
    ============================================ */
 :root {
-  --color-nav: #4B9CD3;
+  --color-nav: #13294B;
   --color-body-bg: #F8F8F8;
   --color-accent: #4B9CD3;
   --color-text: #13294B;
@@ -33,7 +33,7 @@
   --color-tag-abstract-text: #4F758B;
 }
 [data-theme="dark"] {
-  --color-nav: #2A7AB5;
+  --color-nav: #0A1628;
   --color-body-bg: #13294B;
   --color-accent: #4B9CD3;
   --color-text: #E2EAF2;
