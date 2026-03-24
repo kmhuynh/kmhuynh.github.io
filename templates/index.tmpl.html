@@ -168,7 +168,7 @@
       <a href="{{ hobby.link }}" class="life-card life-card-link" target="_blank" rel="noopener">
         <div class="emoji">{{ hobby.emoji }}</div>
         <h3>{{ hobby.name }}</h3>
-        {% if hobby.description %}<p>{{ hobby.description | md }}</p>{% endif %}
+        {% if hobby.description %}<p>{{ hobby.description }}</p>{% endif %}
       </a>
       {%- else -%}
       <div class="life-card">

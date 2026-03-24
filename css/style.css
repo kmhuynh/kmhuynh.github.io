@@ -10,7 +10,7 @@
   --color-muted: #4F758B;
   --color-border: rgba(19, 41, 75, 0.1);
   --color-border-light: rgba(19, 41, 75, 0.06);
-  --color-link: #007FAE;
+  --color-link: #1F67A8;
   --color-link-on-dark: #FFFFFF;
   --color-white: #FFFFFF;
   --color-nav-text: rgba(255, 255, 255, 0.8);
@@ -121,9 +121,9 @@ button { font-family: inherit; cursor: pointer; }
 .hero-links { display: flex; gap: 12px; justify-content: flex-start; flex-wrap: wrap; }
 .hero-links a {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 8px 20px; border: 2px solid #007FAE; border-radius: 6px;
+  padding: 8px 20px; border: 2px solid #1F67A8; border-radius: 6px;
   color: #FFFFFF; font-weight: 600; font-size: 14px; transition: all 0.2s;
-  background: #007FAE;
+  background: #1F67A8;
 }
 .hero-links a:hover { background: #13294B; border-color: #13294B; color: #FFFFFF; }
 
