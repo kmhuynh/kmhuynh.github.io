@@ -121,9 +121,9 @@ button { font-family: inherit; cursor: pointer; }
 .hero-links { display: flex; gap: 12px; justify-content: flex-start; flex-wrap: wrap; }
 .hero-links a {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 8px 20px; border: 2px solid var(--color-accent); border-radius: 6px;
+  padding: 8px 20px; border: 2px solid #007FAE; border-radius: 6px;
   color: #FFFFFF; font-weight: 600; font-size: 14px; transition: all 0.2s;
-  background: var(--color-accent);
+  background: #007FAE;
 }
 .hero-links a:hover { background: #13294B; border-color: #13294B; color: #FFFFFF; }
 
