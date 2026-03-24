@@ -4,7 +4,7 @@
 :root {
   --color-nav: #4B9CD3;
   --color-body-bg: #F8F8F8;
-  --color-accent: #13294B;
+  --color-accent: #4B9CD3;
   --color-text: #151515;
   --color-card-bg: #FFFFFF;
   --color-muted: #4F758B;
@@ -121,11 +121,11 @@ button { font-family: inherit; cursor: pointer; }
 .hero-links { display: flex; gap: 12px; justify-content: flex-start; flex-wrap: wrap; }
 .hero-links a {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 8px 20px; border: 2px solid var(--color-text); border-radius: 6px;
-  color: var(--color-text); font-weight: 600; font-size: 14px; transition: all 0.2s;
+  padding: 8px 20px; border: 2px solid var(--color-accent); border-radius: 6px;
+  color: #FFFFFF; font-weight: 600; font-size: 14px; transition: all 0.2s;
+  background: var(--color-accent);
 }
-.hero-links a { background: var(--color-text); color: var(--color-body-bg); }
-.hero-links a:hover { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-nav); }
+.hero-links a:hover { background: #13294B; border-color: #13294B; color: #FFFFFF; }
 
 .section { padding: 48px 0; }
 .section-title {

@@ -152,14 +152,17 @@ Example:
 
 ```yaml
 - date: Jun 2026
-  tag: accepted
-  text: New paper accepted at Journal Name
+  tag: journal
+  text: New paper published in Journal Name
   url: https://link-to-paper
 ```
 
 Current tags used by the site:
 
-- `accepted`
+- `journal`
+- `conference`
+- `preprint`
+- `abstract`
 - `award`
 - `talk`
 - `newrole`
