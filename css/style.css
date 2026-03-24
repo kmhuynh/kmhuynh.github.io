@@ -1,67 +1,67 @@
 /* ============================================
-   FOREST ACADEMIC THEME — style.css
+   UNC ACADEMIC THEME — style.css
    ============================================ */
 :root {
-  --color-nav: #1D2E28;
-  --color-body-bg: #CBD5C0;
-  --color-accent: #C8A84E;
-  --color-text: #1D2E28;
-  --color-card-bg: #E8EDDF;
-  --color-muted: #5a6e62;
-  --color-border: rgba(29, 46, 40, 0.1);
-  --color-border-light: rgba(29, 46, 40, 0.06);
-  --color-link: #1D2E28;
-  --color-link-on-dark: #C8A84E;
-  --color-white: #E8EDDF;
-  --color-nav-text: rgba(203, 213, 192, 0.65);
-  --color-nav-text-hover: #CBD5C0;
-  --color-tag-accepted-bg: rgba(200, 168, 78, 0.2);
-  --color-tag-accepted-text: #9a7d2e;
-  --color-tag-award-bg: rgba(200, 168, 78, 0.2);
-  --color-tag-award-text: #9a7d2e;
-  --color-tag-talk-bg: rgba(29, 46, 40, 0.15);
-  --color-tag-talk-text: #1D2E28;
+  --color-nav: #13294B;
+  --color-body-bg: #F8F8F8;
+  --color-accent: #4B9CD3;
+  --color-text: #13294B;
+  --color-card-bg: #FFFFFF;
+  --color-muted: #4F758B;
+  --color-border: rgba(19, 41, 75, 0.1);
+  --color-border-light: rgba(19, 41, 75, 0.06);
+  --color-link: #007FAE;
+  --color-link-on-dark: #4B9CD3;
+  --color-white: #FFFFFF;
+  --color-nav-text: rgba(255, 255, 255, 0.65);
+  --color-nav-text-hover: #FFFFFF;
+  --color-tag-accepted-bg: rgba(75, 156, 211, 0.2);
+  --color-tag-accepted-text: #2A7AB5;
+  --color-tag-award-bg: rgba(255, 209, 0, 0.2);
+  --color-tag-award-text: #9A7800;
+  --color-tag-talk-bg: rgba(19, 41, 75, 0.15);
+  --color-tag-talk-text: #13294B;
   --color-tag-newrole-bg: rgba(146, 64, 14, 0.15);
   --color-tag-newrole-text: #92400e;
-  --color-tag-journal-bg: rgba(37, 99, 235, 0.2);
-  --color-tag-journal-text: #1e40af;
-  --color-tag-conference-bg: rgba(46, 125, 91, 0.2);
-  --color-tag-conference-text: #2E7D5B;
-  --color-tag-preprint-bg: rgba(124, 58, 237, 0.2);
-  --color-tag-preprint-text: #5b21b6;
-  --color-tag-abstract-bg: rgba(75, 85, 99, 0.2);
-  --color-tag-abstract-text: #374151;
+  --color-tag-journal-bg: rgba(75, 156, 211, 0.2);
+  --color-tag-journal-text: #2A7AB5;
+  --color-tag-conference-bg: rgba(0, 89, 76, 0.2);
+  --color-tag-conference-text: #00594C;
+  --color-tag-preprint-bg: rgba(239, 68, 111, 0.15);
+  --color-tag-preprint-text: #C43A5C;
+  --color-tag-abstract-bg: rgba(79, 117, 139, 0.2);
+  --color-tag-abstract-text: #4F758B;
 }
 [data-theme="dark"] {
-  --color-nav: #0F1A15;
-  --color-body-bg: #1A2820;
-  --color-accent: #D4B65A;
-  --color-text: #CBD5C0;
-  --color-card-bg: #243028;
-  --color-muted: #8a9e90;
-  --color-border: rgba(203, 213, 192, 0.1);
-  --color-border-light: rgba(203, 213, 192, 0.06);
-  --color-link: #D4B65A;
-  --color-link-on-dark: #D4B65A;
-  --color-white: #243028;
-  --color-nav-text: rgba(203, 213, 192, 0.55);
-  --color-nav-text-hover: #CBD5C0;
-  --color-tag-accepted-bg: rgba(212, 182, 90, 0.15);
-  --color-tag-accepted-text: #D4B65A;
-  --color-tag-award-bg: rgba(212, 182, 90, 0.15);
-  --color-tag-award-text: #D4B65A;
-  --color-tag-talk-bg: rgba(203, 213, 192, 0.1);
-  --color-tag-talk-text: #CBD5C0;
+  --color-nav: #0A1628;
+  --color-body-bg: #13294B;
+  --color-accent: #4B9CD3;
+  --color-text: #E2EAF2;
+  --color-card-bg: #1C3054;
+  --color-muted: #8EAFC4;
+  --color-border: rgba(226, 234, 242, 0.1);
+  --color-border-light: rgba(226, 234, 242, 0.06);
+  --color-link: #4B9CD3;
+  --color-link-on-dark: #4B9CD3;
+  --color-white: #1C3054;
+  --color-nav-text: rgba(226, 234, 242, 0.55);
+  --color-nav-text-hover: #E2EAF2;
+  --color-tag-accepted-bg: rgba(75, 156, 211, 0.2);
+  --color-tag-accepted-text: #6DB3E2;
+  --color-tag-award-bg: rgba(255, 209, 0, 0.15);
+  --color-tag-award-text: #FFD100;
+  --color-tag-talk-bg: rgba(226, 234, 242, 0.1);
+  --color-tag-talk-text: #E2EAF2;
   --color-tag-newrole-bg: rgba(217, 158, 87, 0.15);
   --color-tag-newrole-text: #d99e57;
-  --color-tag-journal-bg: rgba(96, 165, 250, 0.2);
-  --color-tag-journal-text: #93bbfd;
-  --color-tag-conference-bg: rgba(52, 211, 153, 0.15);
-  --color-tag-conference-text: #34d399;
-  --color-tag-preprint-bg: rgba(167, 139, 250, 0.2);
-  --color-tag-preprint-text: #c4b5fd;
-  --color-tag-abstract-bg: rgba(156, 163, 175, 0.18);
-  --color-tag-abstract-text: #d1d5db;
+  --color-tag-journal-bg: rgba(75, 156, 211, 0.2);
+  --color-tag-journal-text: #6DB3E2;
+  --color-tag-conference-bg: rgba(0, 165, 173, 0.15);
+  --color-tag-conference-text: #2DD4BF;
+  --color-tag-preprint-bg: rgba(239, 68, 111, 0.15);
+  --color-tag-preprint-text: #F4849E;
+  --color-tag-abstract-bg: rgba(142, 175, 196, 0.15);
+  --color-tag-abstract-text: #8EAFC4;
 }
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -172,7 +172,7 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--color-card-bg); border-radius: 8px; padding: 20px;
   margin-bottom: 16px; border-left: 4px solid var(--color-accent); transition: box-shadow 0.2s;
 }
-.pub-card:hover { box-shadow: 0 4px 12px rgba(29, 46, 40, 0.12); }
+.pub-card:hover { box-shadow: 0 4px 12px rgba(19, 41, 75, 0.12); }
 .pub-content { flex: 1; min-width: 0; }
 .pub-thumb-link {
   display: block;
@@ -215,7 +215,7 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--color-white); border-radius: 8px; padding: 20px 16px; text-align: center;
   border: 2px solid transparent; transition: border-color 0.2s, box-shadow 0.2s;
 }
-.life-card:hover { border-color: var(--color-accent); box-shadow: 0 4px 12px rgba(29, 46, 40, 0.1); }
+.life-card:hover { border-color: var(--color-accent); box-shadow: 0 4px 12px rgba(19, 41, 75, 0.1); }
 .life-card .emoji { font-size: 32px; margin-bottom: 8px; }
 .life-card h3 { font-family: 'Source Sans 3', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 4px; }
 .life-card p { font-size: 12px; color: var(--color-muted); }
@@ -225,7 +225,7 @@ a.life-card-link { color: inherit; text-decoration: none; }
   border: 1px solid var(--color-border); border-radius: 8px; padding: 18px 20px;
   margin-bottom: 12px; transition: box-shadow 0.2s, border-color 0.2s;
 }
-.talk-card:hover { box-shadow: 0 2px 12px rgba(29, 46, 40, 0.06); border-color: var(--color-accent); }
+.talk-card:hover { box-shadow: 0 2px 12px rgba(19, 41, 75, 0.06); border-color: var(--color-accent); }
 .talk-card.filtered-out { display: none !important; }
 .talk-thumb {
   width: 80px; height: 60px; background: var(--color-nav); border-radius: 6px; flex-shrink: 0;
@@ -253,7 +253,7 @@ a.life-card-link { color: inherit; text-decoration: none; }
   transition: box-shadow 0.2s, border-color 0.2s;
 }
 .pres-card:hover {
-  box-shadow: 0 2px 12px rgba(29, 46, 40, 0.06);
+  box-shadow: 0 2px 12px rgba(19, 41, 75, 0.06);
   border-color: var(--color-text);
 }
 .pres-card.filtered-out { display: none !important; }
