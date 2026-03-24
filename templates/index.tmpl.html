@@ -70,7 +70,8 @@
     </div>
     <ul class="news-list">
       {%- for item in news %}
-      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ item.tag | capitalize }}</span> {{ item.text | md }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
+      {%- set tag_labels = {'newrole': 'New Role'} -%}
+      <li data-tag="{{ item.tag }}"><span class="news-date">{{ item.date }}</span><span><span class="news-tag tag-{{ item.tag }}">{{ tag_labels[item.tag] or item.tag | capitalize }}</span> {{ item.text | md }}{% if item.url %} <a href="{{ item.url }}" class="pub-link">PDF</a>{% endif %}</span></li>
       {%- endfor %}
     </ul>
     <button class="show-all-btn">Show all ↓</button>

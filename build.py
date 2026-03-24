@@ -13,7 +13,8 @@ def md_filter(text):
     """Convert **bold** and [link](url) to HTML."""
     result = str(text)
     result = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', result)
-    result = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', result)
+    # Handle URLs with balanced parentheses (e.g. S2666-3899(24)00053-9)
+    result = re.sub(r'\[(.+?)\]\(((?:[^()]*|\([^()]*\))*)\)', r'<a href="\2">\1</a>', result)
     return Markup(result)
 
 try:
