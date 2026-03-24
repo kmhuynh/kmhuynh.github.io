@@ -46,7 +46,7 @@
   text: Postdoc, [Dr. Pew-Thian Yap's Lab](https://www.med.unc.edu/radiology/people/pew-thian-yap/), Dept. of Radiology, UNC-Chapel Hill
 - date: May 2022
   tag: newrole
-  text: "Completed PhD and graduated from UNC Chapel Hill. [Dissertation](https://cdr.lib.unc.edu/concern/dissertations/6d570652h)".
+  text: "Completed PhD and graduated from UNC Chapel Hill. [Dissertation](https://cdr.lib.unc.edu/concern/dissertations/6d570652h)."
 - date: Feb 2022
   tag: abstract
   text: "Four abstracts accepted for ISMRM 2022: 1mm-isotropic fMRI, 19F Free-breathing VDP quantification, COMEDI Toolkit, and dMRI preproc pipeline variations"
@@ -57,7 +57,7 @@
   text: "[Noise mapping and removal via optimal shrinkage](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19) paper accepted for MICCAI 2021"
 - date: Apr 2021
   tag: award
-  text: "[BCP processing pipeline]((https://cds.ismrm.org/protected/21MProceedings/PDFfiles/1697.html)) work received ISMRM Summa Cum Laude honor"
+  text: "[BCP processing pipeline](https://cds.ismrm.org/protected/21MProceedings/PDFfiles/1697.html) work received ISMRM Summa Cum Laude honor"
 - date: Mar 2021
   tag: award
   text: ISMRM Educational Stipend
@@ -94,7 +94,7 @@
   tag: award
   text: UNC Graduate Student Transportation Award
 
-# === 2019 and earlier (already in preferred style) ===
+# === 2019 and earlier ===
 - date: Feb 2020
   tag: abstract
   text: "Three abstracts accepted for OHBM 2020: [Multivariate quantification of baby brain](https://drive.google.com/file/d/1sNIFaUjRSypKF58MJ7odj7wI-kyAeu4l/view?usp=sharing), [Dense temporal cortical microstruture mapping](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view?usp=sharing), and [Relationship between cortical myelination and neurite density](https://drive.google.com/file/d/118kLg9GpJHbBQLpfb7hhPmFnKre6dpEe/view?usp=sharing)"
