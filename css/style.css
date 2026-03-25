@@ -140,7 +140,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .filter-btn:hover { border-color: var(--color-text); color: var(--color-text); }
 .filter-btn.active { background: var(--color-text); border-color: var(--color-text); color: var(--color-body-bg); }
-.news-list { max-height: 240px; overflow-y: auto; }
+.news-list { max-height: 360px; overflow-y: auto; }
 .news-list li {
   display: flex; gap: 16px; padding: 11px 0;
   border-bottom: 1px solid var(--color-border-light); font-size: 0.92rem;
