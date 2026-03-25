@@ -11,7 +11,10 @@
       "Bash(curl -s 'https://trucnnth.github.io/' -o /tmp/trucnnth_page.html)",
       "Read(//tmp/**)",
       "Bash(curl:*)",
-      "WebFetch(domain:identity.unc.edu)"
+      "WebFetch(domain:identity.unc.edu)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch(domain:link.springer.com)"
     ]
   }
 }
