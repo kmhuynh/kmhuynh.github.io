@@ -1,14 +1,14 @@
 - title: Functional hierarchy of the human neocortex across the lifespan
   # Optional thumbnail fields:
-  # image: img/research/neocortex-lifespan.jpg
-  # image_alt: Functional hierarchy map of the human neocortex across the lifespan
+  image: img/research/fc_grads.jpeg
+  image_alt: fc_grads
   authors: "H.P. Taylor IV, **K. Huynh**, K.-H. Thung, G. Lin, W. Lyu, W. Lin, S. Ahmad, P.-T. Yap"
   venue: Nature, 2026
   links:
     #- text: Paper
     #  url: https://doi.org/10.1038/s41586-026-10219-x
     - text: PDF
-      url: https://doi.org/10.1038/s41586-026-10219-x
+      url: https://www.nature.com/articles/s41586-026-10219-x
     #- text: Code
     #  url: https://osf.io/f384h/
 - title: Anatomy-to-tract mapping infers white matter pathways without diffusion streamline propagation

@@ -1,7 +1,10 @@
 # === 2026 ===
-- date: May 2026
-  tag: talk
-  text: "Oral presentation: Baby white matter tract atlas at ISMRM 2026, Cape Town, South Africa"
+#- date: May 2026
+#  tag: talk
+#  text: "Oral presentation: Baby white matter tract atlas at ISMRM 2026, Cape Town, South Africa"
+- date: Mar 2026
+  tag: journal
+  text: "[Lifespan functional gradients](https://www.nature.com/articles/s41586-026-10219-x) paper published in Nature"
 - date: Feb 2026
   tag: abstract
   text: "Three abstracts accepted for OHBM 2026: HBCD tract profiling, functional gradients versus E-I balance in developing brain, and Aperiodic EEG and E-I balance in neonate"
