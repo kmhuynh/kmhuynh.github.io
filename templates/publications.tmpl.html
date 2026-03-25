@@ -31,18 +31,12 @@
   <section class="section">
     <h2 class="section-title">Publications</h2>
 
-    <div class="card-filters filter-bar" data-target=".pub-item">
-      <button class="filter-btn active" data-filter="all">All ({{ publications | length }})</button>
-      {%- for label, key in [('Journals', 'journal'), ('Conferences', 'conference'), ('Workshops', 'workshop'), ('Abstracts', 'abstract')] %}
-      {%- set count = publications | selectattr('pub_type', 'equalto', key) | list | length %}
-      {%- if count > 0 %}
-      <button class="filter-btn" data-filter="{{ key }}">{{ label }} ({{ count }})</button>
-      {%- endif %}
-      {%- endfor %}
-    </div>
-    {%- for pub in publications %}
-
-    <div class="pub-item" data-tags="{{ pub.pub_type }}">
+    {%- for label, key in [('Journals', 'journal'), ('Conferences', 'conference'), ('Workshops', 'workshop'), ('Preprints', 'preprint'), ('Abstracts', 'abstract')] %}
+    {%- set pubs = publications | selectattr('pub_type', 'equalto', key) | list %}
+    {%- if pubs %}
+    <h3 class="pub-section-title">{{ label }} ({{ pubs | length }})</h3>
+    {%- for pub in pubs %}
+    <div class="pub-item">
       <div class="title">{{ pub.title }}</div>
       <div class="authors">{{ pub.authors }}</div>
       <div class="venue">{{ pub.venue }}, {{ pub.year }}</div>
@@ -62,6 +56,8 @@
       <a href="https://doi.org/{{ pub.doi }}" class="pub-link">DOI</a>
       {%- endif %}
     </div>
+    {%- endfor %}
+    {%- endif %}
     {%- endfor %}
   </section>
 </div>

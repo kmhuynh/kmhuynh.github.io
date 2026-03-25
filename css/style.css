@@ -140,6 +140,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .filter-btn:hover { border-color: var(--color-text); color: var(--color-text); }
 .filter-btn.active { background: var(--color-text); border-color: var(--color-text); color: var(--color-body-bg); }
+.news-list { max-height: 240px; overflow-y: auto; }
 .news-list li {
   display: flex; gap: 16px; padding: 11px 0;
   border-bottom: 1px solid var(--color-border-light); font-size: 0.92rem;
@@ -355,6 +356,8 @@ a.life-card-link { color: inherit; text-decoration: none; }
 .status-active { background: var(--color-tag-award-bg); color: var(--color-tag-award-text); }
 .status-coming { background: var(--color-tag-accepted-bg); color: var(--color-tag-accepted-text); }
 .status-dev { background: var(--color-tag-talk-bg); color: var(--color-tag-talk-text); }
+.pub-section-title { font-family: 'Source Sans 3', sans-serif; font-size: 1.1rem; font-weight: 700; margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--color-accent); color: var(--color-text); }
+.pub-section-title:first-of-type { margin-top: 0; }
 .pub-item { padding: 14px 0; border-bottom: 1px solid var(--color-border-light); font-size: 0.92rem; }
 .pub-item.filtered-out { display: none !important; }
 .pub-item .title { font-weight: 700; margin-bottom: 2px; }

@@ -49,68 +49,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // --- News Filtering ---
 document.addEventListener('DOMContentLoaded', function () {
-  var NEWS_MAX = 10;
-  var newsExpanded = false;
   var newsFilter = 'all';
   var newsList = document.querySelector('.news-list');
   if (!newsList) return;
 
-  function applyNewsDisplay() {
+  function applyNewsFilter() {
     var items = newsList.querySelectorAll('li');
-    var showAllBtn = document.querySelector('.show-all-btn');
-    var visibleCount = 0;
-    var totalMatching = 0;
-
     items.forEach(function (li) {
       var tag = li.dataset.tag;
-      var matchesFilter = newsFilter === 'all' || tag === newsFilter;
-      if (!matchesFilter) {
-        li.style.display = 'none';
-      } else {
-        totalMatching++;
-        if (newsExpanded || visibleCount < NEWS_MAX) {
-          li.style.display = '';
-          visibleCount++;
-        } else {
-          li.style.display = 'none';
-        }
-      }
+      li.style.display = (newsFilter === 'all' || tag === newsFilter) ? '' : 'none';
     });
-
-    if (showAllBtn) {
-      if (totalMatching > NEWS_MAX && !newsExpanded) {
-        showAllBtn.style.display = 'block';
-        showAllBtn.textContent = 'Show all \u2193';
-      } else if (newsExpanded && totalMatching > NEWS_MAX) {
-        showAllBtn.style.display = 'block';
-        showAllBtn.textContent = 'Show less \u2191';
-      } else {
-        showAllBtn.style.display = 'none';
-      }
-    }
-  }
-
-  var showAllBtn = document.querySelector('.show-all-btn');
-  if (showAllBtn) {
-    showAllBtn.addEventListener('click', function () {
-      newsExpanded = !newsExpanded;
-      applyNewsDisplay();
-    });
+    newsList.scrollTop = 0;
   }
 
   document.querySelectorAll('.news-filters .filter-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
       newsFilter = btn.dataset.filter;
-      newsExpanded = false;
       document.querySelectorAll('.news-filters .filter-btn').forEach(function (b) {
         b.classList.remove('active');
       });
       btn.classList.add('active');
-      applyNewsDisplay();
+      applyNewsFilter();
     });
   });
-
-  applyNewsDisplay();
 });
 
 // --- Generic Card Filtering (publications.html, talks.html) ---

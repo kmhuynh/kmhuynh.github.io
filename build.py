@@ -62,9 +62,21 @@ def get_pub_type(entry):
         return "workshop"
     if "abstract" in kw:
         return "abstract"
+    if "preprint" in kw:
+        return "preprint"
+    # Detect preprints by venue
+    venue = get_field(entry, "journal", "").lower()
+    if "arxiv" in venue or "biorxiv" in venue or "medrxiv" in venue:
+        return "preprint"
     if entry.type == "article":
         return "journal"
     if entry.type == "inproceedings":
+        # Detect abstracts vs conferences vs workshops by booktitle
+        bt = get_field(entry, "booktitle", "").lower()
+        if "ismrm" in bt or "ohbm" in bt or "rsna" in bt or "cystic fibrosis" in bt:
+            return "abstract"
+        if "computational diffusion" in bt or "cdmri" in bt:
+            return "workshop"
         return "conference"
     return "other"
 
