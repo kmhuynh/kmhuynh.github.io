@@ -46,6 +46,9 @@
       {%- for link in tool.links | default([]) %}
       <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
       {%- endfor %}
+      {%- if tool.citation %}
+      <p style="margin-top: 12px; color: var(--color-muted); font-size: 0.82rem;">If you use this tool, please cite:<br><em>{{ tool.citation | trim }}</em></p>
+      {%- endif %}
     </div>
     {%- endfor %}
   </section>
@@ -60,16 +63,13 @@
       {%- for link in ds.links | default([]) %}
       <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
       {%- endfor %}
+      {%- if ds.citation %}
+      <p style="margin-top: 12px; color: var(--color-muted); font-size: 0.82rem;">If you use this dataset, please cite:<br><em>{{ ds.citation | trim }}</em></p>
+      {%- endif %}
     </div>
     {%- endfor %}
   </section>
 
-  <section class="section" style="padding-bottom: 0;">
-    <p style="color: var(--color-muted); font-size: 0.9rem;">
-      If you use these tools in your research, please cite:<br>
-      <em>{{ tools_data.citation | trim }}</em>
-    </p>
-  </section>
 </div>
 
 <footer class="footer">

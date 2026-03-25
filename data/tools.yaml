@@ -14,6 +14,9 @@ tools:
         url: https://osf.io/f384h/
       - text: Paper
         url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9
+    citation: >
+      Huynh, K. M., Chang, W. T., Wu, Y., & Yap, P. T. (2024). Optimal shrinkage denoising
+      breaks the noise floor in high-resolution diffusion MRI. Patterns, 5(3), 100954.
 
   - name: Diffusion MRI Processing Pipeline
     status: coming
@@ -28,11 +31,18 @@ tools:
       for brain development. Applications in early detection of developmental issues.
 
 datasets:
-  - name: High-Resolution Diffusion MRI Dataset
+  - name: 24-Shell Diffusion MRI Data
     description: >
-      Denoised diffusion MRI data demonstrating optimal shrinkage. Before/after denoising
-      comparisons. Available through OSF for method validation and algorithm development.
-
-citation: >
-  Huynh, K. M., Chang, W. T., Wu, Y., & Yap, P. T. (2024). Optimal shrinkage denoising
-  breaks the noise floor in high-resolution diffusion MRI. Patterns, 5(3), 100954.
+      Healthy adult 24-shell diffusion MRI dataset. Preprocessed with dcm2niix,
+      eddy and topup via dwifslpreproc. See data.json for acquisition parameters.
+      Available under MIT License.
+    links:
+      - text: Zenodo
+        url: https://zenodo.org/records/5009884
+      - text: Paper
+        url: https://doi.org/10.1109/TMI.2020.3001175
+    citation: >
+      Huynh, K. M., Xu, T., Wu, Y., Wang, X., Chen, G., Wu, H., Thung, K.-H.,
+      Lin, W., Shen, D., & Yap, P.-T. (2020). Probing tissue microarchitecture of the
+      baby brain via spherical mean spectrum imaging. IEEE Transactions on Medical Imaging,
+      39(11), 3607-3618.
