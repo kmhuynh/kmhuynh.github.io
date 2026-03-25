@@ -55,11 +55,16 @@ document.addEventListener('DOMContentLoaded', function () {
   var showAllBtn = document.querySelector('.show-all-btn');
   if (!newsList) return;
 
+  var pubTags = ['journal', 'conference', 'preprint', 'abstract'];
+
   function applyNewsFilter() {
     var items = newsList.querySelectorAll('li');
     items.forEach(function (li) {
       var tag = li.dataset.tag;
-      li.style.display = (newsFilter === 'all' || tag === newsFilter) ? '' : 'none';
+      var match = newsFilter === 'all'
+        || (newsFilter === 'publication' && pubTags.indexOf(tag) !== -1)
+        || tag === newsFilter;
+      li.style.display = match ? '' : 'none';
     });
     newsList.scrollTop = 0;
     newsList.style.maxHeight = newsExpanded ? 'none' : '360px';
