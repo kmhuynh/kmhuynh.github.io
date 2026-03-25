@@ -59,7 +59,7 @@ def get_pub_type(entry):
     if "conference" in kw:
         return "conference"
     if "workshop" in kw:
-        return "workshop"
+        return "conference"
     if "abstract" in kw:
         return "abstract"
     if "preprint" in kw:
@@ -76,7 +76,7 @@ def get_pub_type(entry):
         if "ismrm" in bt or "ohbm" in bt or "rsna" in bt or "cystic fibrosis" in bt:
             return "abstract"
         if "computational diffusion" in bt or "cdmri" in bt:
-            return "workshop"
+            return "conference"
         return "conference"
     return "other"
 

@@ -31,7 +31,16 @@
 <div class="container">
   <section class="section">
     <h2 class="section-title">Publications</h2>
-    <h3 class="pub-section-title">Journals (14)</h3>
+
+    <div class="card-filters filter-bar" data-target=".pub-section">
+      <button class="filter-btn active" data-filter="all">All (62)</button>
+      <button class="filter-btn" data-filter="journal">Journals (11)</button>
+      <button class="filter-btn" data-filter="conference">Conferences (12)</button>
+      <button class="filter-btn" data-filter="preprint">Preprints (4)</button>
+      <button class="filter-btn" data-filter="abstract">Abstracts (34)</button>
+    </div>
+    <div class="pub-section" data-tags="journal">
+    <h3 class="pub-section-title">Journals (11)</h3>
     <div class="pub-item">
       <div class="title">Functional hierarchy of the human neocortex across the lifespan</div>
       <div class="authors">Hoyt Taylor, Khoi Huynh, Kim-Han Thung, Guoye Lin, Wenjiao Lyu, Weili Lin, Sahar Ahmad, Pew-Thian Yap</div>
@@ -81,20 +90,10 @@
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29630" class="pub-link">Paper</a>
     </div>
     <div class="pub-item">
-      <div class="title">Cross-layer Balance of Visuo-hippocampal Functional Connectivity Is Associated With Episodic Memory Recognition Accuracy</div>
-      <div class="authors">Wei-Tang Chang, Stephanie Langella, Min Seo, Khoi Huynh, Pew-Thian Yap, Weili Lin, Kelly Giovanello</div>
-      <div class="venue">, 2022</div>
-    </div>
-    <div class="pub-item">
       <div class="title">Rapid Diffusion Magnetic Resonance Imaging Using Slice-Interleaved Encoding</div>
       <div class="authors">Tiantian Xu, Ye Wu, Yoonmi Hong, Sahar Ahmad, Khoi Huynh, Zhixing Wang, Weili Lin, Wei-Tang Chang, Pew-Thian Yap</div>
       <div class="venue">Medical Image Analysis, 2022</div>
       <a href="https://www.sciencedirect.com/science/article/pii/S1361841522001955" class="pub-link">Paper</a>
-    </div>
-    <div class="pub-item">
-      <div class="title">453 Ventilation defect percentage comparison between spiral with post-acquisition denoising and cartesian acquisition for 19F lung magnetic resonance imaging</div>
-      <div class="authors">S Chung, K Huynh, Y Chen, P Yap, J Goralski, S Donaldson, Y Lee</div>
-      <div class="venue">Journal of Cystic Fibrosis, 2022</div>
     </div>
     <div class="pub-item">
       <div class="title">Probing Tissue Microarchitecture of the Baby Brain via Spherical Mean Spectrum Imaging</div>
@@ -108,12 +107,9 @@
       <div class="venue">IEEE transactions on medical imaging, 2019</div>
       <a href="https://doi.org/10.1109/TMI.2019.2895020" class="pub-link">Paper</a>
     </div>
-    <div class="pub-item">
-      <div class="title">Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</div>
-      <div class="authors">Khoi Huynh, Jaeil Kim, Geng Chen, Ye Wu, Dinggang Shen, Pew-Thian Yap</div>
-      <div class="venue">Computational Diffusion MRI, 2019</div>
     </div>
-    <h3 class="pub-section-title">Conferences (9)</h3>
+    <div class="pub-section" data-tags="conference">
+    <h3 class="pub-section-title">Conferences (12)</h3>
     <div class="pub-item">
       <div class="title">Microstructure Fingerprinting for Heterogeneously Oriented Tissue Microenvironments</div>
       <div class="authors">Khoi Huynh, Ye Wu, Sahar Ahmad, Pew-Thian Yap</div>
@@ -131,6 +127,18 @@
       <div class="authors">Khoi Huynh, Wei-Tang Chang, Sang Chung, Yong Chen, Yueh Lee, Pew-Thian Yap</div>
       <div class="venue">International Conference on Medical Image Computing and Computer-Assisted Intervention, 2021</div>
       <a href="https://link.springer.com/chapter/10.1007/978-3-030-87231-1_19" class="pub-link">Paper</a>
+    </div>
+    <div class="pub-item">
+      <div class="title">Image Reconstruction from Accelerated Slice-Interleaved Diffusion Encoding Data</div>
+      <div class="authors">Tiantian Xu, Ye Wu, Yoonmi Hong, Khoi Minh Huynh, Weili Lin, Wei-Tang Chang, Pew-Thian Yap</div>
+      <div class="venue">Computational Diffusion MRI: International MICCAI Workshop, Lima, Peru, October 2020, 2021</div>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_1" class="pub-link">Paper</a>
+    </div>
+    <div class="pub-item">
+      <div class="title">Longitudinal Parcellation of the Infant Cortex Using Multi-modal Connectome Harmonics</div>
+      <div class="authors">Hoyt Taylor, Sahar Ahmad, Ye Wu, Khoi Huynh, Zhen Zhou, Zhengwang Wu, Weili Lin, Li Wang, Gang Li, Han Zhang, others</div>
+      <div class="venue">Computational Diffusion MRI: International MICCAI Workshop, Lima, Peru, October 2020, 2021</div>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20" class="pub-link">Paper</a>
     </div>
     <div class="pub-item">
       <div class="title">Characterizing intra-soma diffusion with spherical mean spectrum imaging</div>
@@ -151,6 +159,12 @@
       <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_4" class="pub-link">Paper</a>
     </div>
     <div class="pub-item">
+      <div class="title">Longitudinal Harmonization for Improving Tractography in Baby Diffusion MRI</div>
+      <div class="authors">Khoi Huynh, Jaeil Kim, Geng Chen, Ye Wu, Dinggang Shen, Pew-Thian Yap</div>
+      <div class="venue">Computational Diffusion MRI: MICCAI Workshop, 2019</div>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8283964/" class="pub-link">Paper</a>
+    </div>
+    <div class="pub-item">
       <div class="title">Characterizing non-gaussian diffusion in heterogeneously oriented tissue microenvironments</div>
       <div class="authors">Khoi Huynh, Tiantian Xu, Ye Wu, Kim-Han Thung, Geng Chen, Weili Lin, Dinggang Shen, Pew-Thian Yap</div>
       <div class="venue">International Conference on Medical Image Computing and Computer-Assisted Intervention, 2019</div>
@@ -167,20 +181,9 @@
       <div class="authors">Khoi Huynh, Jaeil Kim, Geng Chen, Dinggang Shen, Pew-Thian Yap</div>
       <div class="venue">Proceedings of the Organization of Human Brain Mapping Annual Meeting, 2018</div>
     </div>
-    <h3 class="pub-section-title">Workshops (2)</h3>
-    <div class="pub-item">
-      <div class="title">Image Reconstruction from Accelerated Slice-Interleaved Diffusion Encoding Data</div>
-      <div class="authors">Tiantian Xu, Ye Wu, Yoonmi Hong, Khoi Minh Huynh, Weili Lin, Wei-Tang Chang, Pew-Thian Yap</div>
-      <div class="venue">Computational Diffusion MRI: International MICCAI Workshop, Lima, Peru, October 2020, 2021</div>
-      <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_1" class="pub-link">Paper</a>
     </div>
-    <div class="pub-item">
-      <div class="title">Longitudinal Parcellation of the Infant Cortex Using Multi-modal Connectome Harmonics</div>
-      <div class="authors">Hoyt Taylor, Sahar Ahmad, Ye Wu, Khoi Huynh, Zhen Zhou, Zhengwang Wu, Weili Lin, Li Wang, Gang Li, Han Zhang, others</div>
-      <div class="venue">Computational Diffusion MRI: International MICCAI Workshop, Lima, Peru, October 2020, 2021</div>
-      <a href="https://link.springer.com/chapter/10.1007/978-3-030-73018-5_20" class="pub-link">Paper</a>
-    </div>
-    <h3 class="pub-section-title">Preprints (3)</h3>
+    <div class="pub-section" data-tags="preprint">
+    <h3 class="pub-section-title">Preprints (4)</h3>
     <div class="pub-item">
       <div class="title">Ultimatesynth: MRI physics for pan-contrast ai</div>
       <div class="authors">Rhea Adams, Khoi Huynh, Walter Zhao, Siyuan Hu, Wenjiao Lyu, Sahar Ahmad, Dan Ma, Pew-Thian Yap</div>
@@ -192,12 +195,19 @@
       <div class="venue">bioRxiv, 2024</div>
     </div>
     <div class="pub-item">
+      <div class="title">Cross-layer Balance of Visuo-hippocampal Functional Connectivity Is Associated With Episodic Memory Recognition Accuracy</div>
+      <div class="authors">Wei-Tang Chang, Stephanie Langella, Min Seo, Khoi Huynh, Pew-Thian Yap, Weili Lin, Kelly Giovanello</div>
+      <div class="venue">arXiv preprint, 2022</div>
+    </div>
+    <div class="pub-item">
       <div class="title">Navigator-Free Submillimeter Diffusion Imaging using Multishot-encoded Simultaneous Multi-slice (MUSIUM)</div>
       <div class="authors">Wei-Tang Chang, Khoi Huynh, Pew-Thian Yap, Weili Lin</div>
       <div class="venue">arXiv preprint arXiv:2012.00664, 2020</div>
       <a href="https://arxiv.org/abs/2012.00664" class="pub-link">Paper</a>
     </div>
-    <h3 class="pub-section-title">Abstracts (33)</h3>
+    </div>
+    <div class="pub-section" data-tags="abstract">
+    <h3 class="pub-section-title">Abstracts (34)</h3>
     <div class="pub-item">
       <div class="title">Pan-Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics</div>
       <div class="authors">Rhea Adams, Walter Zhao, Siyuan Hu, Wenjiao Lyu, Khoi Huynh, Sahar Ahmad, Dan Ma, Pew-Thian Yap</div>
@@ -289,6 +299,11 @@
       <div class="venue">Proceedings of the International Society of Magnetic Resonance in Medicine (ISMRM) Annual Meeting, 2022</div>
     </div>
     <div class="pub-item">
+      <div class="title">Ventilation defect percentage comparison between spiral with post-acquisition denoising and cartesian acquisition for 19F lung magnetic resonance imaging</div>
+      <div class="authors">S Chung, K Huynh, Y Chen, P Yap, J Goralski, S Donaldson, Y Lee</div>
+      <div class="venue">Journal of Cystic Fibrosis, 2022</div>
+    </div>
+    <div class="pub-item">
       <div class="title">A data-driven variability assessment of brain diffusion MRI preprocessing pipelines</div>
       <div class="authors">Jelle Veraart, Daan Christiaens, Erpeng Dai, Luke Edwards, Vladimir Golkov, Siawoosh Mohammadi, Kurt Schilling, Mohammad Aarabi, Benjamin Ades-Aron, Nagesh Adluru, others</div>
       <div class="venue">Proc. 30th Annual Meeting of the ISMRM, Online, 2022</div>
@@ -362,6 +377,7 @@
       <div class="title">Spatially Varying Signal-Drift Correction in Diffusion MRI</div>
       <div class="authors">Khoi Huynh, Geng Chen, Wei-Tang Chang, Weili Lin, Dinggang Shen, Pew-Thian Yap</div>
       <div class="venue">Proceedings of the International Society of Magnetic Resonance in Medicine (ISMRM) Annual Meeting, 2018</div>
+    </div>
     </div>
   </section>
 </div>

@@ -50,7 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
 // --- News Filtering ---
 document.addEventListener('DOMContentLoaded', function () {
   var newsFilter = 'all';
+  var newsExpanded = false;
   var newsList = document.querySelector('.news-list');
+  var showAllBtn = document.querySelector('.show-all-btn');
   if (!newsList) return;
 
   function applyNewsFilter() {
@@ -60,11 +62,24 @@ document.addEventListener('DOMContentLoaded', function () {
       li.style.display = (newsFilter === 'all' || tag === newsFilter) ? '' : 'none';
     });
     newsList.scrollTop = 0;
+    // Toggle scrollable height
+    newsList.style.maxHeight = newsExpanded ? 'none' : '';
+    if (showAllBtn) {
+      showAllBtn.textContent = newsExpanded ? 'Show less \u2191' : 'Show all \u2193';
+    }
+  }
+
+  if (showAllBtn) {
+    showAllBtn.addEventListener('click', function () {
+      newsExpanded = !newsExpanded;
+      applyNewsFilter();
+    });
   }
 
   document.querySelectorAll('.news-filters .filter-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
       newsFilter = btn.dataset.filter;
+      newsExpanded = false;
       document.querySelectorAll('.news-filters .filter-btn').forEach(function (b) {
         b.classList.remove('active');
       });
