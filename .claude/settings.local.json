@@ -14,7 +14,9 @@
       "WebFetch(domain:identity.unc.edu)",
       "Bash(grep:*)",
       "WebSearch",
-      "WebFetch(domain:link.springer.com)"
+      "WebFetch(domain:link.springer.com)",
+      "Bash(/Users/mkhoi/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5/skills/brainstorming/scripts/start-server.sh --project-dir /Users/mkhoi/repos/kmhuynh.github.io)",
+      "Bash(/Users/mkhoi/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5/skills/brainstorming/scripts/stop-server.sh /Users/mkhoi/repos/kmhuynh.github.io/.superpowers/brainstorm/43311-1774485443)"
     ]
   }
 }

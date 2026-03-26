@@ -79,35 +79,50 @@
 <section id="highlights" class="section">
   <div class="container">
     <h2 class="section-title">Research Highlights</h2>
-    {%- for pub in research %}
+    {%- set featured = research[0] %}
     {%- set ns = namespace(pdf_url='') %}
-    {%- for link in pub.links %}
+    {%- for link in featured.links %}
     {%- if link.text | lower | trim == 'pdf' and not ns.pdf_url %}
     {%- set ns.pdf_url = link.url %}
     {%- endif %}
     {%- endfor %}
-    <div class="pub-card">
-      {%- if pub.image %}
-      {%- if ns.pdf_url %}
-      <a href="{{ ns.pdf_url }}" class="pub-thumb-link" aria-label="Open PDF: {{ pub.title }}">
-        <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
-      </a>
-      {%- else %}
-      <div class="pub-thumb-link">
-        <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
-      </div>
-      {%- endif %}
-      {%- endif %}
-      <div class="pub-content">
-        <h3>{{ pub.title }}</h3>
-        <p class="authors">{{ pub.authors | md }}</p>
-        <p class="venue">{{ pub.venue }}</p>
-        {%- for link in pub.links %}
+    <!-- Featured hero card -->
+    <div class="pub-hero">
+      <div class="pub-hero-content">
+        <div class="pub-hero-label">Featured · {{ featured.venue }}</div>
+        <h3>{{ featured.title }}</h3>
+        <p class="authors">{{ featured.authors | md }}</p>
+        {%- for link in featured.links %}
         <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
         {%- endfor %}
       </div>
+      {%- if featured.image %}
+      <img src="{{ featured.image }}" alt="{{ featured.image_alt or featured.title }}" class="pub-thumb">
+      {%- endif %}
     </div>
-    {%- endfor %}
+    <!-- Compact grid for remaining papers -->
+    <div class="pub-grid">
+      {%- for pub in research[1:] %}
+      {%- set ns2 = namespace(pdf_url='') %}
+      {%- for link in pub.links %}
+      {%- if link.text | lower | trim == 'pdf' and not ns2.pdf_url %}
+      {%- set ns2.pdf_url = link.url %}
+      {%- endif %}
+      {%- endfor %}
+      <div class="pub-grid-item">
+        <div class="pub-grid-text">
+          <p class="venue">{{ pub.venue }}</p>
+          <h3>{{ pub.title }}</h3>
+          {%- for link in pub.links %}
+          <a href="{{ link.url }}" class="pub-link">{{ link.text }}</a>
+          {%- endfor %}
+        </div>
+        {%- if pub.image %}
+        <img src="{{ pub.image }}" alt="{{ pub.image_alt or pub.title }}" class="pub-thumb">
+        {%- endif %}
+      </div>
+      {%- endfor %}
+    </div>
     <div class="page-indicator">
       Showing featured papers · <a href="publications.html">View all publications →</a>
     </div>
