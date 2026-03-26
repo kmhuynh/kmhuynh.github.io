@@ -207,7 +207,7 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
   color: #4B9CD3; margin-bottom: 10px;
 }
-.pub-hero h3 { font-family: 'Libre Baskerville', Georgia, serif; font-size: 1.5rem; font-weight: 700; color: #FFFFFF; margin-bottom: 10px; line-height: 1.35; }
+.pub-hero h3 { font-family: 'Source Sans 3', sans-serif; font-size: 1.5rem; font-weight: 700; color: #FFFFFF; margin-bottom: 10px; line-height: 1.35; }
 .pub-hero .authors { color: rgba(255,255,255,0.7); font-size: 13px; margin-bottom: 4px; }
 .pub-hero .venue { color: rgba(255,255,255,0.7); font-weight: 600; font-size: 13px; }
 .pub-hero .pub-link { border-color: rgba(255,255,255,0.5); color: #FFFFFF; }
