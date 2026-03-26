@@ -212,7 +212,7 @@ button { font-family: inherit; cursor: pointer; }
 .pub-hero .venue { color: rgba(255,255,255,0.7); font-weight: 600; font-size: 13px; }
 .pub-hero .pub-link { border-color: rgba(255,255,255,0.5); color: #FFFFFF; }
 .pub-hero .pub-link:hover { background: #FFFFFF; color: #13294B; border-color: #FFFFFF; }
-.pub-hero .pub-thumb { width: 260px; max-height: 180px; border-radius: 6px; }
+.pub-hero .pub-thumb { width: 340px; max-height: 260px; border-radius: 6px; }
 /* Compact research grid */
 .pub-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 .pub-grid-item {
@@ -224,7 +224,7 @@ button { font-family: inherit; cursor: pointer; }
 .pub-grid-item .pub-grid-text { flex: 1; min-width: 0; }
 .pub-grid-item .venue { font-size: 0.78rem; color: var(--color-muted); font-weight: 600; margin-bottom: 2px; }
 .pub-grid-item h3 { font-family: 'Source Sans 3', sans-serif; font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 4px; }
-.pub-grid-item .pub-thumb { width: 100px; max-height: 70px; border-radius: 4px; flex-shrink: 0; }
+.pub-grid-item .pub-thumb { width: 160px; max-height: 120px; border-radius: 4px; flex-shrink: 0; }
 .pub-grid-item .pub-link { margin-top: 4px; font-size: 11px; padding: 2px 8px; }
 .pub-link {
   display: inline-block; margin-top: 8px; margin-right: 4px; padding: 3px 10px;
