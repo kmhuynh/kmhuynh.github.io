@@ -1,7 +1,10 @@
 # === 2026 ===
-#- date: May 2026
-#  tag: talk
-#  text: "Oral presentation: Baby white matter tract atlas at ISMRM 2026, Cape Town, South Africa"
+- date: May 2026
+  tag: talk
+  text: "Oral presentation: Infant Brain Tract Atlas at ISMRM 2026, Cape Town, South Africa"
+- date: Apr 2026
+  tag: award
+  text: "ISMRM Magna Cum Laude Awards at ISMRM 2026: Infant Brain Tract Atlas"
 - date: Mar 2026
   tag: journal
   text: "[Lifespan functional gradients](https://www.nature.com/articles/s41586-026-10219-x) paper published in Nature"
@@ -15,6 +18,7 @@
  Anatomy-to-corticocortical connectome mapping, and Dynamic 19F gas MRI using PETALUTE"
 
 # === 2025 ===
+# 
 - date: Aug 2025
   tag: award
   text: Introduction to Academic Radiology for Scientists (ITARSc), RSNA
